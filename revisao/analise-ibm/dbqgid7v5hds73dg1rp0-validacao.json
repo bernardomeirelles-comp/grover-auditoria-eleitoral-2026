@@ -1,0 +1,368 @@
+{
+  "job": "dbqgid7v5hds73dg1rp0",
+  "block": 2,
+  "created_utc": "2026-11-12T00:32:52.725036Z",
+  "active_physical_qubits": [
+    12,
+    13,
+    14,
+    15,
+    19
+  ],
+  "full_operations": {
+    "sx": 861,
+    "cz": 775,
+    "rz": 648,
+    "rx": 409,
+    "reset": 60,
+    "barrier": 24,
+    "measure": 24,
+    "x": 4
+  },
+  "full_depth": 1599,
+  "full_ideal_sequence_counts": {
+    "00 11 10 00 01 11 10 01 01 11 00 10": 32
+  },
+  "segments": [
+    {
+      "register": "r00",
+      "experiment": "gray_cancelado_10",
+      "physical_measurement_map": {
+        "0": 14,
+        "1": 13
+      },
+      "ideal_distribution": [
+        4.4560709289154226e-17,
+        -6.060690144193967e-17,
+        0.9999999999999994,
+        -7.340048707726863e-17
+      ],
+      "operations": {
+        "rz": 41,
+        "cz": 32,
+        "rx": 30,
+        "sx": 25,
+        "reset": 5,
+        "measure": 2,
+        "barrier": 1
+      },
+      "model_distribution": [
+        0.04166832807765235,
+        0.017854746358367524,
+        0.9136826421657995,
+        0.026794264732148444
+      ]
+    },
+    {
+      "register": "r01",
+      "experiment": "original_00",
+      "physical_measurement_map": {
+        "0": 14,
+        "1": 15
+      },
+      "ideal_distribution": [
+        0.9999999999999996,
+        -3.9329811326628365e-16,
+        -1.0104764247564896e-16,
+        -3.9947051525511704e-16
+      ],
+      "operations": {
+        "sx": 202,
+        "cz": 180,
+        "rz": 145,
+        "rx": 88,
+        "reset": 5,
+        "barrier": 2,
+        "measure": 2
+      },
+      "model_distribution": [
+        0.6232316065979696,
+        0.12785445364486706,
+        0.14029185972400562,
+        0.10862193058030521
+      ]
+    },
+    {
+      "register": "r02",
+      "experiment": "gray_cancelado_11",
+      "physical_measurement_map": {
+        "0": 14,
+        "1": 15
+      },
+      "ideal_distribution": [
+        -1.6477319747215427e-16,
+        -2.0395767215548668e-17,
+        -1.7696732729527685e-16,
+        0.9999999999999999
+      ],
+      "operations": {
+        "cz": 36,
+        "sx": 34,
+        "rz": 33,
+        "rx": 27,
+        "reset": 5,
+        "barrier": 2,
+        "measure": 2
+      },
+      "model_distribution": [
+        0.021011453703936686,
+        0.04425025304874866,
+        0.0496028429622363,
+        0.8851354039344189
+      ]
+    },
+    {
+      "register": "r03",
+      "experiment": "gray_cancelado_01",
+      "physical_measurement_map": {
+        "0": 13,
+        "1": 14
+      },
+      "ideal_distribution": [
+        5.249401922014301e-17,
+        0.9999999999999998,
+        -1.8780245034633392e-16,
+        2.949029909160572e-17
+      ],
+      "operations": {
+        "sx": 48,
+        "cz": 45,
+        "rz": 40,
+        "rx": 30,
+        "reset": 5,
+        "barrier": 2,
+        "measure": 2
+      },
+      "model_distribution": [
+        0.047086710872769166,
+        0.8907656572551959,
+        0.02270997395200781,
+        0.0394376450211572
+      ]
+    },
+    {
+      "register": "r04",
+      "experiment": "original_01",
+      "physical_measurement_map": {
+        "0": 14,
+        "1": 13
+      },
+      "ideal_distribution": [
+        -2.757011211155678e-16,
+        0.9999999999999998,
+        -2.974081472602699e-16,
+        3.613023949977815e-17
+      ],
+      "operations": {
+        "sx": 139,
+        "cz": 120,
+        "rz": 93,
+        "rx": 57,
+        "reset": 5,
+        "barrier": 2,
+        "measure": 2
+      },
+      "model_distribution": [
+        0.11113224780103802,
+        0.698973066803685,
+        0.07751375485206799,
+        0.11238080047424179
+      ]
+    },
+    {
+      "register": "r05",
+      "experiment": "original_10",
+      "physical_measurement_map": {
+        "0": 14,
+        "1": 13
+      },
+      "ideal_distribution": [
+        -2.7536581739781267e-16,
+        -1.6414748423904214e-16,
+        0.9999999999999997,
+        -3.8749458112158244e-16
+      ],
+      "operations": {
+        "sx": 172,
+        "cz": 147,
+        "rz": 110,
+        "rx": 67,
+        "reset": 5,
+        "barrier": 2,
+        "measure": 2
+      },
+      "model_distribution": [
+        0.1236852897239153,
+        0.08969279748885216,
+        0.6730177178284495,
+        0.11360406361418063
+      ]
+    },
+    {
+      "register": "r06",
+      "experiment": "original_11",
+      "physical_measurement_map": {
+        "0": 15,
+        "1": 14
+      },
+      "ideal_distribution": [
+        -2.246466901389965e-16,
+        -3.174543961037556e-16,
+        -2.454633718507182e-16,
+        0.9999999999999996
+      ],
+      "operations": {
+        "sx": 197,
+        "cz": 169,
+        "rz": 140,
+        "rx": 79,
+        "reset": 5,
+        "barrier": 2,
+        "measure": 2
+      },
+      "model_distribution": [
+        0.11219928154229922,
+        0.12560572441128873,
+        0.1302031718624395,
+        0.6319916991222835
+      ]
+    },
+    {
+      "register": "r07",
+      "experiment": "controle_01",
+      "physical_measurement_map": {
+        "0": 15,
+        "1": 14
+      },
+      "ideal_distribution": [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "operations": {
+        "reset": 5,
+        "barrier": 2,
+        "measure": 2,
+        "x": 1
+      },
+      "model_distribution": [
+        0.016672307421614175,
+        0.9803980050783859,
+        4.898817068055096e-05,
+        0.002880699329319449
+      ]
+    },
+    {
+      "register": "r08",
+      "experiment": "gray_cancelado_00",
+      "physical_measurement_map": {
+        "0": 15,
+        "1": 14
+      },
+      "ideal_distribution": [
+        0.9999999999999997,
+        -1.5135571846062214e-16,
+        -8.016822408146687e-17,
+        -2.2681399930232175e-16
+      ],
+      "operations": {
+        "rz": 46,
+        "cz": 46,
+        "sx": 44,
+        "rx": 31,
+        "reset": 5,
+        "barrier": 2,
+        "measure": 2
+      },
+      "model_distribution": [
+        0.872820732284802,
+        0.04386391779381703,
+        0.05446276861636296,
+        0.0288525130724728
+      ]
+    },
+    {
+      "register": "r09",
+      "experiment": "controle_10",
+      "physical_measurement_map": {
+        "0": 15,
+        "1": 14
+      },
+      "ideal_distribution": [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "operations": {
+        "reset": 5,
+        "barrier": 2,
+        "measure": 2,
+        "x": 1
+      },
+      "model_distribution": [
+        0.012985924340789014,
+        0.0001022513727621182,
+        0.979201575659211,
+        0.007710248627237882
+      ]
+    },
+    {
+      "register": "r10",
+      "experiment": "controle_11",
+      "physical_measurement_map": {
+        "0": 15,
+        "1": 14
+      },
+      "ideal_distribution": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "operations": {
+        "reset": 5,
+        "barrier": 2,
+        "x": 2,
+        "measure": 2
+      },
+      "model_distribution": [
+        0.00021885125487018143,
+        0.01286932445868095,
+        0.016502444337424545,
+        0.9704093799490242
+      ]
+    },
+    {
+      "register": "r11",
+      "experiment": "controle_00",
+      "physical_measurement_map": {
+        "0": 15,
+        "1": 14
+      },
+      "ideal_distribution": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "operations": {
+        "reset": 5,
+        "barrier": 2,
+        "measure": 2
+      },
+      "model_distribution": [
+        0.9892807006835938,
+        0.00778961181640625,
+        0.00290679931640625,
+        2.288818359375e-05
+      ]
+    }
+  ],
+  "input_hashes": {
+    "job-dbqgid7v5hds73dg1rp0-info.json": "699608d32c8d5305d3763d751cd33897b15501e6085e44bc04aaa4ac2dd83f2e",
+    "job-dbqgid7v5hds73dg1rp0-result.json": "4a559ff5b8f9c1e254a8cbe0a281944197d91a25d389f7e7e32b40f0ddfc30a0"
+  },
+  "decoder": "base64 -> zlib -> numpy.unpackbits big-endian -> shape(512,2), c1c0"
+}

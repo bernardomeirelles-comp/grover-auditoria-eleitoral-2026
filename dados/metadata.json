@@ -1,0 +1,57 @@
+{
+  "execution": "simulação local",
+  "python": "3.11.16",
+  "packages": {
+    "qiskit": "2.6.2",
+    "qiskit-aer": "0.18.2",
+    "numpy": "2.4.6",
+    "matplotlib": "3.11.2"
+  },
+  "seeds": [
+    20261107,
+    20261108,
+    20261109
+  ],
+  "shots_per_seed": 4096,
+  "noise_levels": [
+    0,
+    0.001,
+    0.003,
+    0.005,
+    0.01,
+    0.03,
+    0.1
+  ],
+  "qubits": 5,
+  "depth": 85,
+  "encoding": {
+    "2": 0,
+    "13": 1,
+    "68": 2,
+    "148": 3,
+    "149": 4
+  },
+  "encoded_rdv": [
+    2,
+    4,
+    0,
+    1
+  ],
+  "encoded_bu_test": [
+    2,
+    3,
+    0,
+    1
+  ],
+  "operations": {
+    "u": 66,
+    "cx": 53,
+    "measure": 2
+  },
+  "target_index": 1,
+  "classical_queries": 2.25,
+  "success_threshold": 0.8888888888888888,
+  "noise_model": "lambda após CX; lambda/10 após U; leitura ideal",
+  "elapsed_seconds": 1.2614281669957563,
+  "metric_revision": "2026-11-11; raw simulation counts unchanged; promised one solution; capped classical search at three"
+}

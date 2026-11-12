@@ -1,0 +1,54 @@
+AC cobertura e votos coincidem: 2270
+AL cobertura e votos coincidem: 7101
+AM cobertura e votos coincidem: 8157
+AP cobertura e votos coincidem: 1914
+BA cobertura e votos coincidem: 35476
+CE cobertura e votos coincidem: 23765
+DF cobertura e votos coincidem: 6969
+ES cobertura e votos coincidem: 9844
+GO cobertura e votos coincidem: 15686
+MA cobertura e votos coincidem: 18093
+MG cobertura e votos coincidem: 52062
+MS cobertura e votos coincidem: 7106
+MT cobertura e votos coincidem: 8287
+PA cobertura e votos coincidem: 20827
+PB cobertura e votos coincidem: 10712
+PE cobertura e votos coincidem: 21418
+PI cobertura e votos coincidem: 10225
+PR cobertura e votos coincidem: 27142
+RJ cobertura e votos coincidem: 37675
+RN cobertura e votos coincidem: 8115
+RO cobertura e votos coincidem: 4698
+RR cobertura e votos coincidem: 1519
+RS cobertura e votos coincidem: 27547
+SC cobertura e votos coincidem: 17326
+SE cobertura e votos coincidem: 5923
+SP cobertura e votos coincidem: 103656
+TO cobertura e votos coincidem: 4384
+ZZ cobertura e votos coincidem: 1310
+{
+  "ano": 2026,
+  "turno": 2,
+  "eleicao": 6258,
+  "pleito": 3221,
+  "abrangencias": 28,
+  "secoes": 499207,
+  "votos": {
+    "13": 64256232,
+    "22": 59826041,
+    "95": 1430496,
+    "96": 2723305
+  },
+  "total_votos": 128236074,
+  "divergencias_rdv_bu": 0,
+  "divergencias_binarios_csv": 0,
+  "secoes_faltantes": 0,
+  "secoes_extras": 0,
+  "bytes_recebidos": 682175272,
+  "requests": 8455,
+  "origens": {
+    "urna": 499178,
+    "cedula": 29
+  },
+  "limite": "Consistência dos RDVs publicados, BUs binários, CSVs e totalização. Há29 RDVs de apuração por cédulas; não são registros diretos da digitação do eleitor. Assinaturas nacionais, cadeia completa, revogação e logs nacionais não foram verificados. Não constitui prova de ausência de fraude em todo o processo."
+}

@@ -1,0 +1,60 @@
+{
+  "eleicao": 6258,
+  "turno": 2,
+  "cargo": "presidente",
+  "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_secao/votacao_secao_2026_BR.zip",
+  "bytes": 241891087,
+  "sha256": "c928321f63f2d095706fca73d4607c048d2ada23bda6876455d6911aaf1bc9c1",
+  "registros_bu": 1931103,
+  "registros_totalizacao": 1931103,
+  "secoes_bu": 499205,
+  "secoes_totalizacao": 499205,
+  "secoes_comuns": 499205,
+  "secoes_bu_zero_comparecimento": [
+    [
+      "ZZ",
+      29564,
+      1,
+      91
+    ],
+    [
+      "ZZ",
+      30686,
+      1,
+      443
+    ]
+  ],
+  "secoes_so_bu": [],
+  "secoes_so_totalizacao": [],
+  "categorias_bu": {
+    "13": 64256232,
+    "22": 59826041,
+    "95": 1430496,
+    "96": 2723305
+  },
+  "categorias_totalizacao": {
+    "96": 2723305,
+    "22": 59826041,
+    "95": 1430496,
+    "13": 64256232
+  },
+  "geracao_bu": [
+    [
+      "26/10/2026",
+      "07:42:38"
+    ]
+  ],
+  "geracao_totalizacao": [
+    [
+      "26/10/2026",
+      "12:07:25"
+    ]
+  ],
+  "duplicatas_bu": 0,
+  "duplicatas_totalizacao": 0,
+  "divergencias": 0,
+  "categorias_zero_omitidas_bu": 0,
+  "categorias_zero_omitidas_totalizacao": 0,
+  "criterio": "Chave UF/município/zona/seção/categoria; categoria ausente equivale a zero somente em seção presente em ambas as fontes. Seções ausentes são registradas separadamente.",
+  "limite": "Consistência entre duas publicações oficiais; não compara boletins físicos nem votos digitados, não valida assinatura digital e não certifica ausência de fraude."
+}

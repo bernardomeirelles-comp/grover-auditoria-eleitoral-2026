@@ -1,0 +1,561 @@
+{
+  "ano": 2026,
+  "turno": 2,
+  "eleicao": 6258,
+  "pleito": 3221,
+  "abrangencias": 28,
+  "secoes": 499207,
+  "votos": {
+    "13": 64256232,
+    "22": 59826041,
+    "95": 1430496,
+    "96": 2723305
+  },
+  "total_votos": 128236074,
+  "divergencias_rdv_bu": 0,
+  "divergencias_binarios_csv": 0,
+  "secoes_faltantes": 0,
+  "secoes_extras": 0,
+  "bytes_recebidos": 682175272,
+  "requests": 8455,
+  "origens": {
+    "urna": 499178,
+    "cedula": 29
+  },
+  "por_uf": [
+    {
+      "uf": "AC",
+      "secoes": 2270,
+      "faltantes": 0,
+      "extras": 0,
+      "divergencias": 0,
+      "votos": {
+        "13": 144513,
+        "22": 287715,
+        "95": 5016,
+        "96": 16410
+      },
+      "origens": {
+        "urna": 2270
+      },
+      "requests": 36,
+      "bytes_recebidos": 4134740,
+      "segundos": 9.925154583004769
+    },
+    {
+      "uf": "AL",
+      "secoes": 7101,
+      "faltantes": 0,
+      "extras": 0,
+      "divergencias": 0,
+      "votos": {
+        "13": 1152621,
+        "22": 744140,
+        "95": 16983,
+        "96": 37888
+      },
+      "origens": {
+        "urna": 7101
+      },
+      "requests": 112,
+      "bytes_recebidos": 9394525,
+      "segundos": 33.627947208005935
+    },
+    {
+      "uf": "AM",
+      "secoes": 8157,
+      "faltantes": 0,
+      "extras": 0,
+      "divergencias": 0,
+      "votos": {
+        "13": 1145783,
+        "22": 975245,
+        "95": 18324,
+        "96": 52707
+      },
+      "origens": {
+        "urna": 8157
+      },
+      "requests": 146,
+      "bytes_recebidos": 15025872,
+      "segundos": 44.57527991605457
+    },
+    {
+      "uf": "AP",
+      "secoes": 1914,
+      "faltantes": 0,
+      "extras": 0,
+      "divergencias": 0,
+      "votos": {
+        "13": 222968,
+        "22": 198674,
+        "95": 3320,
+        "96": 5013
+      },
+      "origens": {
+        "urna": 1914
+      },
+      "requests": 36,
+      "bytes_recebidos": 2462354,
+      "segundos": 8.455921040964313
+    },
+    {
+      "uf": "BA",
+      "secoes": 35476,
+      "faltantes": 0,
+      "extras": 0,
+      "divergencias": 0,
+      "votos": {
+        "13": 6485258,
+        "22": 2608761,
+        "95": 92721,
+        "96": 235307
+      },
+      "origens": {
+        "urna": 35476
+      },
+      "requests": 637,
+      "bytes_recebidos": 47088501,
+      "segundos": 185.70962412504014
+    },
+    {
+      "uf": "CE",
+      "secoes": 23765,
+      "faltantes": 0,
+      "extras": 0,
+      "divergencias": 0,
+      "votos": {
+        "13": 4036124,
+        "22": 1819478,
+        "95": 56386,
+        "96": 112855
+      },
+      "origens": {
+        "urna": 23765
+      },
+      "requests": 379,
+      "bytes_recebidos": 31403499,
+      "segundos": 128.6437450000085
+    },
+    {
+      "uf": "DF",
+      "secoes": 6969,
+      "faltantes": 0,
+      "extras": 0,
+      "divergencias": 0,
+      "votos": {
+        "13": 825224,
+        "22": 979542,
+        "95": 22386,
+        "96": 41128
+      },
+      "origens": {
+        "urna": 6969
+      },
+      "requests": 120,
+      "bytes_recebidos": 12977242,
+      "segundos": 40.78634654101916
+    },
+    {
+      "uf": "ES",
+      "secoes": 9844,
+      "faltantes": 0,
+      "extras": 0,
+      "divergencias": 0,
+      "votos": {
+        "13": 1001965,
+        "22": 1294504,
+        "95": 33080,
+        "96": 79665
+      },
+      "origens": {
+        "urna": 9844
+      },
+      "requests": 155,
+      "bytes_recebidos": 18003387,
+      "segundos": 56.472835332970135
+    },
+    {
+      "uf": "GO",
+      "secoes": 15686,
+      "faltantes": 0,
+      "extras": 0,
+      "divergencias": 0,
+      "votos": {
+        "13": 1585555,
+        "22": 2345334,
+        "95": 43214,
+        "96": 73177
+      },
+      "origens": {
+        "urna": 15686
+      },
+      "requests": 248,
+      "bytes_recebidos": 21080872,
+      "segundos": 87.4281916670152
+    },
+    {
+      "uf": "MA",
+      "secoes": 18093,
+      "faltantes": 0,
+      "extras": 0,
+      "divergencias": 0,
+      "votos": {
+        "13": 2808231,
+        "22": 1229971,
+        "95": 30855,
+        "96": 58714
+      },
+      "origens": {
+        "urna": 18093
+      },
+      "requests": 314,
+      "bytes_recebidos": 23476960,
+      "segundos": 150.45060129096964
+    },
+    {
+      "uf": "MG",
+      "secoes": 52062,
+      "faltantes": 0,
+      "extras": 0,
+      "divergencias": 0,
+      "votos": {
+        "13": 6351099,
+        "22": 6241786,
+        "95": 164141,
+        "96": 287177
+      },
+      "origens": {
+        "urna": 52062
+      },
+      "requests": 820,
+      "bytes_recebidos": 68176355,
+      "segundos": 324.5814145000186
+    },
+    {
+      "uf": "MS",
+      "secoes": 7106,
+      "faltantes": 0,
+      "extras": 0,
+      "divergencias": 0,
+      "votos": {
+        "13": 628973,
+        "22": 927892,
+        "95": 14958,
+        "96": 22637
+      },
+      "origens": {
+        "urna": 7106
+      },
+      "requests": 113,
+      "bytes_recebidos": 9564190,
+      "segundos": 27.96290958399186
+    },
+    {
+      "uf": "MT",
+      "secoes": 8287,
+      "faltantes": 0,
+      "extras": 0,
+      "divergencias": 0,
+      "votos": {
+        "13": 694167,
+        "22": 1351099,
+        "95": 15431,
+        "96": 24637
+      },
+      "origens": {
+        "urna": 8287
+      },
+      "requests": 134,
+      "bytes_recebidos": 11064203,
+      "segundos": 44.52200495800935
+    },
+    {
+      "uf": "PA",
+      "secoes": 20827,
+      "faltantes": 0,
+      "extras": 0,
+      "divergencias": 0,
+      "votos": {
+        "13": 2690449,
+        "22": 2199940,
+        "95": 36501,
+        "96": 62683
+      },
+      "origens": {
+        "urna": 20827
+      },
+      "requests": 339,
+      "bytes_recebidos": 26929778,
+      "segundos": 165.95157058397308
+    },
+    {
+      "uf": "PB",
+      "secoes": 10712,
+      "faltantes": 0,
+      "extras": 0,
+      "divergencias": 0,
+      "votos": {
+        "13": 1794059,
+        "22": 865210,
+        "95": 25943,
+        "96": 58348
+      },
+      "origens": {
+        "urna": 10712
+      },
+      "requests": 170,
+      "bytes_recebidos": 13897051,
+      "segundos": 80.46919575001812
+    },
+    {
+      "uf": "PE",
+      "secoes": 21418,
+      "faltantes": 0,
+      "extras": 0,
+      "divergencias": 0,
+      "votos": {
+        "13": 4117513,
+        "22": 1832554,
+        "95": 56758,
+        "96": 119642
+      },
+      "origens": {
+        "urna": 21418
+      },
+      "requests": 353,
+      "bytes_recebidos": 28554349,
+      "segundos": 144.85784208303085
+    },
+    {
+      "uf": "PI",
+      "secoes": 10225,
+      "faltantes": 0,
+      "extras": 0,
+      "divergencias": 0,
+      "votos": {
+        "13": 1653989,
+        "22": 525859,
+        "95": 16137,
+        "96": 43845
+      },
+      "origens": {
+        "urna": 10225
+      },
+      "requests": 198,
+      "bytes_recebidos": 13625653,
+      "segundos": 61.598104542004876
+    },
+    {
+      "uf": "PR",
+      "secoes": 27142,
+      "faltantes": 0,
+      "extras": 0,
+      "divergencias": 0,
+      "votos": {
+        "13": 2566504,
+        "22": 4291444,
+        "95": 82572,
+        "96": 118819
+      },
+      "origens": {
+        "urna": 27142
+      },
+      "requests": 491,
+      "bytes_recebidos": 35922642,
+      "segundos": 189.61030837503495
+    },
+    {
+      "uf": "RJ",
+      "secoes": 37675,
+      "faltantes": 0,
+      "extras": 0,
+      "divergencias": 0,
+      "votos": {
+        "13": 4565393,
+        "22": 5169033,
+        "95": 111682,
+        "96": 231341
+      },
+      "origens": {
+        "urna": 37675
+      },
+      "requests": 596,
+      "bytes_recebidos": 49600114,
+      "segundos": 335.5698539169971
+    },
+    {
+      "uf": "RN",
+      "secoes": 8115,
+      "faltantes": 0,
+      "extras": 0,
+      "divergencias": 0,
+      "votos": {
+        "13": 1413596,
+        "22": 737409,
+        "95": 19939,
+        "96": 61879
+      },
+      "origens": {
+        "urna": 8115
+      },
+      "requests": 130,
+      "bytes_recebidos": 14823171,
+      "segundos": 69.8301262499881
+    },
+    {
+      "uf": "RO",
+      "secoes": 4698,
+      "faltantes": 0,
+      "extras": 0,
+      "divergencias": 0,
+      "votos": {
+        "13": 294446,
+        "22": 674382,
+        "95": 8361,
+        "96": 11300
+      },
+      "origens": {
+        "urna": 4698
+      },
+      "requests": 76,
+      "bytes_recebidos": 6097925,
+      "segundos": 32.35846695897635
+    },
+    {
+      "uf": "RR",
+      "secoes": 1519,
+      "faltantes": 0,
+      "extras": 0,
+      "divergencias": 0,
+      "votos": {
+        "13": 83505,
+        "22": 219675,
+        "95": 2176,
+        "96": 3241
+      },
+      "origens": {
+        "urna": 1519
+      },
+      "requests": 26,
+      "bytes_recebidos": 1952870,
+      "segundos": 10.107067750010174
+    },
+    {
+      "uf": "RS",
+      "secoes": 27547,
+      "faltantes": 0,
+      "extras": 0,
+      "divergencias": 0,
+      "votos": {
+        "13": 2824552,
+        "22": 3874378,
+        "95": 89463,
+        "96": 101245
+      },
+      "origens": {
+        "urna": 27547
+      },
+      "requests": 566,
+      "bytes_recebidos": 37481831,
+      "segundos": 237.43213912501233
+    },
+    {
+      "uf": "SC",
+      "secoes": 17326,
+      "faltantes": 0,
+      "extras": 0,
+      "divergencias": 0,
+      "votos": {
+        "13": 1418314,
+        "22": 3220071,
+        "95": 48674,
+        "96": 75244
+      },
+      "origens": {
+        "urna": 17326
+      },
+      "requests": 391,
+      "bytes_recebidos": 23965896,
+      "segundos": 150.09207016596338
+    },
+    {
+      "uf": "SE",
+      "secoes": 5923,
+      "faltantes": 0,
+      "extras": 0,
+      "divergencias": 0,
+      "votos": {
+        "13": 989041,
+        "22": 433354,
+        "95": 13135,
+        "96": 31129
+      },
+      "origens": {
+        "urna": 5923
+      },
+      "requests": 93,
+      "bytes_recebidos": 7660911,
+      "segundos": 51.02816008304944
+    },
+    {
+      "uf": "SP",
+      "secoes": 103656,
+      "faltantes": 0,
+      "extras": 0,
+      "divergencias": 0,
+      "votos": {
+        "13": 12119274,
+        "22": 14139178,
+        "95": 389606,
+        "96": 716331
+      },
+      "origens": {
+        "urna": 103656
+      },
+      "requests": 1675,
+      "bytes_recebidos": 137977404,
+      "segundos": 683.3844352080487
+    },
+    {
+      "uf": "TO",
+      "secoes": 4384,
+      "faltantes": 0,
+      "extras": 0,
+      "divergencias": 0,
+      "votos": {
+        "13": 442962,
+        "22": 467916,
+        "95": 8059,
+        "96": 35826
+      },
+      "origens": {
+        "urna": 4384
+      },
+      "requests": 70,
+      "bytes_recebidos": 8054778,
+      "segundos": 41.34193162503652
+    },
+    {
+      "uf": "ZZ",
+      "secoes": 1310,
+      "faltantes": 0,
+      "extras": 0,
+      "divergencias": 0,
+      "votos": {
+        "13": 200154,
+        "22": 171497,
+        "95": 4675,
+        "96": 5117
+      },
+      "origens": {
+        "cedula": 29,
+        "urna": 1281
+      },
+      "requests": 31,
+      "bytes_recebidos": 1778199,
+      "segundos": 4.1636235829791985
+    }
+  ],
+  "limite": "Consistência dos RDVs publicados, BUs binários, CSVs e totalização. Há29 RDVs de apuração por cédulas; não são registros diretos da digitação do eleitor. Assinaturas nacionais, cadeia completa, revogação e logs nacionais não foram verificados. Não constitui prova de ausência de fraude em todo o processo."
+}

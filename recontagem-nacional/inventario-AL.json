@@ -1,0 +1,53 @@
+{
+  "dataset": "resultados-2026-arquivos-transmitidos-para-totalizacao",
+  "name": "AL - Arquivos transmitidos para totaliza\u00e7\u00e3o - Segundo turno",
+  "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/arqurnatot/bu_imgbu_logjez_rdv_vscmr_2026_2t_AL.zip",
+  "status": 206,
+  "size_bytes": 1876467424,
+  "last_modified": "Mon, 26 Oct 2026 19:58:35 GMT",
+  "uf": "AL",
+  "entries": 35506,
+  "central_size": 3529277,
+  "central_offset": 1872938125,
+  "central_sha256": "911e205bbc788a00bd6e75e55936cacd35b5617e344881bbc08737a5c86719ba",
+  "types": {
+    "leiame.pdf": {
+      "count": 1,
+      "compressed": 299142,
+      "uncompressed": 310546
+    },
+    "vota.vsc": {
+      "count": 7101,
+      "compressed": 434896984,
+      "uncompressed": 444573297
+    },
+    "bu.dat": {
+      "count": 7101,
+      "compressed": 5387855,
+      "uncompressed": 6721234
+    },
+    "rdv.dat": {
+      "count": 7101,
+      "compressed": 1996381,
+      "uncompressed": 19537672
+    },
+    "imgbu.dat": {
+      "count": 7101,
+      "compressed": 31142047,
+      "uncompressed": 41502267
+    },
+    "log.jez": {
+      "count": 7101,
+      "compressed": 1396112511,
+      "uncompressed": 1396049895
+    }
+  },
+  "section_stems": 7102,
+  "duplicate_names": [],
+  "without_bu": 1,
+  "without_rdv": 1,
+  "patterns": {
+    "leiame.pdf": 1,
+    "bu.dat,imgbu.dat,log.jez,rdv.dat,vota.vsc": 7101
+  }
+}

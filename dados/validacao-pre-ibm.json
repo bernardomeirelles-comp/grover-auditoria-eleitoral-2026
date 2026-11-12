@@ -1,0 +1,8 @@
+{
+  "composer_equivalent": true,
+  "qubits": 5,
+  "ideal_target": "01",
+  "shots_planned": 2048,
+  "circuit_sha256": "4b6bdd2103588d5eb78a41a355eb48c9097b740e64b3610edb4c8ae67d168c4c",
+  "input_sha256": "acaa81b9f74fc03bf0247f556d58d330bdd5958488b39c0ed10be13cd531d164"
+}

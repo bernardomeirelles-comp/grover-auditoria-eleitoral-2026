@@ -1,0 +1,41 @@
+{
+  "verificacao": "SHA512 comparado ao hash no envelope SW/HW; assinatura criptográfica e cadeia de certificados não verificadas.",
+  "resultados": [
+    {
+      "envelope": "assinaturaSW",
+      "arquivo": "o03221ac0100700090001-bu.dat",
+      "sha512_confere": true,
+      "sha512": "bfa6a58b32ff0343ce242051dad16764cda27823167f1d2e2238c0d67c505d41765f38c067e310072d4978a4d6dc91200e8c6f9951bf876e90a5cbcc30df87b3"
+    },
+    {
+      "envelope": "assinaturaSW",
+      "arquivo": "o03221ac0100700090001-rdv.dat",
+      "sha512_confere": true,
+      "sha512": "896082c2e1368fc5aae61a2dd689bc8a5c28ad2d7dca6b04210224e16db11b1093cec0da148b62f438a754bbffd2d0db9e9946ef303aa48fcb070a1b93086abe"
+    },
+    {
+      "envelope": "assinaturaSW",
+      "arquivo": "o03221ac0100700090001-log.jez",
+      "sha512_confere": true,
+      "sha512": "2bd46c3c0b9b9011d4d15698d4129abb6d3a4952eb7ad275f209f70549e8404cbfdd0aa66909c70a5b0d0a65dd2edecdc7a4b873c370d04722cf9a66d4bdfe6e"
+    },
+    {
+      "envelope": "assinaturaHW",
+      "arquivo": "o03221ac0100700090001-bu.dat",
+      "sha512_confere": true,
+      "sha512": "bfa6a58b32ff0343ce242051dad16764cda27823167f1d2e2238c0d67c505d41765f38c067e310072d4978a4d6dc91200e8c6f9951bf876e90a5cbcc30df87b3"
+    },
+    {
+      "envelope": "assinaturaHW",
+      "arquivo": "o03221ac0100700090001-rdv.dat",
+      "sha512_confere": true,
+      "sha512": "896082c2e1368fc5aae61a2dd689bc8a5c28ad2d7dca6b04210224e16db11b1093cec0da148b62f438a754bbffd2d0db9e9946ef303aa48fcb070a1b93086abe"
+    },
+    {
+      "envelope": "assinaturaHW",
+      "arquivo": "o03221ac0100700090001-log.jez",
+      "sha512_confere": true,
+      "sha512": "2bd46c3c0b9b9011d4d15698d4129abb6d3a4952eb7ad275f209f70549e8404cbfdd0aa66909c70a5b0d0a65dd2edecdc7a4b873c370d04722cf9a66d4bdfe6e"
+    }
+  ]
+}

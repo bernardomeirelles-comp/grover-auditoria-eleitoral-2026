@@ -1,0 +1,34 @@
+{
+  "source": "IBM Quantum Platform job details, observed via browser",
+  "jobs": [
+    {
+      "id": "dbqggnfv5hds73dg1q00",
+      "block": 1,
+      "qpu_seconds_displayed": 2,
+      "resource_units_displayed": 0.03
+    },
+    {
+      "id": "dbqgid7v5hds73dg1rp0",
+      "block": 2,
+      "qpu_seconds_displayed": 2,
+      "resource_units_displayed": null
+    },
+    {
+      "id": "dbqhnlhabdes73fo9s1g",
+      "block": 3,
+      "qpu_seconds_displayed": 2,
+      "resource_units_displayed": null
+    }
+  ],
+  "total_qpu_seconds_displayed": 6,
+  "ui_count_check": {
+    "job": "dbqhnlhabdes73fo9s1g",
+    "register": "r00",
+    "counts": {
+      "00": 411,
+      "01": 27,
+      "10": 44,
+      "11": 30
+    }
+  }
+}

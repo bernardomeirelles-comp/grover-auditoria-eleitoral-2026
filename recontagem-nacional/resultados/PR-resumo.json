@@ -1,0 +1,27 @@
+{
+  "uf": "PR",
+  "benchmark": false,
+  "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/arqurnatot/bu_imgbu_logjez_rdv_vscmr_2026_2t_PR.zip",
+  "last_modified": "Mon, 26 Oct 2026 21:31:02 GMT",
+  "central_sha256": "ed0765007490402bc57ee68cee0cea36908b722446ab78a5e1fdfcedaf43accd",
+  "secoes_recontadas": 27142,
+  "votos": {
+    "13": 2566504,
+    "22": 4291444,
+    "95": 82572,
+    "96": 118819
+  },
+  "origens": {
+    "urna": 27142
+  },
+  "tipos": {
+    "eleicoesVota": 27142
+  },
+  "erros": [],
+  "pares_incompletos": [],
+  "requests": 491,
+  "bytes_recebidos": 35922642,
+  "segundos": 189.61030837503495,
+  "sha256_csv": "5342b63e513bce296fda663fc08a8aef0f3ffdc0800bbfdb1044e84ad2528bc7",
+  "assinaturas_nacionais_verificadas": false
+}

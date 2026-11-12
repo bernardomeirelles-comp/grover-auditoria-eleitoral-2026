@@ -1,0 +1,48 @@
+{
+  "certificado_assinatura_valida": true,
+  "emissor": "AC UE2022",
+  "sujeito": "UEAO02468149",
+  "validade_declarada": "{'notBefore': ('utcTime', datetime.datetime(2025, 8, 20, 19, 57, 11)), 'notAfter': ('utcTime', datetime.datetime(2037, 12, 31, 23, 0))}",
+  "arquivos": [
+    {
+      "nome": "o03221ac0100700090001-bu.dat",
+      "sha256": "fc7675fe7a5bc4e5683f44b0bfa10f128f1e6bf6e6edcabe2f6c11fe20ecd576",
+      "hash_hw_sw_ok": true,
+      "assinatura_hw_valida": true,
+      "controle_negativo_rejeitado": true
+    },
+    {
+      "nome": "o03221ac0100700090001-rdv.dat",
+      "sha256": "2f8d924ab74c0844ee6911950964f662a55d2bf512763051e52c675d9a5eaa62",
+      "hash_hw_sw_ok": true,
+      "assinatura_hw_valida": true,
+      "controle_negativo_rejeitado": true
+    },
+    {
+      "nome": "o03221ac0100700090001-log.jez",
+      "sha256": "3f8e3f0c6873f674dbad6db771e92d81e4401dba0ce9e7c57658ec3beb83e4a9",
+      "hash_hw_sw_ok": true,
+      "assinatura_hw_valida": true,
+      "controle_negativo_rejeitado": true
+    }
+  ],
+  "ausentes": [
+    "o03221ac0100700090001-jufa.dat",
+    "o03221ac0100700090001-imgbu.dat",
+    "o03221ac0100700090001-imgze.dat",
+    "o03221ac0100700090001-hash.dat",
+    "o03221ac0100700090001-wsqbio.jez",
+    "o03221ac0100700090001-wsqman.jez",
+    "o03221ac0100700090001-wsqmes.jez",
+    "o03221ac0100700090001-mr.ver"
+  ],
+  "auto_hashes": {
+    "assinaturaSW": true,
+    "assinaturaHW": true
+  },
+  "limites": "Assinatura do certificado verificada com chave do emissor incorporada no utilitário oficial. Não foi executada validação completa de cadeia, validade temporal, revogação ou assinatura de software. Assinaturas de hardware somente dos três arquivos publicados selecionados.",
+  "sha256_codigo_oficial": {
+    "assinatura_hash.py": "e7bf2325fba3f0423351c22e8686b56f910a2a1fdf713097586b832888949d77",
+    "lib/mr_util.py": "1d9202425868ca82d1df9233a55446d8456e1dbae7d5651bf356df19a9fcbffb"
+  }
+}

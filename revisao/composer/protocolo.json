@@ -1,0 +1,327 @@
+{
+  "created_utc": "2026-11-12T00:27:54.167833+00:00",
+  "shots_per_block": 512,
+  "blocks": [
+    {
+      "file": "bloco-1.qasm",
+      "sha256": "22a57b831a05cf99b1b8a7f57bf28132a846b830fe8ad9866b05f9247137eac5",
+      "segments": [
+        {
+          "register": "r00",
+          "experiment": "original_11",
+          "target": 3,
+          "cx": 73,
+          "depth": 105
+        },
+        {
+          "register": "r01",
+          "experiment": "controle_01",
+          "target": 1,
+          "cx": 0,
+          "depth": 1
+        },
+        {
+          "register": "r02",
+          "experiment": "gray_cancelado_11",
+          "target": 3,
+          "cx": 18,
+          "depth": 32
+        },
+        {
+          "register": "r03",
+          "experiment": "controle_10",
+          "target": 2,
+          "cx": 0,
+          "depth": 1
+        },
+        {
+          "register": "r04",
+          "experiment": "gray_cancelado_10",
+          "target": 2,
+          "cx": 20,
+          "depth": 32
+        },
+        {
+          "register": "r05",
+          "experiment": "original_01",
+          "target": 1,
+          "cx": 51,
+          "depth": 80
+        },
+        {
+          "register": "r06",
+          "experiment": "original_10",
+          "target": 2,
+          "cx": 60,
+          "depth": 84
+        },
+        {
+          "register": "r07",
+          "experiment": "controle_11",
+          "target": 3,
+          "cx": 0,
+          "depth": 1
+        },
+        {
+          "register": "r08",
+          "experiment": "gray_cancelado_01",
+          "target": 1,
+          "cx": 21,
+          "depth": 33
+        },
+        {
+          "register": "r09",
+          "experiment": "gray_cancelado_00",
+          "target": 0,
+          "cx": 22,
+          "depth": 36
+        },
+        {
+          "register": "r10",
+          "experiment": "controle_00",
+          "target": 0,
+          "cx": 0,
+          "depth": 0
+        },
+        {
+          "register": "r11",
+          "experiment": "original_00",
+          "target": 0,
+          "cx": 81,
+          "depth": 123
+        }
+      ],
+      "ideal_expected": "00 00 00 01 11 10 01 10 10 11 01 11",
+      "ideal_validation_shots": 32,
+      "operations": {
+        "u": 431,
+        "cx": 346,
+        "reset": 60,
+        "barrier": 24,
+        "measure": 24,
+        "x": 4
+      },
+      "depth": 552
+    },
+    {
+      "file": "bloco-2.qasm",
+      "sha256": "56e78a82769a8f5b0b30a2907362d825b4ebb23a2f5677e895a9c6df6684602d",
+      "segments": [
+        {
+          "register": "r00",
+          "experiment": "gray_cancelado_10",
+          "target": 2,
+          "cx": 20,
+          "depth": 32
+        },
+        {
+          "register": "r01",
+          "experiment": "original_00",
+          "target": 0,
+          "cx": 81,
+          "depth": 123
+        },
+        {
+          "register": "r02",
+          "experiment": "gray_cancelado_11",
+          "target": 3,
+          "cx": 18,
+          "depth": 32
+        },
+        {
+          "register": "r03",
+          "experiment": "gray_cancelado_01",
+          "target": 1,
+          "cx": 21,
+          "depth": 33
+        },
+        {
+          "register": "r04",
+          "experiment": "original_01",
+          "target": 1,
+          "cx": 51,
+          "depth": 80
+        },
+        {
+          "register": "r05",
+          "experiment": "original_10",
+          "target": 2,
+          "cx": 60,
+          "depth": 84
+        },
+        {
+          "register": "r06",
+          "experiment": "original_11",
+          "target": 3,
+          "cx": 73,
+          "depth": 105
+        },
+        {
+          "register": "r07",
+          "experiment": "controle_01",
+          "target": 1,
+          "cx": 0,
+          "depth": 1
+        },
+        {
+          "register": "r08",
+          "experiment": "gray_cancelado_00",
+          "target": 0,
+          "cx": 22,
+          "depth": 36
+        },
+        {
+          "register": "r09",
+          "experiment": "controle_10",
+          "target": 2,
+          "cx": 0,
+          "depth": 1
+        },
+        {
+          "register": "r10",
+          "experiment": "controle_11",
+          "target": 3,
+          "cx": 0,
+          "depth": 1
+        },
+        {
+          "register": "r11",
+          "experiment": "controle_00",
+          "target": 0,
+          "cx": 0,
+          "depth": 0
+        }
+      ],
+      "ideal_expected": "00 11 10 00 01 11 10 01 01 11 00 10",
+      "ideal_validation_shots": 32,
+      "operations": {
+        "u": 431,
+        "cx": 346,
+        "reset": 60,
+        "barrier": 24,
+        "measure": 24,
+        "x": 4
+      },
+      "depth": 552
+    },
+    {
+      "file": "bloco-3.qasm",
+      "sha256": "7313d4e51d6b31b67e05334522a8dee2f498f3213490b33df08bfcb22c1a4677",
+      "segments": [
+        {
+          "register": "r00",
+          "experiment": "gray_cancelado_00",
+          "target": 0,
+          "cx": 22,
+          "depth": 36
+        },
+        {
+          "register": "r01",
+          "experiment": "original_01",
+          "target": 1,
+          "cx": 51,
+          "depth": 80
+        },
+        {
+          "register": "r02",
+          "experiment": "controle_01",
+          "target": 1,
+          "cx": 0,
+          "depth": 1
+        },
+        {
+          "register": "r03",
+          "experiment": "original_11",
+          "target": 3,
+          "cx": 73,
+          "depth": 105
+        },
+        {
+          "register": "r04",
+          "experiment": "gray_cancelado_10",
+          "target": 2,
+          "cx": 20,
+          "depth": 32
+        },
+        {
+          "register": "r05",
+          "experiment": "controle_10",
+          "target": 2,
+          "cx": 0,
+          "depth": 1
+        },
+        {
+          "register": "r06",
+          "experiment": "gray_cancelado_01",
+          "target": 1,
+          "cx": 21,
+          "depth": 33
+        },
+        {
+          "register": "r07",
+          "experiment": "gray_cancelado_11",
+          "target": 3,
+          "cx": 18,
+          "depth": 32
+        },
+        {
+          "register": "r08",
+          "experiment": "controle_00",
+          "target": 0,
+          "cx": 0,
+          "depth": 0
+        },
+        {
+          "register": "r09",
+          "experiment": "controle_11",
+          "target": 3,
+          "cx": 0,
+          "depth": 1
+        },
+        {
+          "register": "r10",
+          "experiment": "original_10",
+          "target": 2,
+          "cx": 60,
+          "depth": 84
+        },
+        {
+          "register": "r11",
+          "experiment": "original_00",
+          "target": 0,
+          "cx": 81,
+          "depth": 123
+        }
+      ],
+      "ideal_expected": "00 10 11 00 11 01 10 10 11 01 01 00",
+      "ideal_validation_shots": 32,
+      "operations": {
+        "u": 431,
+        "cx": 346,
+        "reset": 60,
+        "barrier": 24,
+        "measure": 24,
+        "x": 4
+      },
+      "depth": 552
+    }
+  ],
+  "backend_requested": "ibm_marrakesh",
+  "design": "12 sequential segments per shot, reset before each, three randomized orders",
+  "limitations": [
+    "controls include preparation, reset and readout",
+    "barriers do not fix physical layout; inspect exported compilation",
+    "within-shot segments are not independent circuits"
+  ],
+  "code_sha256": {
+    "reavaliar.py": "d7c25de761320dd9c4bbe912f39a792482b0170d69551ca3a741511b6340ec4c",
+    "experimento.py": "252cc3b9551a08b2b8edf423224ed57df99a46c3017d80bbf6b21e6b35dcbe0a",
+    "preparar-composer.py": "d187441f1b39bf56343f288c4fcf0a5e5ba0fa1807c0a3bb32f931689eafe9be"
+  },
+  "submission_policy": {
+    "first_block_only_then_check_reported_usage": true,
+    "stop_if_first_block_qpu_seconds_exceed": 30,
+    "initial_shots": 512,
+    "estimate_note": "346 logical CX, 431 U, 60 resets, 24 measurements per shot. 512 shots; gate-only time is sub-second at calibration gate lengths, but routing, dynamic-control and service overhead are not predictable from CSV. No hard execution cap is available in Composer UI. Inspect reported usage before remaining two blocks."
+  }
+}

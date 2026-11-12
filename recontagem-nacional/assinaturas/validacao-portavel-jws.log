@@ -1,0 +1,21 @@
+{
+  "url_jws": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/br/br-c0001-e006258-u.jws",
+  "fonte_chave": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/divulgacao-de-resultados/manual-verificacao-jws",
+  "chave_publica": {
+    "kty": "OKP",
+    "use": "sig",
+    "key_ops": [
+      "verify"
+    ],
+    "alg": "EdDSA",
+    "kid": "sNbt9Q_fLS65zE1_ZLNV-XRRwPY",
+    "crv": "Ed25519",
+    "x": "kWlpNHjuws1csyQZwzn3Fhzbi3RD435RbpThtSr4hMc"
+  },
+  "assinatura_eddsa_valida": true,
+  "payload_igual_json_final": true,
+  "controle_negativo_rejeitado": true,
+  "sha256_jws": "2c9f8c573f52661771f410df5fc6986d0f210c2b3e9d262a50403617ab44de96",
+  "sha256_json": "67fae708b0c7977fc9847d36100c63313621bff971178c48f2da99969707c263",
+  "limite": "Verificação Ed25519 com chave pública fixada do Apêndice B do manual oficial. Não executa validação de cadeia X.509/LCR; não verifica assinaturas dos arquivos de urna nacionais."
+}

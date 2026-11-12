@@ -1,0 +1,119 @@
+\documentclass[conference]{IEEEtran}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english,brazilian]{babel}
+\usepackage{cite,amsmath,graphicx,booktabs,tabularx,url,placeins,xurl}
+\usepackage[hidelinks]{hyperref}
+\graphicspath{{figuras/}}
+\begin{document}
+\title{Reconferência de registros eleitorais de 2026 e estudo de viabilidade do algoritmo de Grover}
+\author{\IEEEauthorblockN{Bernardo de Figueiredo Meirelles}
+\IEEEauthorblockA{\textit{Inteli - Instituto de Tecnologia e Liderança}\\
+bernardo.meirelles@sou.inteli.edu.br}}
+\maketitle
+\renewcommand{\abstractname}{Resumo}
+\begin{abstract}
+Este trabalho reconfere registros do segundo turno presidencial de 2026 e testa Grover na busca de divergências. A comparação clássica de 499.207 pares de Registros Digitais do Voto e Boletins de Urna não encontrou diferenças e reproduziu os totais publicados. O teste quântico usou quatro categorias e alterações artificiais. Em três execuções IBM, a versão simplificada obteve acerto agregado de 68,29\% a 70,90\%, conforme a posição, contra 37,57\% a 45,31\% da original. A melhora não alcançou o equilíbrio de 88,89\% da convenção de consultas adotada. Preparar os dados já permite compará-los classicamente. Assim, o estudo demonstra uma busca controlada, sem aceleração da conferência nacional nem certificação de ausência de fraude.
+\end{abstract}
+\begin{otherlanguage}{english}
+\renewcommand{\abstractname}{Abstract}
+\begin{abstract}
+This study cross-checks records from Brazil's 2026 presidential runoff and tests Grover search for discrepancies. Classical comparison of 499,207 pairs of Digital Vote Records and ballot-box bulletins found no differences and reproduced the published totals. The quantum test used four categories and artificial changes. Across three IBM runs, the simplified implementation achieved pooled success rates of 68.29\% to 70.90\%, depending on the target, versus 37.57\% to 45.31\% for the original. The improvement did not reach the 88.89\% break-even threshold under the adopted query convention. Data preparation already permits classical comparison. The study therefore demonstrates a controlled search, without accelerating national verification or certifying the absence of fraud.
+\end{abstract}
+\end{otherlanguage}
+
+\section{Introdução}
+\subsection{A busca clássica e o papel da organização dos dados}
+Conferir registros eleitorais exige definir quais informações serão comparadas. O Registro Digital do Voto, ou RDV, contém os votos registrados; o Boletim de Urna, ou BU, apresenta suas contagens. É possível recontar o RDV, compará-lo ao BU e somar os boletins para conferir a divulgação. Uma busca sequencial percorre as linhas e tem custo $O(N)$ no pior caso, para $N$ linhas. Quando os arquivos já estão sendo lidos, essa comparação pode ocorrer durante a própria leitura.
+
+\subsection{A proposta do algoritmo de Grover}
+Grover encontra uma posição que atende a uma regra usando $O(\sqrt{N})$ consultas, no caso de uma única solução~\cite{grover1996}. A operação que aplica essa regra é chamada de \textit{oráculo}. Aqui, a regra é verificar se duas contagens diferem. A redução de consultas pressupõe acesso a esse oráculo; não inclui automaticamente a preparação dos dados nem significa menor tempo de execução.
+
+\subsection{Superposição e interferência na busca}
+O circuito representa as quatro posições em superposição. O oráculo faz uma marcação que permite aumentar, por interferência, a chance de medir a posição divergente~\cite{boyer1998}. Depois da medição, a comparação clássica verifica se a resposta realmente contém uma divergência.
+
+\subsection{Por que considerar um cenário de dois qubits}
+Dois qubits identificam quatro posições: 00, 01, 10 e 11. Com exatamente uma divergência, uma rodada de Grover tem acerto ideal de 100\%~\cite{boyer1998}. Três qubits auxiliares guardam o cálculo temporário. O circuito completo tem cinco qubits e representa quatro categorias de uma seção eleitoral.
+
+\subsection{O ruído e suas consequências práticas}
+Erros de operação e leitura reduzem a confiabilidade do circuito. Uma resposta rejeitada exige outra tentativa no protocolo adotado. Estudos experimentais mostram que o desempenho depende tanto da quantidade de portas quanto das condições do dispositivo~\cite{pokharel2024,abughanem2025}. Por isso, comparar somente o número teórico de consultas é insuficiente.
+
+\subsection{Problema de pesquisa}
+A reconferência dos arquivos é uma tarefa clássica bem definida. O problema investigado é quanto custa executar uma parte dessa comparação com Grover e como as escolhas do circuito afetam o acerto. A análise nacional fornece o contexto da aplicação; a demonstração quântica usa alterações artificiais identificadas como tais.
+
+\subsection{Pergunta de pesquisa}
+Como a implementação do circuito e o ruído afetam a probabilidade de localizar uma divergência entre quatro registros e o custo de repetir essa busca?
+
+\subsection{Objetivo geral}
+Reconferir as contagens publicadas e avaliar, em um experimento controlado, as condições e os limites de Grover na busca de divergências.
+
+\subsection{Objetivos específicos}
+\begin{enumerate}
+\item Comparar RDVs, BUs, totais nacionais e registros por seção, verificando cobertura e duplicatas.
+\item Validar a comparação com alterações controladas, sem modificar os arquivos oficiais.
+\item Comparar implementações de Grover nas quatro posições possíveis, sob as mesmas condições de simulação.
+\item Repetir os testes na IBM, comparar com um modelo baseado na calibração e delimitar os custos e as conclusões.
+\end{enumerate}
+
+\subsection{Hipótese}
+A expectativa é que retirar operações repetidas e mudar a codificação aumente o acerto da posição de pior desempenho, com ruído 0,003 e as mesmas condições de compilação. Compilar significa transformar o circuito nas operações disponíveis para executá-lo. Essa comparação foi definida após a análise inicial, em caráter exploratório.
+
+\section{Fundamentação teórica}
+A regra do oráculo compara dois valores da mesma categoria. Para isso, ambos recebem códigos de um dicionário comum, sem reunir valores distintos sob o mesmo código. O circuito compara os códigos, marca a divergência e limpa os qubits usados no cálculo. A posição divergente não é fornecida ao construtor do circuito.
+
+O número de soluções determina quantas rodadas convém executar. Uma rodada ideal, com quatro posições, acerta em 0\%, 100\%, 50\%, 0\% e 100\% dos casos quando existem, respectivamente, zero, uma, duas, três ou quatro divergências. Com três divergências, ela pode amplificar justamente a posição que coincide. Uma auditoria real não conhece antecipadamente essa quantidade. Seriam necessários procedimentos de busca para quantidade desconhecida de soluções e um critério de parada com erro controlado~\cite{boyer1998,brassard2002}. Repetir o circuito atual sem encontrar uma diferença não prova que ela inexiste.
+
+No contexto eleitoral, a origem das informações também importa. Segundo o TSE, o BU é gerado a partir do RDV~\cite{tseVotacaoSegura}. Conferir os dois pode revelar inconsistências entre registros relacionados, mas um erro comum aos dois pode passar despercebido. O Teste de Integridade confronta votos previamente documentados com as saídas de urnas selecionadas e produz outra espécie de evidência~\cite{tseAuditoria,tseIntegridade2026}.
+
+\section{Revisão bibliográfica}
+Grover~\cite{grover1996} estabelece a redução de consultas, enquanto Boyer et al.~\cite{boyer1998} tratam da quantidade de soluções e da busca quando ela é desconhecida. Esses trabalhos justificam usar uma rodada na demonstração com uma divergência, mas não estender o mesmo circuito à decisão de que todos os registros estão corretos.
+
+Park et al.~\cite{park2019} estudam circuitos de acesso a dados clássicos. Stoudenmire e Waintal~\cite{stoudenmire2024} analisam o trabalho escondido dentro do oráculo. Neste estudo, essa questão aparece diretamente: construir o dicionário e o circuito exige ler os pares de contagens, momento em que a comparação clássica já pode ser feita. A economia de consultas, isoladamente, não estabelece economia no processo completo.
+
+Pokharel e Lidar~\cite{pokharel2024} e AbuGhanem~\cite{abughanem2025} examinam o desempenho de Grover em dispositivos reais. Seus resultados motivam comparar circuitos equivalentes, registrar os recursos físicos e distinguir simulação ideal, modelo de ruído e hardware. Vrana et al.~\cite{vrana2014} estudam busca sob falhas; isso reforça a necessidade de explicitar o protocolo de repetição, em vez de tratar uma execução correta como garantia de confiabilidade.
+
+Na auditoria eleitoral, Lindeman e Stark~\cite{lindeman2012} descrevem auditorias limitadoras de risco, que usam evidências verificáveis para controlar o risco de confirmar um resultado incorreto. A comparação de arquivos deste artigo não oferece essa garantia e não deve receber essa classificação. Liu et al.~\cite{liu2023} investigam computação quântica para determinar vencedores sob regras de votação, uma tarefa distinta de verificar registros já publicados. A contribuição aqui é a reconferência documentada e a comparação de implementações de uma busca pequena, sem alegar uma nova técnica de certificação eleitoral.
+
+\section{Metodologia}
+\subsection{Reconferência clássica}
+O programa processou os 28 pacotes de BUs em CSV do segundo turno, incluindo as 27 unidades federativas e o exterior. Filtrou a eleição presidencial 6258, verificou duplicatas e comparecimento e comparou as quatro categorias com a divulgação final~\cite{tseBu2026,tseResultado2026}. Os resumos SHA-512, usados para conferir os arquivos baixados, coincidiram com os publicados. Os CSVs são de 26/10/2026; a divulgação final é de 25/10.
+
+Uma segunda comparação usou a publicação nacional de votação por seção, gerada em 26/10/2026~\cite{tseVotacaoSecao2026}. A chave reúne UF, município, zona, seção e categoria. São publicações do mesmo órgão, sem confronto com boletins impressos. Também foi verificada a assinatura do arquivo de resultado final, usando a chave do manual do TSE~\cite{tseManualJws2026}. Essa verificação não abrange as assinaturas de todas as urnas.
+
+A recontagem dos arquivos binários segue o leiaute oficial~\cite{tseDados2026,tseFormato2026}. O programa soma os votos presidenciais do RDV, compara cada categoria com o BU correspondente e reconcilia essas contagens com os CSVs. Confere identificação, cargo, eleição e cobertura. Os BUs do Sistema de Apuração, originados de cédulas, são tratados separadamente.
+
+Para verificar a capacidade de detectar erros, o comparador recebeu quatro cópias alteradas do BU da amostra: um voto adicional, transferência de um voto entre categorias mantendo o total, identificação de seção incorreta e ausência do cargo presidencial. O par original foi conferido antes e depois dos testes. Os arquivos oficiais permaneceram intactos.
+
+\subsection{Amostra e implementações quânticas}
+A amostra contém as quatro categorias da seção 1, zona 9, de Bujari/AC, pleito 3221, apresentadas na Tabela~\ref{tab:recorte}. No experimento inicial, a cópia do segundo total passou de 149 para 148. Na revisão, a alteração de menos um voto foi aplicada separadamente a cada posição. Sempre existe uma divergência por caso.
+
+Foram comparadas três implementações. A primeira carrega e compara os códigos das duas tabelas. A segunda retira operações repetidas que se anulam. A terceira também muda os códigos: usa a codificação de Gray, em que valores vizinhos na lista recebem códigos diferentes em apenas um bit. As três executam a mesma comparação, sem receber a posição da divergência como entrada. A construção dos códigos e do circuito é clássica e depende da leitura dos dados.
+
+A validação local conferiu a marcação de cada posição e o retorno dos qubits auxiliares ao estado inicial. Foram testados os 16 padrões de divergência, valores repetidos e casos adicionais reproduzíveis, com os parâmetros registrados no código. As contagens de operações foram comparadas sob a mesma compilação.
+
+\subsection{Descrição dos experimentos e parâmetros experimentais}
+A Tabela~\ref{tab:parametros} distingue a execução inicial da revisão. CX e CZ são operações entre dois qubits; $U$ atua sobre um. A profundidade indica quantas etapas precisam ocorrer em sequência. A simulação usa um modelo simplificado de erros, chamado de despolarização, com parâmetro $\lambda$ após CX e $\lambda/10$ após $U$~\cite{qiskitDepolarizing}. Não inclui erros de leitura, perda de informação ao longo do tempo ou restrições de ligação entre qubits. Portanto, $\lambda$ não é uma medição da taxa de erro da IBM.
+
+A primeira execução ocorreu no IBM Quantum Composer, em \texttt{ibm\_marrakesh}, no dia 6/11/2026, com 2.048 medições e três segundos de uso do processador quântico registrados na interface. O circuito físico tem 101 CZ e profundidade 210. Sua simulação ideal e a ordem dos bits foram conferidas. Os resultados foram preservados; o identificador do trabalho e o horário estão nos dados suplementares.
+
+Em 11/11/2026, três novas execuções no mesmo equipamento compararam a versão original e a versão com Gray e cancelamento nas quatro posições. Cada execução reuniu oito buscas e quatro controles que preparam respostas conhecidas. Os 12 testes ocorreram em sequência, com reinicialização dos cinco qubits antes de cada um, e 512 repetições da sequência. A ordem mudou entre execuções, por sorteio com semente fixa. São três blocos de medição, não 36 execuções independentes. Todos os resultados foram mantidos; a interface registrou dois segundos de QPU por bloco.
+
+Os circuitos físicos exportados foram simulados sem ruído para conferir as respostas e o mapeamento dos bits. O modelo baseado no CSV de calibração de 11/11, às 10h07 UTC, usa os qubits realmente escolhidos pela IBM. Combina perda de informação durante as operações, erro residual das portas e probabilidades de leitura~\cite{aerDeviceNoise}. Evita contar duas vezes o erro já explicado pela perda de informação. Cada teste é modelado isoladamente, partindo de zero; esperas, falhas de reinicialização e efeitos entre testes não são reproduzidos. O modelo não foi ajustado às respostas observadas.
+
+\subsection{Métricas de avaliação}
+A etapa clássica mede divergências por categoria, totais, duplicatas e cobertura. Na etapa quântica, $p$ é a probabilidade de medir uma posição divergente. Nas medições amostradas, ela é estimada pela frequência e recebe intervalo de Wilson de 95\%~\cite{nistWilson}. A revisão local calcula diretamente as probabilidades no modelo de ruído, sem sortear medições; por isso, esses valores não têm intervalo de amostragem. A métrica principal é o menor $p$ entre as quatro posições, para não esconder um caso ruim na média.
+
+Com exatamente uma divergência entre quatro posições, a busca clássica pode deduzir a última após três comparações negativas. Nas 24 ordens possíveis, seu custo médio é
+\begin{equation}
+ C_{\mathrm{cl}}=(1+2+3+3)/4=2{,}25.
+\end{equation}
+O protocolo quântico reinicia após cada resposta rejeitada, sem aproveitar rejeições anteriores. Supondo tentativas independentes e $p$ constante e positivo, ele usa em média $1/p$ consultas quânticas e $1/p$ verificações clássicas. Ao atribuir peso unitário a ambas, o custo convencionado é $C_{\mathrm{rep}}=2/p$. O equilíbrio ocorre em $p=8/9$, ou 88,89\%.
+
+Essa soma compara chamadas à regra de igualdade, não segundos nem portas físicas. Exclui leitura dos arquivos, codificação e compilação. Também não representa a melhor estratégia possível de repetição, pois descarta informação das tentativas rejeitadas. No caso sem divergências, esse protocolo não termina e o custo não é definido por uma taxa de sucesso positiva.
+
+Na IBM, os resultados são apresentados por bloco e também agregados por implementação e posição, com 1.536 medições em cada caso. Os intervalos de Wilson descrevem a amostragem marginal sob aproximação binomial; não incluem toda a variação entre blocos. Os dados preservam os pares de respostas produzidos dentro de cada repetição.
+
+\input{parte-experimental.tex}
+\bibliographystyle{IEEEtran}
+\bibliography{referencias}
+\end{document}

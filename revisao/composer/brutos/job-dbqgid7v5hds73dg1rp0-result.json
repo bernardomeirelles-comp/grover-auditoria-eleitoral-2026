@@ -1,0 +1,153 @@
+{
+  "schema_version": "v2.0",
+  "data": [
+    {
+      "results": {
+        "r00": {
+          "data": "eJwdjLENwjAURKUUFBkjgsYlXVZyyQgRojgxgTu+AP28CBcUFB6BSYApsHPV3ZPesc/D3VKwD5kapxdmlDbYSAePShWw8Nt6jj0d1xc7Br+gZlhHWMXIEcbpVPtEeDZKyrxVKGFx/KwZ+a096+vMD+MPFy5Jbw==",
+          "shape": [
+            1,
+            512,
+            2
+          ],
+          "dtype": "bool"
+        },
+        "r01": {
+          "data": "eJwBgAB//wQG0idPiqoHnEIcJ6EszwKQAGARcWJgzcGyNUw5TsIwsiSSVP4CQDk3CCgDQxBHTDYALCL69I/hAQE1nVbd8n0RNIHi21DkGJUCsLBGICINEoQr4+gmMLMIKNui60rzSm06C4BIKrz9pe2BVAYbCRgYA8Ok9eLROSkj1yEByAaCNowypQ==",
+          "shape": [
+            1,
+            512,
+            2
+          ],
+          "dtype": "bool"
+        },
+        "r02": {
+          "data": "eJwVjMEJg0AQRRuLSSemkZApwkI85iBkO3ArkDl6WJYBAwrR3ed4+/De+ymyhMB3fx1MmE+DgADrSHwW+FeOkuEj2gdTWhdKfU8gA2buJ9mkkfWqRvV483rP84OuFhuUCLesTisekC7M3a9/nNG0bpk=",
+          "shape": [
+            1,
+            512,
+            2
+          ],
+          "dtype": "bool"
+        },
+        "r03": {
+          "data": "eJwVizsKwkAQhs8guHqSHEDIYhmGzJ8lxSSFGcFWGDtLb5DxFLYeJMXiCfQWgmv7PcA6gyIlv97QzJBK9SUIznqGAq11S4Q7gHAf/oQn8tP+s84yVgRaiijyeRjxrlcJ3SBopbc8bY7fS9pGJSDtajSWSxnYH6aQyOjLZj+myzF2",
+          "shape": [
+            1,
+            512,
+            2
+          ],
+          "dtype": "bool"
+        },
+        "r04": {
+          "data": "eJwBgAB//7/HF27v11cXVU1UVF1odVQ1A6TWCRzFOS3e0dW3dbdlV519Xg1U1RMUQs1NhX1dtdbcn1X/Y5VsdXf9+pHPXHXVVSU2dcWQ9d52a13FXMP1Vf9p/8oSEmE2dxHcBvVH2Ht2RtEx/3BU1JdmWbtLlD0V1Z/Q2JV1TWd3OPxZVVX1+HxBJg==",
+          "shape": [
+            1,
+            512,
+            2
+          ],
+          "dtype": "bool"
+        },
+        "r05": {
+          "data": "eJwBgAB//5TkSmpsiLKi5ZoqbJjSgMCC4Y/BVb1oKGCi8cEPYIqiDSliBmLCdqgnJJnCAiGICEK+ojAyTkKa6hCyo/ZnmCSCQYSqOO3Rh4qkaCbJ4qKKg3C8Z5oYyGqu5tIOpEo0a7FbnoSKS6aYK2TGy6YEgwSCIKz+Hgr+qaq5cAYrIphxDzE+fw==",
+          "shape": [
+            1,
+            512,
+            2
+          ],
+          "dtype": "bool"
+        },
+        "r06": {
+          "data": "eJwBgAB//z8/fdU9Mvz/TegPB/1+c13TbRYyVkPk2ZW53x4TPL9LF9vxFyeRFVLXexV7OYe1sn+BO3E991LaAFtdWNMskOBCJ9EeTfxMl8LGGmJ+Rt7PFt4d8ZfZmTlF+3QVvt9DdX9JefdURSbV4nf/V3cwfB5SXWdLVXcSbUCfm+czGC37Vj48lw==",
+          "shape": [
+            1,
+            512,
+            2
+          ],
+          "dtype": "bool"
+        },
+        "r07": {
+          "data": "eJwLDQWBq6GhF8FkaAiIGxAaKhoKxiWhd0PhIPYimGQFEuFACFERGotQADYBBkpDQl1DTZFlXUNFwbpCA0MjofqmAgCKkiyX",
+          "shape": [
+            1,
+            512,
+            2
+          ],
+          "dtype": "bool"
+        },
+        "r08": {
+          "data": "eJwFwTEKwjAUgOE/TYZUgrw4iTgUBxWnIAjiFKzQycVL6OjoGD2KJ3lIB0eP4Ogx/D7CrTiQ3Dv9JkXItZ+y/RRTIA/Dk0jTRjBHdo2qhPSKIhKulea3pIMr+wrve0HtamYuCQNM/ILOSx0ysfXztXWb5Z2OMcX+BpRgTozOPP6sGRiS",
+          "shape": [
+            1,
+            512,
+            2
+          ],
+          "dtype": "bool"
+        },
+        "r09": {
+          "data": "eJxbtQoZaIHJrlWrlq3S0oKKLYKJgcErVKVgsGIVNrALzVQuMHMRmioAfUBRWw==",
+          "shape": [
+            1,
+            512,
+            2
+          ],
+          "dtype": "bool"
+        },
+        "r10": {
+          "data": "eJxVjUEKgEAMA18ufZovkR499piDrGOzLoIDhSkNKTQBUsHrKRYD9SxviY08YB/z4myEmJGEck8Utxc4cSb5c/kVfLUPVsV5WA==",
+          "shape": [
+            1,
+            512,
+            2
+          ],
+          "dtype": "bool"
+        },
+        "r11": {
+          "data": "eJxjYEAGTBCKEYgbGho0UOQYGhgEWIAUh5ACAwMQMTlAxUFsVghDiIFBwwGin0EJRLCAtDFwAJUwQJVzIAwEiQIATRQE1A==",
+          "shape": [
+            1,
+            512,
+            2
+          ],
+          "dtype": "bool"
+        }
+      },
+      "metadata": {
+        "scheduler_timing": null,
+        "stretch_values": null
+      }
+    }
+  ],
+  "metadata": {
+    "chunk_timing": [
+      {
+        "start": "2026-11-12T00:32:57.168737",
+        "stop": "2026-11-12T00:32:58.428840",
+        "parts": [
+          {
+            "idx_item": 0,
+            "size": 1,
+            "permutation": [
+              0
+            ],
+            "element_range": [
+              0,
+              1,
+              1
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "passthrough_data": {
+    "post_processor": {
+      "context": "sampler_v2",
+      "pub_shapes": [
+        1
+      ],
+      "version": "v1"
+    }
+  },
+  "semantic_role": null
+}

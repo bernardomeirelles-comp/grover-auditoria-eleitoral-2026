@@ -1,0 +1,77 @@
+{
+  "dataset": "resultados-2026-arquivos-transmitidos-para-totalizacao",
+  "name": "GO - Arquivos transmitidos para totaliza\u00e7\u00e3o - Segundo turno",
+  "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/arqurnatot/bu_imgbu_logjez_rdv_vscmr_2026_2t_GO.zip",
+  "status": 206,
+  "size_bytes": 3907722655,
+  "last_modified": "Mon, 26 Oct 2026 20:23:58 GMT",
+  "uf": "GO",
+  "entries": 78435,
+  "central_size": 7796490,
+  "central_offset": 3899926067,
+  "central_sha256": "edab17bae0a001eaef152277182115e42ed4004baf2b64fe6e554e9576d0d248",
+  "types": {
+    "leiame.pdf": {
+      "count": 1,
+      "compressed": 299142,
+      "uncompressed": 310546
+    },
+    "vota.vsc": {
+      "count": 15686,
+      "compressed": 960657981,
+      "uncompressed": 982051232
+    },
+    "bu.dat": {
+      "count": 15686,
+      "compressed": 12110944,
+      "uncompressed": 15091207
+    },
+    "rdv.dat": {
+      "count": 15686,
+      "compressed": 4517296,
+      "uncompressed": 40956485
+    },
+    "imgbu.dat": {
+      "count": 15686,
+      "compressed": 69084790,
+      "uncompressed": 92023874
+    },
+    "log.jez": {
+      "count": 15686,
+      "compressed": 2846400456,
+      "uncompressed": 2846265998
+    },
+    "bue4cAMa+Pxjtm2naAf1mTumqQPSiDQnIgLHk=.id": {
+      "count": 1,
+      "compressed": 47,
+      "uncompressed": 47
+    },
+    "buFIz9MOtOUMq5yNm9o1LQSOUNr8Vg=.id": {
+      "count": 1,
+      "compressed": 47,
+      "uncompressed": 47
+    },
+    "buMDHqup3AvVKz3l8pHR6X4MFR9zRK0nh5PSsaAE=.id": {
+      "count": 1,
+      "compressed": 47,
+      "uncompressed": 47
+    },
+    "buFzWBzO-418FanYbX-drU1vkxhCDco82pmMtQ=.id": {
+      "count": 1,
+      "compressed": 47,
+      "uncompressed": 47
+    }
+  },
+  "section_stems": 15691,
+  "duplicate_names": [],
+  "without_bu": 5,
+  "without_rdv": 5,
+  "patterns": {
+    "leiame.pdf": 1,
+    "bu.dat,imgbu.dat,log.jez,rdv.dat,vota.vsc": 15686,
+    "bue4cAMa+Pxjtm2naAf1mTumqQPSiDQnIgLHk=.id": 1,
+    "buFIz9MOtOUMq5yNm9o1LQSOUNr8Vg=.id": 1,
+    "buMDHqup3AvVKz3l8pHR6X4MFR9zRK0nh5PSsaAE=.id": 1,
+    "buFzWBzO-418FanYbX-drU1vkxhCDco82pmMtQ=.id": 1
+  }
+}

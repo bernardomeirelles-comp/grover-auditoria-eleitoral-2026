@@ -1,0 +1,157 @@
+\begin{figure*}[!t]
+\centering
+\includegraphics[width=\textwidth]{revisao-ruido.pdf}
+\caption{Menor probabilidade de acerto entre as quatro posições, calculada no modelo local. O eixo horizontal é logarítmico. O caso sem ruído, omitido desse eixo, tem acerto ideal de 100\% nas três implementações. As linhas ligam os parâmetros testados; não são ajustes. A linha tracejada indica o equilíbrio da contagem convencionada de consultas.}
+\label{fig:ruido}
+\end{figure*}
+
+\section{Resultados experimentais}
+\subsection{Reconferência nacional e controles}
+Foram conferidos 499.207 pares RDV--BU, incluindo 499.178 boletins regulares e 29 do Sistema de Apuração. As contagens coincidiram com os CSVs e com os totais publicados, apresentados na Tabela~\ref{tab:nacional}. Os 1.931.103 registros presidenciais abrangiam 499.205 seções com votos; duas seções sem comparecimento completaram o conjunto apurado. As 41 não instaladas completam o universo de 499.248. Não foram encontradas diferenças, duplicatas ou seções faltantes na comparação.
+
+A assinatura do resultado nacional foi válida, e o conteúdo assinado coincidiu com o arquivo usado na análise. Uma cópia modificada foi rejeitada. Os quatro controles do comparador RDV--BU também foram rejeitados, inclusive a transferência entre categorias que preservava o total. Esses testes verificam comportamentos específicos do programa; não cobrem toda forma possível de erro.
+
+\subsection{Execução inicial e revisão local}
+A Tabela~\ref{tab:experimento} preserva os resultados iniciais. Na simulação ideal, todas as 12.288 medições identificaram a posição alterada. Com ruído 0,003, o acerto de 89,08\% tem intervalo de 88,52\% a 89,62\%, que atravessa o equilíbrio de 88,89\%. Portanto, esse ponto não permite afirmar economia de consultas com a mesma confiança. Com 0,005, a estimativa já está abaixo do limite.
+
+A IBM produziu 236 respostas 00, 331 respostas 01, 384 respostas 10 e 1.097 respostas 11. A posição correta era 01. O acerto de 16,16\%, com intervalo de 14,63\% a 17,82\%, ficou abaixo dos 25\% de uma escolha uniforme. A concentração de 53,56\% em 11 exige investigação; o resultado não deve ser atribuído a uma causa física específica apenas com essa execução.
+
+Na revisão local, os 708 testes de marcação passaram, distribuídos por 59 pares de tabelas e três implementações. O acerto ideal foi de 100\% nos quatro casos com uma divergência. Os testes com zero a quatro divergências reproduziram as probabilidades descritas na fundamentação.
+
+A Tabela~\ref{tab:variantes} compara os circuitos sob a mesma compilação. No parâmetro 0,003, o menor acerto passou de 83,54\% na implementação original para 90,16\% com cancelamento e 95,61\% com Gray e cancelamento. A versão simplificada superou a original nesse teste. A implementação final usou de 18 a 22 CX, contra 51 a 81 na original. Não se trata de uma comparação direta com as 53 CX iniciais, que foram obtidas com outro nível de compilação.
+
+Na Figura~\ref{fig:ruido}, o menor acerto fica abaixo do limite entre 0,001 e 0,002 para a original, entre 0,003 e 0,004 para o cancelamento e entre 0,005 e 0,01 para Gray com cancelamento. Esses intervalos são delimitados pelos parâmetros testados, sem localizar exatamente o ponto de equilíbrio. A curva representa o modelo local, não uma previsão calibrada do processador IBM.
+
+\subsection{Repetições na IBM e comparação com a calibração}
+Os 36 testes físicos e as três sequências completas produziram as respostas esperadas na simulação ideal. A análise usou a correspondência real entre qubits medidos e bits de saída de cada teste. A versão simplificada superou a original nos 12 pares de posição e bloco. Agregando os três blocos, a original acertou de 37,57\% a 45,31\%; Gray com cancelamento, de 68,29\% a 70,90\%. A Figura~\ref{fig:repeticoes} mostra também a variação entre blocos e os controles.
+
+O menor acerto agregado da versão simplificada foi 68,29\%, com intervalo marginal de 65,92\% a 70,57\%. Aplicar a convenção $2/p$ a essa frequência resulta em 2,929, acima de 2,25; não é um custo medido por reinícios. Nenhuma busca física, mesmo considerada por bloco, alcançou 88,89\%. O circuito simplificado usou de 31 a 46 CZ e profundidade de 74 a 106; a original, de 108 a 180 CZ e profundidade de 242 a 374. Essas profundidades incluem reinicialização e medição.
+
+Os controles tiveram acerto agregado de 90,82\% a 93,16\%. Eles incluem preparação, reinicialização e leitura; não medem somente o erro de leitura. O modelo baseado na calibração previu 59,53\% a 66,01\% para a original e 85,29\% a 88,77\% para a simplificada. Superestimou o acerto nos oito casos agregados. As previsões e cada bloco estão preservados em tabelas no repositório.
+
+\subsection{Tabelas, gráficos e figuras}
+\begin{table}[!ht]
+\caption{Amostra inicial. Apenas a cópia de teste contém a alteração. Na revisão, uma alteração foi aplicada separadamente a cada posição.}
+\label{tab:recorte}
+\centering\small
+\begin{tabular}{@{}clrrr@{}}
+\toprule
+Posição & Categoria & RDV & BU & Cópia \\
+\midrule
+00 & Lula & 68 & 68 & 68 \\
+01 & Flávio Bolsonaro & 149 & 149 & 148 \\
+10 & Brancos & 2 & 2 & 2 \\
+11 & Nulos & 13 & 13 & 13 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[!ht]
+\caption{Totais da reconferência nacional, iguais aos publicados pelo TSE.}
+\label{tab:nacional}
+\centering\small
+\begin{tabular}{@{}lr@{}}
+\toprule
+Categoria & Total de votos \\
+\midrule
+Lula & 64.256.232 \\
+Flávio Bolsonaro & 59.826.041 \\
+Brancos & 1.430.496 \\
+Nulos & 2.723.305 \\
+Total & 128.236.074 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[!ht]
+\caption{Parâmetros das análises quânticas. As buscas usam cinco qubits e uma rodada de Grover; os controles não executam a busca.}
+\label{tab:parametros}
+\centering\small
+\begin{tabularx}{\columnwidth}{@{}lX@{}}
+\toprule
+Etapa & Configuração \\
+\midrule
+Software & Python 3.11.16; Qiskit 2.6.2; Aer 0.18.2 \\
+Inicial local & Um alvo; 4.096 medições por semente; sementes 20261107 a 20261109; compilação nível 1 \\
+Ruído inicial & 0; 0,001; 0,003; 0,005; 0,01; 0,03; 0,1 \\
+IBM inicial & \texttt{ibm\_marrakesh}; 2.048 medições; 101 CZ; profundidade 210 \\
+Revisão local & Quatro alvos; três implementações; matriz densidade, sem amostragem; compilação nível 3; semente 20261111 \\
+Ruído da revisão & Valores iniciais, acrescidos de 0,002 e 0,004 \\
+Modelo local & Despolarização $\lambda$ após CX e $\lambda/10$ após $U$; leitura ideal \\
+IBM da revisão & Três blocos de 512 repetições; oito buscas e quatro controles por bloco; 11/11/2026; seis segundos de QPU no total \\
+Modelo calibrado & CSV de 11/11/2026, 10h07 UTC; erros de portas e leitura; testes isolados, reinicialização ideal \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\begin{table}[!ht]
+\caption{Três marcos da execução inicial. Simulação: 12.288 medições por linha; IBM: 2.048. Custo convencionado $2/p$; referência clássica 2,25. A série completa está nos dados suplementares.}
+\label{tab:experimento}
+\centering\small
+\begin{tabular}{@{}lrr@{}}
+\toprule
+Cenário & Acerto (\%) & Custo $2/p$ \\
+\midrule
+Ideal & 100,00 & 2,000 \\
+Ruído 0,003 & 89,08 & 2,245 \\
+IBM & 16,16 & 12,375 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[!ht]
+\caption{Revisão local. Faixas de recursos e menor acerto entre as quatro posições, com $\lambda=0{,}003$. Mesma base de portas, compilação nível 3 e semente.}
+\label{tab:variantes}
+\centering\small
+\begin{tabular}{@{}lrrr@{}}
+\toprule
+Implementação & CX & Profundidade & Menor acerto \\
+\midrule
+Original & 51--81 & 80--123 & 83,54\% \\
+Cancelamento & 20--48 & 32--77 & 90,16\% \\
+Gray + cancelamento & 18--22 & 32--36 & 95,61\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+
+\begin{figure*}[!t]
+\centering
+\includegraphics[width=\textwidth]{ibm-repeticoes.pdf}
+\caption{Novas execuções IBM. Marcadores preenchidos mostram o acerto agregado de 1.536 medições por caso; barras representam intervalos marginais de Wilson de 95\%. Pontos vazados mostram cada bloco de 512 repetições. À direita, controles de preparação, reinicialização e leitura. A linha tracejada marca 88,89\%, referência de custo para as buscas. Os intervalos não abrangem toda a variação entre blocos.}
+\label{fig:repeticoes}
+\end{figure*}
+
+\subsection{Descrição objetiva dos resultados}
+A reconferência nacional não encontrou divergências nos registros examinados. A busca quântica usou diferenças artificiais em cópias. A versão simplificada apresentou mais acertos no modelo local e nos 12 pares de testes físicos. Na IBM, permaneceu abaixo da referência clássica na convenção de custo adotada.
+
+\section{Discussão}
+\subsection{Preparação dos dados e alcance da busca}
+O ganho de $O(\sqrt{N})$ consultas não elimina o trabalho necessário para construir o oráculo. Aqui, ler os dois arquivos e preparar os códigos já expõe todas as contagens à comparação clássica. O carregamento é incorporado ao circuito e precisa ser executado a cada tentativa. Assim, até a simulação ideal não demonstra redução do trabalho completo~\cite{park2019,stoudenmire2024}.
+
+Além disso, a reconferência nacional precisa examinar a cobertura e todas as diferenças, se houver. Encontrar uma divergência cuja existência é garantida é outra tarefa. Quando a quantidade é desconhecida, o procedimento e sua garantia de erro precisam mudar~\cite{boyer1998}. A comparação clássica também pode distribuir seções entre processadores; as rodadas sucessivas de uma busca de Grover não são substituídas por essa divisão simples. O artigo não estima vantagem de tempo em escala nacional.
+
+Uma verificação adicional aplicou variações de $-10$, $-2$, $+1$, $+10$ e $+100$ votos a cada posição, omitindo apenas o caso que produziria contagem negativa. Nos 19 casos válidos, Gray com cancelamento superou a implementação original em acerto no modelo com $\lambda=0{,}003$, com diferenças entre 0,24 e 12,07 pontos percentuais. Assim, a melhora observada não ficou restrita à redução de um voto. Esses casos continuam limitados à mesma amostra e ao mesmo modelo de ruído; não demonstram vantagem universal da codificação.
+
+\subsection{Interpretação do hardware e do controle sem diferenças}
+As novas execuções permitem descartar erros de mapeamento específicos, comparar circuitos menores e medir variações entre blocos. Elas não isolam a causa dos 16,16\% observados em 6/11. O compilador mudou os qubits físicos entre blocos, e os testes ocorreram em ordens e momentos diferentes. Por exemplo, a versão simplificada no alvo 11 variou de 58,01\% a 78,52\%. Essa variação mistura vários fatores; não pode ser atribuída apenas ao tempo.
+
+O modelo calibrado permaneceu otimista. Ele não reproduz falhas de reinicialização, esperas, efeitos entre testes ou erros correlacionados. Modelos baseados em calibração também precisam ser validados contra o circuito executado~\cite{bautra2026}. Não foi aplicada correção de leitura às contagens: os controles medem mais de uma fonte de erro e não usam necessariamente os mesmos qubits de cada busca. As frequências publicadas são brutas. Uma investigação causal do resultado histórico exigiria condições e calibração daquele momento.
+
+No controle inicial sem alterações, nenhuma das 28.672 respostas foi aceita. Essa rejeição decorre da verificação clássica: todos os pares são iguais, qualquer que seja a posição medida. Portanto, o controle não demonstra que Grover detectou ausência de divergências. Ele verifica a regra de aceitação usada depois da medição.
+
+\subsection{O que a conferência permite concluir}
+Uma diferença entre RDV e BU, uma soma incompatível com a divulgação ou uma seção ausente pode ser detectada pelos procedimentos implementados. A concordância entre arquivos da mesma origem não exclui um erro comum a eles. Também não estabelece, por si só, que cada voto registrado corresponde à intenção do eleitor. Assinaturas e resumos verificam propriedades distintas da comparação de contagens e devem ter seu alcance identificado.
+
+As atas do Teste de Integridade descrevem comparações com votos previamente conhecidos em urnas selecionadas. Na CLDF, uma diferença foi atribuída, após revisão das filmagens, à digitação de 11 quando a cédula indicava branco~\cite{treDfAtaCldf2026}. A ata do TSE registrou concordância final, mas não esclareceu a causa de dois episódios chamados de falso positivo~\cite{treDfAtaTse2026}. Essas evidências são de terceiros, limitadas aos testes documentados. Elas mostram por que detectar uma diferença e explicar sua origem são etapas distintas.
+
+\section{Organização dos códigos e dados utilizados}
+O material suplementar separa fontes oficiais, cópias alteradas para teste, resultados históricos e novas análises. O README registra dependências, sementes, circuitos, identificadores dos trabalhos e comandos de reprodução. \texttt{reavaliar.py} reproduz a comparação local; \texttt{testar-controles.py} verifica as quatro alterações no comparador RDV--BU; \texttt{testar-variacoes.py} reproduz os 19 casos adicionais. As instruções distinguem conferir os resultados preservados de baixar e reprocessar os dados nacionais. Analisar as contagens IBM exportadas não envia novos trabalhos.
+
+Código e dados estão disponíveis em \url{https://github.com/bernardomeirelles-comp/grover-auditoria-eleitoral-2026}, versão \texttt{sprint2-revisada}. O manifesto de hashes identifica os arquivos entregues. \texttt{analisar-repeticoes.py} reproduz a análise física e o modelo calibrado, sem acessar a conta IBM.
+
+\section{Conclusão}
+A reconferência clássica reproduziu os totais publicados e não encontrou divergências entre RDVs e BUs das 499.207 seções examinadas. Grover localizou diferenças artificiais no teste de quatro posições. A versão simplificada apresentou maior acerto físico nos 12 pares comparados, mas os três blocos ficaram abaixo do equilíbrio de consultas adotado. O modelo calibrado também superestimou os resultados observados.
+
+É possível usar Grover como componente de busca nessa aplicação. O experimento não mostrou benefício para a conferência completa: preparar os dados já permite compará-los classicamente. Também não comprovou ausência de fraude. O resultado nacional decorre da análise clássica e sustenta a consistência dos registros examinados, dentro das verificações descritas.

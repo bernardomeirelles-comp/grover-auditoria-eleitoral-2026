@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+.env.*
+.DS_Store
+*.aux
+/main.log
+*.out
+*.toc
+*.blg
+*.fls
+*.fdb_latexmk
+nacional/originais/
+conferencia-secoes/votacao_secao_2026_BR.zip
+recontagem-nacional/manifestos/
+recontagem-nacional/cache/

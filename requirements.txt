@@ -1,0 +1,12 @@
+# Python 3.11.16 foi usado nas execuções locais registradas.
+# Instalar em ambiente virtual. A instalação requer acesso ao índice de pacotes.
+qiskit==2.6.2
+qiskit-aer==0.18.2
+qiskit-qasm3-import==0.6.0
+numpy==2.4.6
+scipy==1.17.1
+matplotlib==3.11.2
+asn1tools==0.169.0
+cryptography==50.0.2
+# Validação opcional das assinaturas de hardware da amostra:
+# instalar também recontagem-nacional/assinaturas/requirements-validadores.txt

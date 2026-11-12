@@ -1,0 +1,10 @@
+{
+  "primary_metric": {
+    "original": 0.8354490737611094,
+    "cancelado": 0.9015530041630484,
+    "gray_cancelado": 0.9561455885672061
+  },
+  "hypothesis_supported_in_this_model": true,
+  "not_hardware_calibrated": true,
+  "not_end_to_end_advantage": true
+}

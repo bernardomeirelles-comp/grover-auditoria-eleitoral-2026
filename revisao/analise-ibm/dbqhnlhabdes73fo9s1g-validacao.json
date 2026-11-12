@@ -1,0 +1,368 @@
+{
+  "job": "dbqhnlhabdes73fo9s1g",
+  "block": 3,
+  "created_utc": "2026-11-12T01:52:22.257655Z",
+  "active_physical_qubits": [
+    20,
+    21,
+    22,
+    23,
+    36
+  ],
+  "full_operations": {
+    "sx": 698,
+    "cz": 688,
+    "rz": 610,
+    "rx": 396,
+    "reset": 60,
+    "barrier": 24,
+    "measure": 24,
+    "x": 4
+  },
+  "full_depth": 1545,
+  "full_ideal_sequence_counts": {
+    "00 10 11 00 11 01 10 10 11 01 01 00": 32
+  },
+  "segments": [
+    {
+      "register": "r00",
+      "experiment": "gray_cancelado_00",
+      "physical_measurement_map": {
+        "0": 36,
+        "1": 21
+      },
+      "ideal_distribution": [
+        0.9999999999999999,
+        -2.0816681711721683e-16,
+        -1.457167719820518e-16,
+        -1.413799632921098e-16
+      ],
+      "operations": {
+        "rz": 41,
+        "cz": 34,
+        "rx": 29,
+        "sx": 25,
+        "reset": 5,
+        "measure": 2,
+        "barrier": 1
+      },
+      "model_distribution": [
+        0.8414819050407093,
+        0.06847057373399866,
+        0.05523886502322846,
+        0.03480862734031447
+      ]
+    },
+    {
+      "register": "r01",
+      "experiment": "original_01",
+      "physical_measurement_map": {
+        "0": 22,
+        "1": 23
+      },
+      "ideal_distribution": [
+        -5.735764690332723e-17,
+        0.9999999999999996,
+        -1.1738988978441624e-16,
+        -4.1825152269214136e-17
+      ],
+      "operations": {
+        "sx": 117,
+        "cz": 108,
+        "rz": 90,
+        "rx": 56,
+        "reset": 5,
+        "barrier": 2,
+        "measure": 2
+      },
+      "model_distribution": [
+        0.11860714063414339,
+        0.6434933406408636,
+        0.09086513466916143,
+        0.14703429804753082
+      ]
+    },
+    {
+      "register": "r02",
+      "experiment": "controle_01",
+      "physical_measurement_map": {
+        "0": 22,
+        "1": 23
+      },
+      "ideal_distribution": [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "operations": {
+        "reset": 5,
+        "barrier": 2,
+        "measure": 2,
+        "x": 1
+      },
+      "model_distribution": [
+        0.0206102555478176,
+        0.9237256819521824,
+        0.0012148754562829403,
+        0.05444918704371706
+      ]
+    },
+    {
+      "register": "r03",
+      "experiment": "original_11",
+      "physical_measurement_map": {
+        "0": 22,
+        "1": 21
+      },
+      "ideal_distribution": [
+        -1.2316536679435335e-16,
+        -3.122502256758246e-17,
+        -1.3877787807814457e-16,
+        0.9999999999999998
+      ],
+      "operations": {
+        "sx": 151,
+        "cz": 145,
+        "rz": 126,
+        "rx": 75,
+        "reset": 5,
+        "barrier": 2,
+        "measure": 2
+      },
+      "model_distribution": [
+        0.11719410956086476,
+        0.1518636357663254,
+        0.13983711401888743,
+        0.5911050258217173
+      ]
+    },
+    {
+      "register": "r04",
+      "experiment": "gray_cancelado_10",
+      "physical_measurement_map": {
+        "0": 22,
+        "1": 21
+      },
+      "ideal_distribution": [
+        1.5113778284447934e-16,
+        -9.649399335120986e-17,
+        0.9999999999999996,
+        -2.722431655111102e-16
+      ],
+      "operations": {
+        "cz": 41,
+        "sx": 40,
+        "rz": 37,
+        "rx": 31,
+        "reset": 5,
+        "barrier": 2,
+        "measure": 2
+      },
+      "model_distribution": [
+        0.05379484865431659,
+        0.02930049782637796,
+        0.8599014548655832,
+        0.05700317033681591
+      ]
+    },
+    {
+      "register": "r05",
+      "experiment": "controle_10",
+      "physical_measurement_map": {
+        "0": 22,
+        "1": 21
+      },
+      "ideal_distribution": [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "operations": {
+        "reset": 5,
+        "barrier": 2,
+        "measure": 2,
+        "x": 1
+      },
+      "model_distribution": [
+        0.014698270903350274,
+        0.00020373840856129097,
+        0.9716298540966496,
+        0.013468136591438707
+      ]
+    },
+    {
+      "register": "r06",
+      "experiment": "gray_cancelado_01",
+      "physical_measurement_map": {
+        "0": 22,
+        "1": 21
+      },
+      "ideal_distribution": [
+        -9.71445146547012e-17,
+        0.9999999999999999,
+        -4.857225732735059e-17,
+        2.0816681711721688e-17
+      ],
+      "operations": {
+        "rz": 36,
+        "cz": 31,
+        "sx": 27,
+        "rx": 26,
+        "reset": 5,
+        "barrier": 2,
+        "measure": 2
+      },
+      "model_distribution": [
+        0.04437845323637509,
+        0.9007301122589428,
+        0.017434793348721896,
+        0.0374566211226038
+      ]
+    },
+    {
+      "register": "r07",
+      "experiment": "gray_cancelado_11",
+      "physical_measurement_map": {
+        "0": 21,
+        "1": 20
+      },
+      "ideal_distribution": [
+        -2.0460677750605534e-16,
+        -8.095666435142283e-17,
+        -3.312474657640315e-17,
+        0.9999999999999999
+      ],
+      "operations": {
+        "cz": 41,
+        "sx": 38,
+        "rz": 36,
+        "rx": 29,
+        "reset": 5,
+        "barrier": 2,
+        "measure": 2
+      },
+      "model_distribution": [
+        0.03134604273257073,
+        0.07211000165291821,
+        0.046133805963809345,
+        0.8504101161423111
+      ]
+    },
+    {
+      "register": "r08",
+      "experiment": "controle_00",
+      "physical_measurement_map": {
+        "0": 21,
+        "1": 20
+      },
+      "ideal_distribution": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "operations": {
+        "reset": 5,
+        "barrier": 2,
+        "measure": 2
+      },
+      "model_distribution": [
+        0.9951171875,
+        0.0048828125,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "register": "r09",
+      "experiment": "controle_11",
+      "physical_measurement_map": {
+        "0": 21,
+        "1": 20
+      },
+      "ideal_distribution": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "operations": {
+        "reset": 5,
+        "barrier": 2,
+        "x": 2,
+        "measure": 2
+      },
+      "model_distribution": [
+        0.00047514337690235294,
+        0.031409374137293423,
+        0.014426865935009213,
+        0.953688616550795
+      ]
+    },
+    {
+      "register": "r10",
+      "experiment": "original_10",
+      "physical_measurement_map": {
+        "0": 22,
+        "1": 21
+      },
+      "ideal_distribution": [
+        -1.486254462462387e-16,
+        -2.545254307872297e-16,
+        0.9999999999999996,
+        -8.548037050422445e-17
+      ],
+      "operations": {
+        "sx": 138,
+        "cz": 129,
+        "rz": 108,
+        "rx": 63,
+        "reset": 5,
+        "barrier": 2,
+        "measure": 2
+      },
+      "model_distribution": [
+        0.14140717060932942,
+        0.11053403896131352,
+        0.6176759310985641,
+        0.13038275560047355
+      ]
+    },
+    {
+      "register": "r11",
+      "experiment": "original_00",
+      "physical_measurement_map": {
+        "0": 22,
+        "1": 21
+      },
+      "ideal_distribution": [
+        0.9999999999999993,
+        -2.977212583798436e-16,
+        -9.409125633019686e-17,
+        -2.383082956969898e-16
+      ],
+      "operations": {
+        "sx": 162,
+        "cz": 159,
+        "rz": 136,
+        "rx": 87,
+        "reset": 5,
+        "barrier": 2,
+        "measure": 2
+      },
+      "model_distribution": [
+        0.5690293015596709,
+        0.14528836935954031,
+        0.16134468982868594,
+        0.1243375118975889
+      ]
+    }
+  ],
+  "input_hashes": {
+    "job-dbqhnlhabdes73fo9s1g-info.json": "b028f1ffe94ef10bba7808937464530e9018da728bd4b72a89f29fd3c5c238a0",
+    "job-dbqhnlhabdes73fo9s1g-result.json": "5f91fee9e9a20229bd6748c7864c6057ff04ffc2c287a1925b81e0fe0ce08ca8"
+  },
+  "decoder": "base64 -> zlib -> numpy.unpackbits big-endian -> shape(512,2), c1c0"
+}

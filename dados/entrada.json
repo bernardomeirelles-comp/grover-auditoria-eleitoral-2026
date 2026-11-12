@@ -1,0 +1,111 @@
+{
+  "source": {
+    "data_consulta": "2026-11-06 America/Sao_Paulo",
+    "uf": "AC",
+    "municipio": "Bujari",
+    "municipio_codigo_tse": 1007,
+    "zona": 9,
+    "secao": 1,
+    "pleito": 3221,
+    "turno": 2,
+    "data_votacao": "2026-10-25",
+    "eleicao": 6258,
+    "cargo": "presidente",
+    "comparecimento": 232,
+    "selecao": "Mesma seção de Bujari usada na pesquisa inicial; todas as quatro categorias presidenciais do segundo turno, sem seleção por contagens pequenas.",
+    "registros": [
+      {
+        "indice": 0,
+        "categoria": "Lula",
+        "eleicao": 6258,
+        "cargo": "presidente",
+        "tipo": "nominal",
+        "codigo": 13,
+        "votos_rdv": 68,
+        "votos_bu": 68
+      },
+      {
+        "indice": 1,
+        "categoria": "Flávio Bolsonaro",
+        "eleicao": 6258,
+        "cargo": "presidente",
+        "tipo": "nominal",
+        "codigo": 22,
+        "votos_rdv": 149,
+        "votos_bu": 149
+      },
+      {
+        "indice": 2,
+        "categoria": "Brancos",
+        "eleicao": 6258,
+        "cargo": "presidente",
+        "tipo": "branco",
+        "codigo": "",
+        "votos_rdv": 2,
+        "votos_bu": 2
+      },
+      {
+        "indice": 3,
+        "categoria": "Nulos",
+        "eleicao": 6258,
+        "cargo": "presidente",
+        "tipo": "nulo",
+        "codigo": "",
+        "votos_rdv": 13,
+        "votos_bu": 13
+      }
+    ],
+    "grupos_comparados": 2,
+    "categorias_comparadas": 8,
+    "divergencias": 0,
+    "escopo": "Consistência RDV-BU desta seção. Não é conclusão sobre integridade da eleição inteira.",
+    "fonte_arquivos": "https://dadosabertos.tse.jus.br/dataset/resultados-2026-arquivos-transmitidos-para-totalizacao",
+    "fonte_identidade": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/planos-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026",
+    "arquivos": {
+      "o03221ac0100700090001-bu.dat": "fc7675fe7a5bc4e5683f44b0bfa10f128f1e6bf6e6edcabe2f6c11fe20ecd576",
+      "o03221ac0100700090001-rdv.dat": "2f8d924ab74c0844ee6911950964f662a55d2bf512763051e52c675d9a5eaa62"
+    }
+  },
+  "records": [
+    {
+      "index": 0,
+      "category": "Lula",
+      "candidate": 13,
+      "rdv": 68,
+      "bu": 68,
+      "bu_test": 68
+    },
+    {
+      "index": 1,
+      "category": "Flávio Bolsonaro",
+      "candidate": 22,
+      "rdv": 149,
+      "bu": 149,
+      "bu_test": 148
+    },
+    {
+      "index": 2,
+      "category": "Brancos",
+      "candidate": "",
+      "rdv": 2,
+      "bu": 2,
+      "bu_test": 2
+    },
+    {
+      "index": 3,
+      "category": "Nulos",
+      "candidate": "",
+      "rdv": 13,
+      "bu": 13,
+      "bu_test": 13
+    }
+  ],
+  "encoding": {
+    "2": 0,
+    "13": 1,
+    "68": 2,
+    "148": 3,
+    "149": 4
+  },
+  "modification": "Cópia experimental: reduzir de 149 para 148 o segundo registro; arquivos oficiais intactos."
+}

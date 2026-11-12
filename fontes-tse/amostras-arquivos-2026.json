@@ -1,0 +1,30 @@
+[
+  {
+    "filename": "o03221ac0100700090001-bu.dat",
+    "size": 1533,
+    "crc_verified": true,
+    "source_zip": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/arqurnatot/bu_imgbu_logjez_rdv_vscmr_2026_2t_AC.zip",
+    "range_start": 360598
+  },
+  {
+    "filename": "o03221ac0100700090001-rdv.dat",
+    "size": 4461,
+    "crc_verified": true,
+    "source_zip": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/arqurnatot/bu_imgbu_logjez_rdv_vscmr_2026_2t_AC.zip",
+    "range_start": 361910
+  },
+  {
+    "filename": "o03221ac0100700090001-log.jez",
+    "size": 176751,
+    "crc_verified": true,
+    "source_zip": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/arqurnatot/bu_imgbu_logjez_rdv_vscmr_2026_2t_AC.zip",
+    "range_start": 367076
+  },
+  {
+    "filename": "o03221ac0100700090001-vota.vsc",
+    "size": 62605,
+    "crc_verified": true,
+    "source_zip": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/arqurnatot/bu_imgbu_logjez_rdv_vscmr_2026_2t_AC.zip",
+    "range_start": 299210
+  }
+]

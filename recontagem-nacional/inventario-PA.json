@@ -1,0 +1,83 @@
+{
+  "dataset": "resultados-2026-arquivos-transmitidos-para-totalizacao",
+  "name": "PA - Arquivos transmitidos para totaliza\u00e7\u00e3o - Segundo turno",
+  "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/arqurnatot/bu_imgbu_logjez_rdv_vscmr_2026_2t_PA.zip",
+  "status": 206,
+  "size_bytes": 5009831870,
+  "last_modified": "Mon, 26 Oct 2026 20:55:18 GMT",
+  "uf": "PA",
+  "entries": 104141,
+  "central_size": 10530976,
+  "central_offset": 4999300796,
+  "central_sha256": "2bcdf91533d13921cea37d4790fd9364c9a16ff5a26061618b7fb8adeb13a889",
+  "types": {
+    "leiame.pdf": {
+      "count": 1,
+      "compressed": 299142,
+      "uncompressed": 310546
+    },
+    "vota.vsc": {
+      "count": 20827,
+      "compressed": 1275487803,
+      "uncompressed": 1303910959
+    },
+    "bu.dat": {
+      "count": 20827,
+      "compressed": 15338002,
+      "uncompressed": 19258277
+    },
+    "rdv.dat": {
+      "count": 20827,
+      "compressed": 5603933,
+      "uncompressed": 50643666
+    },
+    "imgbu.dat": {
+      "count": 20827,
+      "compressed": 90927593,
+      "uncompressed": 121364469
+    },
+    "log.jez": {
+      "count": 20827,
+      "compressed": 3602542096,
+      "uncompressed": 3602425850
+    },
+    "buB1jW5D2aeDIR1zsYnj1tehv0Oqp2Ch6-CtUzmCmo=.id": {
+      "count": 1,
+      "compressed": 47,
+      "uncompressed": 47
+    },
+    "buiiA7g+ey9DMZI=.id": {
+      "count": 1,
+      "compressed": 47,
+      "uncompressed": 47
+    },
+    "buYaqOCEB8w5YwdQA8JIvT5muE=.id": {
+      "count": 1,
+      "compressed": 47,
+      "uncompressed": 47
+    },
+    "bu0FNx3O8gz0X4rgp+5p9ZZRh4Qo-qHkG4=.id": {
+      "count": 1,
+      "compressed": 47,
+      "uncompressed": 47
+    },
+    "YeRTtxSkr-bukpE+NCZ94ubY=.id": {
+      "count": 1,
+      "compressed": 47,
+      "uncompressed": 47
+    }
+  },
+  "section_stems": 20833,
+  "duplicate_names": [],
+  "without_bu": 6,
+  "without_rdv": 6,
+  "patterns": {
+    "leiame.pdf": 1,
+    "bu.dat,imgbu.dat,log.jez,rdv.dat,vota.vsc": 20827,
+    "buB1jW5D2aeDIR1zsYnj1tehv0Oqp2Ch6-CtUzmCmo=.id": 1,
+    "buiiA7g+ey9DMZI=.id": 1,
+    "buYaqOCEB8w5YwdQA8JIvT5muE=.id": 1,
+    "bu0FNx3O8gz0X4rgp+5p9ZZRh4Qo-qHkG4=.id": 1,
+    "YeRTtxSkr-bukpE+NCZ94ubY=.id": 1
+  }
+}

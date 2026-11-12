@@ -1,0 +1,52 @@
+{
+  "registered_utc": "2026-11-12T00:09:38.426046+00:00",
+  "status": "exploratory_revision_after_feedback",
+  "hypothesis": "gray_cancelado improves minimum success across the four targets at lambda=.003 relative to original, with identical compilation settings",
+  "primary_metric": "minimum conditional probability over four targets at lambda=.003",
+  "secondary_metrics": [
+    "CX count",
+    "depth",
+    "noise threshold for p=8/9"
+  ],
+  "variants": [
+    "original",
+    "cancelado",
+    "gray_cancelado"
+  ],
+  "noise_levels": [
+    0,
+    0.001,
+    0.002,
+    0.003,
+    0.004,
+    0.005,
+    0.01,
+    0.03,
+    0.1
+  ],
+  "basis_gates": [
+    "u",
+    "cx"
+  ],
+  "optimization_level": 3,
+  "seed_transpiler": 20261111,
+  "noise_model": "depolarization lambda after CX and lambda/10 after U; no readout noise",
+  "simulation": "density matrix probabilities, no Monte Carlo shots or confidence intervals",
+  "hardware_plan": {
+    "variants": [
+      "original",
+      "gray_cancelado"
+    ],
+    "targets": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "blocks": 3,
+    "shots": 512,
+    "readout_preparations_per_block": 4,
+    "submit_only_after_validation_and_usage_estimate": true
+  },
+  "old_hardware_result": "preserved; new calibration cannot identify its historical cause"
+}

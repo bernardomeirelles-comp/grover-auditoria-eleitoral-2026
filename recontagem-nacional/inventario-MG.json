@@ -1,0 +1,77 @@
+{
+  "dataset": "resultados-2026-arquivos-transmitidos-para-totalizacao",
+  "name": "MG - Arquivos transmitidos para totaliza\u00e7\u00e3o - Segundo turno",
+  "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/arqurnatot/bu_imgbu_logjez_rdv_vscmr_2026_2t_MG.zip",
+  "status": 206,
+  "size_bytes": 12591095192,
+  "last_modified": "Mon, 26 Oct 2026 20:46:16 GMT",
+  "uf": "MG",
+  "entries": 260315,
+  "central_size": 27934370,
+  "central_offset": 12563160724,
+  "central_sha256": "a4b7bf53ba82a173c9574bcdc18612107be852f4887040f2182617bea108f166",
+  "types": {
+    "leiame.pdf": {
+      "count": 1,
+      "compressed": 299142,
+      "uncompressed": 310546
+    },
+    "vota.vsc": {
+      "count": 52062,
+      "compressed": 3188659342,
+      "uncompressed": 3259417702
+    },
+    "bu.dat": {
+      "count": 52062,
+      "compressed": 39151025,
+      "uncompressed": 49088233
+    },
+    "rdv.dat": {
+      "count": 52062,
+      "compressed": 14163223,
+      "uncompressed": 131286915
+    },
+    "imgbu.dat": {
+      "count": 52062,
+      "compressed": 229185077,
+      "uncompressed": 305243523
+    },
+    "log.jez": {
+      "count": 52062,
+      "compressed": 9068951145,
+      "uncompressed": 9068208201
+    },
+    "budK-1gGyyoAxj4VWYtY=.id": {
+      "count": 1,
+      "compressed": 47,
+      "uncompressed": 47
+    },
+    "wIRIeAm99k6j2Zf0qhFpb-buHlUR4nayk79dLskY=.id": {
+      "count": 1,
+      "compressed": 47,
+      "uncompressed": 47
+    },
+    "bu1aAc=.id": {
+      "count": 1,
+      "compressed": 47,
+      "uncompressed": 47
+    },
+    "buAJs707UwtC3sQ9fjCdNhW74jcDKR5PZ8hcjMjH7Y=.id": {
+      "count": 1,
+      "compressed": 47,
+      "uncompressed": 47
+    }
+  },
+  "section_stems": 52067,
+  "duplicate_names": [],
+  "without_bu": 5,
+  "without_rdv": 5,
+  "patterns": {
+    "leiame.pdf": 1,
+    "bu.dat,imgbu.dat,log.jez,rdv.dat,vota.vsc": 52062,
+    "budK-1gGyyoAxj4VWYtY=.id": 1,
+    "wIRIeAm99k6j2Zf0qhFpb-buHlUR4nayk79dLskY=.id": 1,
+    "bu1aAc=.id": 1,
+    "buAJs707UwtC3sQ9fjCdNhW74jcDKR5PZ8hcjMjH7Y=.id": 1
+  }
+}

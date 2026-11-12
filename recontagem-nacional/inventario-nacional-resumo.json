@@ -1,0 +1,63 @@
+{
+  "abrangencias": 28,
+  "bytes_zip": 124136069320,
+  "entries": 2496140,
+  "types": {
+    "leiame.pdf": {
+      "count": 28,
+      "compressed": 8375976,
+      "uncompressed": 8695288
+    },
+    "vota.vsc": {
+      "count": 499178,
+      "compressed": 30552478198,
+      "uncompressed": 31232235447
+    },
+    "bu.dat": {
+      "count": 499178,
+      "compressed": 396119185,
+      "uncompressed": 495428561
+    },
+    "rdv.dat": {
+      "count": 499207,
+      "compressed": 139985863,
+      "uncompressed": 1383560347
+    },
+    "imgbu.dat": {
+      "count": 499178,
+      "compressed": 2202260210,
+      "uncompressed": 2961040372
+    },
+    "log.jez": {
+      "count": 499178,
+      "compressed": 90356468723,
+      "uncompressed": 90350717682
+    },
+    "auxiliar.id": {
+      "count": 77,
+      "compressed": 3619,
+      "uncompressed": 3619
+    },
+    "sa.vsc": {
+      "count": 29,
+      "compressed": 1041175,
+      "uncompressed": 1071677
+    },
+    "busa.dat": {
+      "count": 29,
+      "compressed": 18270,
+      "uncompressed": 23141
+    },
+    "imgbusa.dat": {
+      "count": 29,
+      "compressed": 122258,
+      "uncompressed": 162580
+    },
+    "logsa.jez": {
+      "count": 29,
+      "compressed": 1242007,
+      "uncompressed": 1243560
+    }
+  },
+  "duplicatas": 0
+}

@@ -1,0 +1,51 @@
+{
+  "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/arqurnatot/bu_imgbu_logjez_rdv_vscmr_2026_2t_AC.zip",
+  "tecnica": "HTTP Range: diretório ZIP e quatro entradas; pacote estadual não baixado integralmente.",
+  "data_consulta": "2026-11-06 America/Sao_Paulo",
+  "tamanho_zip_estadual": 512147002,
+  "headers": {
+    "Accept-Ranges": "bytes",
+    "Access-Control-Allow-Origin": "*",
+    "Content-Type": "application/zip",
+    "Access-Control-Allow-Headers": "*",
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS, DELETE",
+    "Last-Modified": "Mon, 26 Oct 2026 19:56:12 GMT",
+    "ETag": "\"1e86be3a-65ec3b8c7cf00\"",
+    "Cache-Control": "max-age=27725",
+    "Date": "Sat, 07 Nov 2026 01:08:43 GMT",
+    "Content-Range": "bytes 0-1023/512147002",
+    "Content-Length": "1024",
+    "Connection": "close",
+    "Alt-Svc": "h3=\":443\"; ma=93600"
+  },
+  "arquivos": [
+    {
+      "filename": "o03221ac0100700090001-bu.dat",
+      "size": 1533,
+      "crc_verified": true,
+      "source_zip": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/arqurnatot/bu_imgbu_logjez_rdv_vscmr_2026_2t_AC.zip",
+      "range_start": 360598
+    },
+    {
+      "filename": "o03221ac0100700090001-rdv.dat",
+      "size": 4461,
+      "crc_verified": true,
+      "source_zip": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/arqurnatot/bu_imgbu_logjez_rdv_vscmr_2026_2t_AC.zip",
+      "range_start": 361910
+    },
+    {
+      "filename": "o03221ac0100700090001-log.jez",
+      "size": 176751,
+      "crc_verified": true,
+      "source_zip": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/arqurnatot/bu_imgbu_logjez_rdv_vscmr_2026_2t_AC.zip",
+      "range_start": 367076
+    },
+    {
+      "filename": "o03221ac0100700090001-vota.vsc",
+      "size": 62605,
+      "crc_verified": true,
+      "source_zip": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/arqurnatot/bu_imgbu_logjez_rdv_vscmr_2026_2t_AC.zip",
+      "range_start": 299210
+    }
+  ]
+}

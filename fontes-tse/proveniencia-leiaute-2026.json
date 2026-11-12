@@ -1,0 +1,20 @@
+{
+  "rdv.asn1": {
+    "bytes": 15274,
+    "sha256": "282dcde0c7ba1f1bb128fe27443ad8d18f7490416c9546d033910a7ec557a465"
+  },
+  "bu.asn1": {
+    "bytes": 24450,
+    "sha256": "ef64bf723f774403b423ed0b617f5a83a3f50c0023d0003e18cd29170404ab81"
+  },
+  "assinatura.asn1": {
+    "bytes": 5325,
+    "sha256": "86a0edf579b91e0a6df9f0981521e0229f41cb6cab0ed8a66d8a56f68c1f396f"
+  },
+  "zip_oficial": {
+    "bytes": 1265306,
+    "sha256": "b5ac413e81121d53de2bb1657af611f84a45fdc84388e9d9821872994bbfbafd",
+    "url": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/formato-arquivos-de-bu-rdv-e-assinatura-digital",
+    "obtencao": "Chrome, 2026-11-06 America/Sao_Paulo"
+  }
+}

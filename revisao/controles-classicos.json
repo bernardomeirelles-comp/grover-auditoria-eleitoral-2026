@@ -1,0 +1,18 @@
+[
+  {
+    "control": "um_voto_a_mais",
+    "rejected": true
+  },
+  {
+    "control": "troca_de_categoria_preservando_total",
+    "rejected": true
+  },
+  {
+    "control": "identificacao_de_secao_incorreta",
+    "rejected": true
+  },
+  {
+    "control": "cargo_presidencial_ausente",
+    "rejected": true
+  }
+]

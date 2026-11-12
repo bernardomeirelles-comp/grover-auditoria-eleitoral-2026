@@ -1,0 +1,350 @@
+{
+  "o03221zz2956400010091-busa.dat": {
+    "cabecalho": {
+      "dataGeracao": "20261025T191739",
+      "idEleitoral": [
+        "idPleito",
+        3221
+      ]
+    },
+    "fase": "oficial",
+    "urna": {
+      "tipoUrna": "contingencia",
+      "versaoVotacao": "10.23.0.0 - Praia da Barra do Cahy",
+      "correspondenciaResultado": {
+        "identificacao": [
+          "identificacaoSecaoEleitoral",
+          {
+            "municipioZona": {
+              "municipio": 29564,
+              "zona": 1
+            },
+            "local": 1,
+            "secao": 91
+          }
+        ],
+        "carga": {
+          "numeroInternoUrna": 1808076,
+          "numeroSerieFC": "b'G\\x0e\\x04\\xfb'",
+          "identificadorGeradorMidia": {
+            "nome": "ZZZ001WKS51",
+            "serialCertificadoTPM": "57BDD1E752507D25FC4F",
+            "serialInstalacao": "1F811B4D"
+          },
+          "dataHoraCarga": "20260918T151700",
+          "codigoCarga": "723283724025687430931213"
+        }
+      },
+      "tipoArquivo": "saManual",
+      "numeroSerieFV": "b'\\x00\\x00\\x00\\x00'",
+      "motivoUtilizacaoSA": [
+        "apuracaoTotalmenteManual",
+        {
+          "tipoapuracao": "totalmenteManual",
+          "motivoApuracao": "outros"
+        }
+      ]
+    },
+    "identificacaoSecao": {
+      "municipioZona": {
+        "municipio": 29564,
+        "zona": 1
+      },
+      "local": 1,
+      "secao": 91
+    },
+    "dataHoraEmissao": "20261025T191645",
+    "dadosSecaoSA": [
+      "dadosSA",
+      {
+        "juntaApuradora": 1,
+        "turmaApuradora": 1
+      }
+    ],
+    "qtdEleitoresCompareceram": 0,
+    "resultadosVotacaoPorEleicao": [
+      {
+        "idEleicao": 6258,
+        "qtdEleitoresAptos": 72,
+        "qtdEleitoresAptosSecao": 72,
+        "qtdEleitoresAptosTTE": 0,
+        "resultadosVotacao": [
+          {
+            "tipoCargo": "majoritario",
+            "qtdComparecimento": 0,
+            "totaisVotosCargo": [
+              {
+                "codigoCargo": [
+                  "cargoConstitucional",
+                  "presidente"
+                ],
+                "ordemImpressao": 1,
+                "votosVotaveis": []
+              }
+            ]
+          }
+        ],
+        "ultimoHashVotosVotavel": "b'k\\xcd\\xcd\\xfc\\x9a\\x0b\\x86J/\\x98\\x1b\\xd8\\x13\\x02\\tl\\x18\\xc1tv\\xc4\\x8bI\\x88T\\x01\\x9c\\xb5gK\\x85\\xad\\xe8\\xccm<\\x1c\\x01\\xd4Dv)\\xba\\x98\\xcct\\x9b0\\xda\\xf6\\x1dd\\x0f`R\\x94\\xfb\\xde\\xf9\\xcd>L\\x12\\xf9'",
+        "assinaturaUltimoHashVotosVotavel": "b'0\\x81\\x88\\x02B\\x01r`89\\xd8\\xb5Ax\\x10\\x80\\x18\\xden`\\xffA\\rh\\xe7]b\\x0b-\\x19\\x89\\xd3\\xea\\xe0\\xfe\\xb2\\x0cE?tX\\xd4\\x90\\xf7\"\\x84\\x06k0\\xde/\\x9b7\\x96?\\xfb\\xa7\\x80\\xea\\xd4\\xa9Gf\\xfe\\x8e*\\x10#\\x9d<1\\x02B\\x00\\x8fT\\xd8\\xff\\xf9\\xe7\\x14\\xc9\\x8c\\xb7*\\xb2\\xd7\\x04b\\xcf\\xf2\\xfa\\xa9\\x8c\\xd32?\\xcc+\\xce*\\xde&\\xb8/1\\xaaQ$\\x05f\\xfbU\\xf9\\x00+\\x15W\\xfa\\xa6\\xd2[)2\\x8a\\xa10\\xfd\\x8b\\xfdb7\\xf7\\xa9\\x0f\\x8b\\xf4\\xef?'"
+      }
+    ],
+    "historicoCodigosCarga": [
+      "723283724025687430931213"
+    ]
+  },
+  "o03221zz2956400010091-rdv.dat": {
+    "cabecalho": {
+      "dataGeracao": "20261025T191739",
+      "idEleitoral": [
+        "idPleito",
+        3221
+      ]
+    },
+    "urna": {
+      "tipoUrna": "contingencia",
+      "versaoVotacao": "10.23.0.0 - Praia da Barra do Cahy",
+      "correspondenciaResultado": {
+        "identificacao": [
+          "identificacaoSecaoEleitoral",
+          {
+            "municipioZona": {
+              "municipio": 29564,
+              "zona": 1
+            },
+            "local": 1,
+            "secao": 91
+          }
+        ],
+        "carga": {
+          "numeroInternoUrna": 1808076,
+          "numeroSerieFC": "b'G\\x0e\\x04\\xfb'",
+          "identificadorGeradorMidia": {
+            "nome": "ZZZ001WKS51",
+            "serialCertificadoTPM": "57BDD1E752507D25FC4F",
+            "serialInstalacao": "1F811B4D"
+          },
+          "dataHoraCarga": "20260918T151700",
+          "codigoCarga": "723283724025687430931213"
+        }
+      },
+      "tipoArquivo": "saManual",
+      "numeroSerieFV": "b'\\x00\\x00\\x00\\x00'",
+      "motivoUtilizacaoSA": [
+        "apuracaoTotalmenteManual",
+        {
+          "tipoapuracao": "totalmenteManual",
+          "motivoApuracao": "outros"
+        }
+      ]
+    },
+    "rdv": {
+      "pleito": 3221,
+      "fase": "oficial",
+      "identificacao": {
+        "municipioZona": {
+          "municipio": 29564,
+          "zona": 1
+        },
+        "local": 1,
+        "secao": 91
+      },
+      "historicoCodigosCarga": [
+        "723283724025687430931213"
+      ],
+      "eleicoes": [
+        "eleicoesSA",
+        [
+          {
+            "idEleicao": 6258,
+            "tipoCedulaSA": "majoritario",
+            "origemVotosSA": "cedula",
+            "votosCargos": [
+              {
+                "idCargo": [
+                  "cargoConstitucional",
+                  "presidente"
+                ],
+                "quantidadeEscolhas": 1,
+                "votos": []
+              }
+            ]
+          }
+        ]
+      ]
+    }
+  },
+  "o03221zz3068600010443-busa.dat": {
+    "cabecalho": {
+      "dataGeracao": "20261025T184014",
+      "idEleitoral": [
+        "idPleito",
+        3221
+      ]
+    },
+    "fase": "oficial",
+    "urna": {
+      "tipoUrna": "contingencia",
+      "versaoVotacao": "10.23.0.0 - Praia da Barra do Cahy",
+      "correspondenciaResultado": {
+        "identificacao": [
+          "identificacaoSecaoEleitoral",
+          {
+            "municipioZona": {
+              "municipio": 30686,
+              "zona": 1
+            },
+            "local": 1,
+            "secao": 443
+          }
+        ],
+        "carga": {
+          "numeroInternoUrna": 1808076,
+          "numeroSerieFC": "b'G\\x0e\\x04\\xfb'",
+          "identificadorGeradorMidia": {
+            "nome": "ZZZ001WKS51",
+            "serialCertificadoTPM": "57BDD1E752507D25FC4F",
+            "serialInstalacao": "1F811B4D"
+          },
+          "dataHoraCarga": "20260918T151700",
+          "codigoCarga": "723283724025687430931213"
+        }
+      },
+      "tipoArquivo": "saManual",
+      "numeroSerieFV": "b'\\x00\\x00\\x00\\x00'",
+      "motivoUtilizacaoSA": [
+        "apuracaoTotalmenteManual",
+        {
+          "tipoapuracao": "totalmenteManual",
+          "motivoApuracao": "outros"
+        }
+      ]
+    },
+    "identificacaoSecao": {
+      "municipioZona": {
+        "municipio": 30686,
+        "zona": 1
+      },
+      "local": 1,
+      "secao": 443
+    },
+    "dataHoraEmissao": "20261025T183917",
+    "dadosSecaoSA": [
+      "dadosSA",
+      {
+        "juntaApuradora": 1,
+        "turmaApuradora": 1
+      }
+    ],
+    "qtdEleitoresCompareceram": 0,
+    "resultadosVotacaoPorEleicao": [
+      {
+        "idEleicao": 6258,
+        "qtdEleitoresAptos": 30,
+        "qtdEleitoresAptosSecao": 30,
+        "qtdEleitoresAptosTTE": 0,
+        "resultadosVotacao": [
+          {
+            "tipoCargo": "majoritario",
+            "qtdComparecimento": 0,
+            "totaisVotosCargo": [
+              {
+                "codigoCargo": [
+                  "cargoConstitucional",
+                  "presidente"
+                ],
+                "ordemImpressao": 1,
+                "votosVotaveis": []
+              }
+            ]
+          }
+        ],
+        "ultimoHashVotosVotavel": "b\"Bz&\\xd9\\xba\\xabk!H\\xf8@SS\\xc6;|\\x96\\x7f\\x14\\x81\\xf1o\\xc1\\xdc\\xd3\\x8f\\xdb`\\x15S\\x0ee\\xd3\\x92\\xe3\\xd4\\x18\\x87\\xbfw\\xdc\\xad\\xd1\\x04\\x99N\\xbdx\\xb8c'\\xb1\\xd3g` =\\xc2\\xfb>9\\xc1*\\xbc\"",
+        "assinaturaUltimoHashVotosVotavel": "b'0\\x81\\x88\\x02B\\x00\\xaf\\xa3\\xe3\\x1c\\x7fl`\\x89\\x08B\\x1ag\\x0c\\xb3G\\xdc\\x8bH9aA\\x87\\n:\\xa8\\x85s\\n\\x12| \\x1a\\xa0\\xb8\\x14W\\xfdi\\xfd}\\xd7_o\\x0b\\r\\xf81c\\xdeM\\xe5OO_\\xd5&\\xb0\\x87`dH\\x908j\\x18\\x02B\\x01.1t\\x9b\\xc4\\xa6\\xcd\\x18\\xc1\\xf5\\xcb\\x92\\xa4\\xaa>X\\xe3p*(:{\\x9abA{j\\xe1\\xe1\\xc9I\\xf8\\x07\\xf6P\\xa31\\x19\\x9e \\xbd\\x1a\\xa5K\\xcef\\xb8rM\\xe5\\xa5\\xc5\\xab|\\xe7Qz<:\\xa1\\x141 \\x93!'"
+      }
+    ],
+    "historicoCodigosCarga": [
+      "723283724025687430931213"
+    ]
+  },
+  "o03221zz3068600010443-rdv.dat": {
+    "cabecalho": {
+      "dataGeracao": "20261025T184014",
+      "idEleitoral": [
+        "idPleito",
+        3221
+      ]
+    },
+    "urna": {
+      "tipoUrna": "contingencia",
+      "versaoVotacao": "10.23.0.0 - Praia da Barra do Cahy",
+      "correspondenciaResultado": {
+        "identificacao": [
+          "identificacaoSecaoEleitoral",
+          {
+            "municipioZona": {
+              "municipio": 30686,
+              "zona": 1
+            },
+            "local": 1,
+            "secao": 443
+          }
+        ],
+        "carga": {
+          "numeroInternoUrna": 1808076,
+          "numeroSerieFC": "b'G\\x0e\\x04\\xfb'",
+          "identificadorGeradorMidia": {
+            "nome": "ZZZ001WKS51",
+            "serialCertificadoTPM": "57BDD1E752507D25FC4F",
+            "serialInstalacao": "1F811B4D"
+          },
+          "dataHoraCarga": "20260918T151700",
+          "codigoCarga": "723283724025687430931213"
+        }
+      },
+      "tipoArquivo": "saManual",
+      "numeroSerieFV": "b'\\x00\\x00\\x00\\x00'",
+      "motivoUtilizacaoSA": [
+        "apuracaoTotalmenteManual",
+        {
+          "tipoapuracao": "totalmenteManual",
+          "motivoApuracao": "outros"
+        }
+      ]
+    },
+    "rdv": {
+      "pleito": 3221,
+      "fase": "oficial",
+      "identificacao": {
+        "municipioZona": {
+          "municipio": 30686,
+          "zona": 1
+        },
+        "local": 1,
+        "secao": 443
+      },
+      "historicoCodigosCarga": [
+        "723283724025687430931213"
+      ],
+      "eleicoes": [
+        "eleicoesSA",
+        [
+          {
+            "idEleicao": 6258,
+            "tipoCedulaSA": "majoritario",
+            "origemVotosSA": "cedula",
+            "votosCargos": [
+              {
+                "idCargo": [
+                  "cargoConstitucional",
+                  "presidente"
+                ],
+                "quantidadeEscolhas": 1,
+                "votos": []
+              }
+            ]
+          }
+        ]
+      ]
+    }
+  }
+}

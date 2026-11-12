@@ -1,0 +1,14 @@
+{
+  "width_inches": 6.95,
+  "height_inches": 3.3,
+  "blocks_observed": [
+    1,
+    2,
+    3
+  ],
+  "shots_per_target_variant": 1536,
+  "confidence_intervals": "marginal Wilson 95%; no block-drift adjustment",
+  "complete_design": true,
+  "hollow_markers": "individual blocks if more than one",
+  "source_sha256": "a982e15dc0133d983362e0237ac6df39aa333b6bb9e5d79dba257ba527494003"
+}

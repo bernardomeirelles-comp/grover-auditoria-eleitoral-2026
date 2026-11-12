@@ -1,0 +1,56 @@
+[
+  {
+    "nome_previsto": "avaliadora-final.pdf",
+    "url": "https://www.tse.jus.br/eleicoes/arquivos/tpu-relatorio-final-da-comissao-avaliadora/@@display-file/file/final-relatorio-comissao-avaliadora.pdf",
+    "acesso": "2026-11-06 America/Sao_Paulo",
+    "status": "HTTP 403 no download direto; documento listado no portal oficial, conteúdo não lido",
+    "baixado": false,
+    "sha256": null
+  },
+  {
+    "nome_previsto": "reguladora-final.pdf",
+    "url": "https://www.tse.jus.br/eleicoes/arquivos/tse-relatorio-final-da-comissao-reguladora-2026",
+    "acesso": "2026-11-06 America/Sao_Paulo",
+    "status": "HTTP 403 no download direto; documento listado no portal oficial, conteúdo não lido",
+    "baixado": false,
+    "sha256": null
+  },
+  {
+    "nome_previsto": "compendio-tpu2025.pdf",
+    "url": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/compendio-teste-publico-de-seguranca-dos-sistemas-eleitorais-de-2025-teste-publico-da-urna",
+    "acesso": "2026-11-06 America/Sao_Paulo",
+    "status": "HTTP 403 no download direto; documento listado no portal oficial, conteúdo não lido",
+    "baixado": false,
+    "sha256": null
+  },
+  {
+    "arquivo": "ata-auditoria-tse-2510.pdf",
+    "url": "https://www.tre-df.jus.br/eleicoes/arquivos-eleicoes-2026/ata-auditoria-tse-2510/@@display-file/file/ata-auditoria-tse-2510.pdf",
+    "acesso": "2026-11-06 America/Sao_Paulo",
+    "metodo": "download via Chrome pelo coordenador; cópia local e leitura visual de todas as páginas pelo revisor",
+    "paginas": 5,
+    "baixado": true,
+    "bytes": 6498159,
+    "sha256": "a582afb09f707ae48b4e1f1f637ae6e88b567e5ee4fc5685c89f15a711665170"
+  },
+  {
+    "arquivo": "ata-tse-escola-canadense-2510-secao-229_redacado.pdf",
+    "url": "https://www.tre-df.jus.br/eleicoes/arquivos-eleicoes-2026/ata-tse-escola-canadense-2510-secao-229/@@display-file/file/ata-tse-escola-canadense-2510-secao-229_redacado.pdf",
+    "acesso": "2026-11-06 America/Sao_Paulo",
+    "metodo": "download via Chrome pelo coordenador; cópia local e leitura visual de todas as páginas pelo revisor",
+    "paginas": 2,
+    "baixado": true,
+    "bytes": 1632339,
+    "sha256": "69d0bd118426beb53223f1f4bc6638286fa2c0afac66d3f325130a5e5beee72c"
+  },
+  {
+    "arquivo": "ata-teste-de-integridade-2510-cldf.pdf",
+    "url": "https://www.tre-df.jus.br/eleicoes/arquivos-eleicoes-2026/ata-auditoria-cldf-25-10/@@display-file/file/ata-teste-de-integridade-2510-cldf.pdf",
+    "acesso": "2026-11-06 America/Sao_Paulo",
+    "metodo": "download via Chrome pelo coordenador; cópia local e leitura visual de todas as páginas pelo revisor",
+    "paginas": 7,
+    "baixado": true,
+    "bytes": 8944156,
+    "sha256": "fd19cafa0830e05fcab5b982cff94fc9a85ff489b22f93654563c12482b17446"
+  }
+]

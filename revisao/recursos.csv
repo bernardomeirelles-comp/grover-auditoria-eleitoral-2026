@@ -1,0 +1,13 @@
+variant,target,qubits,cx,u,depth
+original,0,5,81,98,123
+cancelado,0,5,22,35,35
+gray_cancelado,0,5,22,31,36
+original,1,5,51,64,80
+cancelado,1,5,48,61,77
+gray_cancelado,1,5,21,32,33
+original,2,5,60,63,84
+cancelado,2,5,20,33,32
+gray_cancelado,2,5,20,33,32
+original,3,5,73,80,105
+cancelado,3,5,30,44,52
+gray_cancelado,3,5,18,30,32

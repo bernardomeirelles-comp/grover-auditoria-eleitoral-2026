@@ -1,0 +1,368 @@
+{
+  "job": "dbqggnfv5hds73dg1q00",
+  "block": 1,
+  "created_utc": "2026-11-12T00:29:17.512014Z",
+  "active_physical_qubits": [
+    20,
+    21,
+    22,
+    23,
+    36
+  ],
+  "full_operations": {
+    "sx": 695,
+    "cz": 694,
+    "rz": 605,
+    "rx": 403,
+    "reset": 60,
+    "barrier": 24,
+    "measure": 24,
+    "x": 4
+  },
+  "full_depth": 1569,
+  "full_ideal_sequence_counts": {
+    "00 00 00 01 11 10 01 10 10 11 01 11": 32
+  },
+  "segments": [
+    {
+      "register": "r00",
+      "experiment": "original_11",
+      "physical_measurement_map": {
+        "0": 21,
+        "1": 36
+      },
+      "ideal_distribution": [
+        -2.296035273003645e-16,
+        -3.400058012914542e-16,
+        -2.8560934506474713e-16,
+        0.9999999999999997
+      ],
+      "operations": {
+        "cz": 136,
+        "sx": 129,
+        "rz": 115,
+        "rx": 76,
+        "reset": 5,
+        "measure": 2,
+        "barrier": 1
+      },
+      "model_distribution": [
+        0.11261276558636711,
+        0.14350662085536853,
+        0.1280647827984664,
+        0.6158157242780513
+      ]
+    },
+    {
+      "register": "r01",
+      "experiment": "controle_01",
+      "physical_measurement_map": {
+        "0": 21,
+        "1": 36
+      },
+      "ideal_distribution": [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "operations": {
+        "reset": 5,
+        "barrier": 2,
+        "measure": 2,
+        "x": 1
+      },
+      "model_distribution": [
+        0.014523637981726312,
+        0.9600857370182735,
+        0.0003783713301852546,
+        0.02501225366981474
+      ]
+    },
+    {
+      "register": "r02",
+      "experiment": "gray_cancelado_11",
+      "physical_measurement_map": {
+        "0": 36,
+        "1": 21
+      },
+      "ideal_distribution": [
+        -9.974883317793166e-17,
+        -1.3403823275754874e-16,
+        -6.760994395133831e-17,
+        1.0000000000000002
+      ],
+      "operations": {
+        "sx": 39,
+        "cz": 39,
+        "rz": 35,
+        "rx": 27,
+        "reset": 5,
+        "barrier": 2,
+        "measure": 2
+      },
+      "model_distribution": [
+        0.03489762229578547,
+        0.05017637983978246,
+        0.09164484872600348,
+        0.8232811150174892
+      ]
+    },
+    {
+      "register": "r03",
+      "experiment": "controle_10",
+      "physical_measurement_map": {
+        "0": 36,
+        "1": 21
+      },
+      "ideal_distribution": [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "operations": {
+        "reset": 5,
+        "barrier": 2,
+        "measure": 2,
+        "x": 1
+      },
+      "model_distribution": [
+        0.014523637981726312,
+        0.0003783713301852546,
+        0.9600857370182736,
+        0.025012253669814744
+      ]
+    },
+    {
+      "register": "r04",
+      "experiment": "gray_cancelado_10",
+      "physical_measurement_map": {
+        "0": 20,
+        "1": 21
+      },
+      "ideal_distribution": [
+        -1.8214596497756474e-17,
+        -4.83787511686307e-17,
+        0.9999999999999994,
+        -2.11179248924399e-16
+      ],
+      "operations": {
+        "sx": 44,
+        "cz": 44,
+        "rz": 41,
+        "rx": 31,
+        "reset": 5,
+        "barrier": 2,
+        "measure": 2
+      },
+      "model_distribution": [
+        0.06020313914633056,
+        0.033780573338198554,
+        0.8554766169186704,
+        0.05053963537848176
+      ]
+    },
+    {
+      "register": "r05",
+      "experiment": "original_01",
+      "physical_measurement_map": {
+        "0": 22,
+        "1": 23
+      },
+      "ideal_distribution": [
+        -2.461986777356548e-16,
+        0.9999999999999996,
+        -3.978147687183524e-16,
+        -4.457331527633668e-17
+      ],
+      "operations": {
+        "sx": 126,
+        "cz": 114,
+        "rz": 93,
+        "rx": 58,
+        "reset": 5,
+        "barrier": 2,
+        "measure": 2
+      },
+      "model_distribution": [
+        0.1195711056073902,
+        0.6377802993164883,
+        0.0959121572961074,
+        0.14673633902447392
+      ]
+    },
+    {
+      "register": "r06",
+      "experiment": "original_10",
+      "physical_measurement_map": {
+        "0": 21,
+        "1": 22
+      },
+      "ideal_distribution": [
+        -2.3184931348410145e-16,
+        -2.6795239589276696e-16,
+        0.9999999999999996,
+        -2.0649447478688968e-16
+      ],
+      "operations": {
+        "sx": 142,
+        "cz": 129,
+        "rz": 113,
+        "rx": 62,
+        "reset": 5,
+        "barrier": 2,
+        "measure": 2
+      },
+      "model_distribution": [
+        0.1486582604572821,
+        0.10620996544101641,
+        0.6241874912827239,
+        0.1209441786416902
+      ]
+    },
+    {
+      "register": "r07",
+      "experiment": "controle_11",
+      "physical_measurement_map": {
+        "0": 21,
+        "1": 22
+      },
+      "ideal_distribution": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "operations": {
+        "reset": 5,
+        "barrier": 2,
+        "x": 2,
+        "measure": 2
+      },
+      "model_distribution": [
+        0.0003252383054567962,
+        0.021499892698643747,
+        0.014576771006454771,
+        0.9635980979894445
+      ]
+    },
+    {
+      "register": "r08",
+      "experiment": "gray_cancelado_01",
+      "physical_measurement_map": {
+        "0": 21,
+        "1": 20
+      },
+      "ideal_distribution": [
+        4.336808689942055e-18,
+        0.9999999999999998,
+        -1.6566609195578508e-16,
+        -1.361757928641794e-16
+      ],
+      "operations": {
+        "rz": 37,
+        "cz": 36,
+        "rx": 30,
+        "sx": 30,
+        "reset": 5,
+        "barrier": 2,
+        "measure": 2
+      },
+      "model_distribution": [
+        0.04549812132939202,
+        0.871466956648217,
+        0.025494240378097013,
+        0.05754065306200744
+      ]
+    },
+    {
+      "register": "r09",
+      "experiment": "gray_cancelado_00",
+      "physical_measurement_map": {
+        "0": 21,
+        "1": 20
+      },
+      "ideal_distribution": [
+        0.9999999999999999,
+        -1.2098684007894348e-16,
+        -1.1367590680685674e-16,
+        -4.85823796977894e-17
+      ],
+      "operations": {
+        "rz": 41,
+        "cz": 40,
+        "sx": 35,
+        "rx": 29,
+        "reset": 5,
+        "barrier": 2,
+        "measure": 2
+      },
+      "model_distribution": [
+        0.8509398073292285,
+        0.050746762805794786,
+        0.06080954742241828,
+        0.03750384958197632
+      ]
+    },
+    {
+      "register": "r10",
+      "experiment": "controle_00",
+      "physical_measurement_map": {
+        "0": 21,
+        "1": 20
+      },
+      "ideal_distribution": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "operations": {
+        "reset": 5,
+        "barrier": 2,
+        "measure": 2
+      },
+      "model_distribution": [
+        0.9951171875,
+        0.0048828125,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "register": "r11",
+      "experiment": "original_00",
+      "physical_measurement_map": {
+        "0": 21,
+        "1": 22
+      },
+      "ideal_distribution": [
+        0.9999999999999994,
+        -9.92651173392936e-17,
+        8.673617379884035e-17,
+        -2.0431149095664762e-16
+      ],
+      "operations": {
+        "cz": 156,
+        "sx": 150,
+        "rz": 130,
+        "rx": 90,
+        "reset": 5,
+        "barrier": 2,
+        "measure": 2
+      },
+      "model_distribution": [
+        0.5935677993427642,
+        0.13543549308891192,
+        0.15061627340386718,
+        0.12038030700437535
+      ]
+    }
+  ],
+  "input_hashes": {
+    "job-dbqggnfv5hds73dg1q00-info.json": "9365ac5fd689c36ce85ad1c69afbbf6776fd24e17763ab15737e6cbb4a99f0c8",
+    "job-dbqggnfv5hds73dg1q00-result.json": "ff64a6bd15f4bc30a0c8f9ae9ca07e475ed136d063ea64950616acab565f78a3"
+  },
+  "decoder": "base64 -> zlib -> numpy.unpackbits big-endian -> shape(512,2), c1c0"
+}

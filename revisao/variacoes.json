@@ -1,0 +1,199 @@
+{
+  "executed_utc": "2026-11-12T01:23:54.350238+00:00",
+  "analysis": "additional_exploratory_cases_after_primary_local_analysis",
+  "noise": 0.003,
+  "deltas": [
+    -10,
+    -2,
+    1,
+    10,
+    100
+  ],
+  "variants": [
+    "original",
+    "gray_cancelado"
+  ],
+  "basis_gates": [
+    "u",
+    "cx"
+  ],
+  "optimization_level": 3,
+  "seed_transpiler": 20261111,
+  "simulation": "density_matrix_probabilities_without_shot_sampling",
+  "cases": 19,
+  "circuits": 38,
+  "skipped": [
+    {
+      "target": 2,
+      "delta": -10,
+      "reason": "negative_count"
+    }
+  ],
+  "outcomes": {
+    "better": 19,
+    "equal": 0,
+    "worse": 0
+  },
+  "comparisons": [
+    {
+      "target": 0,
+      "delta": -10,
+      "original_p": 0.8354490737611094,
+      "gray_cancelado_p": 0.9561455885672061,
+      "difference": 0.12069651480609667,
+      "outcome": "better"
+    },
+    {
+      "target": 0,
+      "delta": -2,
+      "original_p": 0.8354490737611094,
+      "gray_cancelado_p": 0.9561455885672061,
+      "difference": 0.12069651480609667,
+      "outcome": "better"
+    },
+    {
+      "target": 0,
+      "delta": 1,
+      "original_p": 0.8387218619981449,
+      "gray_cancelado_p": 0.9542137058524659,
+      "difference": 0.11549184385432099,
+      "outcome": "better"
+    },
+    {
+      "target": 0,
+      "delta": 10,
+      "original_p": 0.8387218619981449,
+      "gray_cancelado_p": 0.9542137058524659,
+      "difference": 0.11549184385432099,
+      "outcome": "better"
+    },
+    {
+      "target": 0,
+      "delta": 100,
+      "original_p": 0.9194303864381942,
+      "gray_cancelado_p": 0.9218274360384916,
+      "difference": 0.0023970496002974073,
+      "outcome": "better"
+    },
+    {
+      "target": 1,
+      "delta": -10,
+      "original_p": 0.8949272264967192,
+      "gray_cancelado_p": 0.9598707576552219,
+      "difference": 0.06494353115850271,
+      "outcome": "better"
+    },
+    {
+      "target": 1,
+      "delta": -2,
+      "original_p": 0.8949272264967192,
+      "gray_cancelado_p": 0.9598707576552219,
+      "difference": 0.06494353115850271,
+      "outcome": "better"
+    },
+    {
+      "target": 1,
+      "delta": 1,
+      "original_p": 0.8924959902736938,
+      "gray_cancelado_p": 0.9598707576552219,
+      "difference": 0.06737476738152814,
+      "outcome": "better"
+    },
+    {
+      "target": 1,
+      "delta": 10,
+      "original_p": 0.8924959902736938,
+      "gray_cancelado_p": 0.9598707576552219,
+      "difference": 0.06737476738152814,
+      "outcome": "better"
+    },
+    {
+      "target": 1,
+      "delta": 100,
+      "original_p": 0.8924959902736938,
+      "gray_cancelado_p": 0.9598707576552219,
+      "difference": 0.06737476738152814,
+      "outcome": "better"
+    },
+    {
+      "target": 2,
+      "delta": -2,
+      "original_p": 0.8782206451544665,
+      "gray_cancelado_p": 0.9587422272960985,
+      "difference": 0.08052158214163196,
+      "outcome": "better"
+    },
+    {
+      "target": 2,
+      "delta": 1,
+      "original_p": 0.8775257830000611,
+      "gray_cancelado_p": 0.9617272673850494,
+      "difference": 0.08420148438498831,
+      "outcome": "better"
+    },
+    {
+      "target": 2,
+      "delta": 10,
+      "original_p": 0.8775257830000611,
+      "gray_cancelado_p": 0.9617272673850494,
+      "difference": 0.08420148438498831,
+      "outcome": "better"
+    },
+    {
+      "target": 2,
+      "delta": 100,
+      "original_p": 0.8672277763613778,
+      "gray_cancelado_p": 0.9600616539695168,
+      "difference": 0.09283387760813899,
+      "outcome": "better"
+    },
+    {
+      "target": 3,
+      "delta": -10,
+      "original_p": 0.8527074404352081,
+      "gray_cancelado_p": 0.965306429391591,
+      "difference": 0.11259898895638287,
+      "outcome": "better"
+    },
+    {
+      "target": 3,
+      "delta": -2,
+      "original_p": 0.8527074404352081,
+      "gray_cancelado_p": 0.965306429391591,
+      "difference": 0.11259898895638287,
+      "outcome": "better"
+    },
+    {
+      "target": 3,
+      "delta": 1,
+      "original_p": 0.8523759224706682,
+      "gray_cancelado_p": 0.965306429391591,
+      "difference": 0.11293050692092277,
+      "outcome": "better"
+    },
+    {
+      "target": 3,
+      "delta": 10,
+      "original_p": 0.8523759224706682,
+      "gray_cancelado_p": 0.965306429391591,
+      "difference": 0.11293050692092277,
+      "outcome": "better"
+    },
+    {
+      "target": 3,
+      "delta": 100,
+      "original_p": 0.8456391224660613,
+      "gray_cancelado_p": 0.9386114220954778,
+      "difference": 0.09297229962941644,
+      "outcome": "better"
+    }
+  ],
+  "source_sha256": {
+    "testar-variacoes.py": "eff0d35a1eeef4869a3a149f547115070ce05f7eeed4aaa3c470bc3c1d494b05",
+    "reavaliar.py": "0ec68c2b6f95d46692bfe977ebd87b4c72815b20822d5e90f864a0390b4d9fa1",
+    "experimento.py": "252cc3b9551a08b2b8edf423224ed57df99a46c3017d80bbf6b21e6b35dcbe0a",
+    "dados/entrada.json": "acaa81b9f74fc03bf0247f556d58d330bdd5958488b39c0ed10be13cd531d164",
+    "revisao/protocolo.json": "87adcf3572721952ecaf40be8812658a5d0e9d4d47955403d903c9c1c78e1edd"
+  },
+  "result_sha256": "53742a2de7fe029e23cfc0a6cbbe03b1d517592f20365fdfa101aac3cfb9abba"
+}

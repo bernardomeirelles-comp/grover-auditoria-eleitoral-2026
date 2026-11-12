@@ -1,0 +1,248 @@
+[
+  {
+    "municipio": "29629",
+    "nome": "DACCA",
+    "zona": "0001",
+    "ns": "3014"
+  },
+  {
+    "municipio": "38903",
+    "nome": "CONACRI",
+    "zona": "0001",
+    "ns": "0603"
+  },
+  {
+    "municipio": "99236",
+    "nome": "PUERTO QUIJARRO",
+    "zona": "0001",
+    "ns": "0815"
+  },
+  {
+    "municipio": "29769",
+    "nome": "HARARE",
+    "zona": "0001",
+    "ns": "0126"
+  },
+  {
+    "municipio": "30988",
+    "nome": "SARAJEVO",
+    "zona": "0001",
+    "ns": "0725"
+  },
+  {
+    "municipio": "30988",
+    "nome": "SARAJEVO",
+    "zona": "0001",
+    "ns": "1354"
+  },
+  {
+    "municipio": "38989",
+    "nome": "IEREVAN",
+    "zona": "0001",
+    "ns": "1841"
+  },
+  {
+    "municipio": "39128",
+    "nome": "BAKU",
+    "zona": "0001",
+    "ns": "3208"
+  },
+  {
+    "municipio": "99104",
+    "nome": "TBILISI",
+    "zona": "0001",
+    "ns": "1011"
+  },
+  {
+    "municipio": "99147",
+    "nome": "SAINT JOHNS",
+    "zona": "0001",
+    "ns": "3049"
+  },
+  {
+    "municipio": "99171",
+    "nome": "BAGDÁ",
+    "zona": "0001",
+    "ns": "3126"
+  },
+  {
+    "municipio": "99295",
+    "nome": "PYONGYANG",
+    "zona": "0001",
+    "ns": "3485"
+  },
+  {
+    "municipio": "99333",
+    "nome": "ST GEORGES DE LOYAPOCK",
+    "zona": "0001",
+    "ns": "3188"
+  },
+  {
+    "municipio": "29424",
+    "nome": "BRIDGETOWN",
+    "zona": "0001",
+    "ns": "0054"
+  },
+  {
+    "municipio": "29815",
+    "nome": "IAUNDÊ",
+    "zona": "0001",
+    "ns": "0140"
+  },
+  {
+    "municipio": "29831",
+    "nome": "ISLAMABADE",
+    "zona": "0001",
+    "ns": "1983"
+  },
+  {
+    "municipio": "29963",
+    "nome": "LOMÉ",
+    "zona": "0001",
+    "ns": "0180"
+  },
+  {
+    "municipio": "30669",
+    "nome": "GABORONE",
+    "zona": "0001",
+    "ns": "0546"
+  },
+  {
+    "municipio": "99210",
+    "nome": "COBIJA",
+    "zona": "0001",
+    "ns": "3013"
+  },
+  {
+    "municipio": "99341",
+    "nome": "LILONGUE",
+    "zona": "0001",
+    "ns": "1308"
+  },
+  {
+    "municipio": "29521",
+    "nome": "CHUY",
+    "zona": "0001",
+    "ns": "0083"
+  },
+  {
+    "municipio": "38881",
+    "nome": "BELMOPAN",
+    "zona": "0001",
+    "ns": "0548"
+  },
+  {
+    "municipio": "99139",
+    "nome": "TIRANA",
+    "zona": "0001",
+    "ns": "3120"
+  },
+  {
+    "municipio": "99287",
+    "nome": "LUSACA",
+    "zona": "0001",
+    "ns": "1259"
+  },
+  {
+    "municipio": "29939",
+    "nome": "LIBREVILLE",
+    "zona": "0001",
+    "ns": "0152"
+  },
+  {
+    "municipio": "99384",
+    "nome": "CASTRIES",
+    "zona": "0001",
+    "ns": "2876"
+  },
+  {
+    "municipio": "30929",
+    "nome": "COLOMBO",
+    "zona": "0001",
+    "ns": "0722"
+  },
+  {
+    "municipio": "38920",
+    "nome": "COTONOU",
+    "zona": "0001",
+    "ns": "0638"
+  },
+  {
+    "municipio": "99198",
+    "nome": "ABUJA",
+    "zona": "0001",
+    "ns": "2947"
+  },
+  {
+    "municipio": "99244",
+    "nome": "RIVERA",
+    "zona": "0001",
+    "ns": "2917"
+  },
+  {
+    "municipio": "39241",
+    "nome": "ASTANA",
+    "zona": "0001",
+    "ns": "0714"
+  },
+  {
+    "municipio": "39263",
+    "nome": "MALABO",
+    "zona": "0001",
+    "ns": "0961"
+  },
+  {
+    "municipio": "39284",
+    "nome": "UAGADUGU",
+    "zona": "0001",
+    "ns": "0773"
+  },
+  {
+    "municipio": "99325",
+    "nome": "ADIS ABEBA",
+    "zona": "0001",
+    "ns": "3016"
+  },
+  {
+    "municipio": "99376",
+    "nome": "YANGON",
+    "zona": "0001",
+    "ns": "1315"
+  },
+  {
+    "municipio": "29823",
+    "nome": "IQUITOS",
+    "zona": "0001",
+    "ns": "0141"
+  },
+  {
+    "municipio": "29874",
+    "nome": "KINSHASA",
+    "zona": "0001",
+    "ns": "0146"
+  },
+  {
+    "municipio": "39187",
+    "nome": "BRAZZAVILLE",
+    "zona": "0001",
+    "ns": "0624"
+  },
+  {
+    "municipio": "39225",
+    "nome": "SÃO TOMÉ",
+    "zona": "0001",
+    "ns": "0931"
+  },
+  {
+    "municipio": "99279",
+    "nome": "SANTA ELENA DE UAIRÉN",
+    "zona": "0001",
+    "ns": "3698"
+  },
+  {
+    "municipio": "99350",
+    "nome": "BAMAKO",
+    "zona": "0001",
+    "ns": "1236"
+  }
+]

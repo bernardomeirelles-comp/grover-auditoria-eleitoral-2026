@@ -1,0 +1,19 @@
+{
+  "oracle_basis_checks": 708,
+  "input_pairs": 59,
+  "variants": [
+    "original",
+    "cancelado",
+    "gray_cancelado"
+  ],
+  "patterns_checked": 16,
+  "classical_mean_promised_one": 2.25,
+  "threshold_restart_protocol": 0.8888888888888888,
+  "ideal_success_by_m": [
+    0.0,
+    1.0,
+    0.5,
+    0.0,
+    1.0
+  ]
+}

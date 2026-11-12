@@ -1,0 +1,58 @@
+{
+  "revisao-ruido": {
+    "width_inches": 6.95,
+    "height_inches": 3.45,
+    "threshold_percent": 88.88888888888889,
+    "simulation": "density_matrix_exact_probabilities",
+    "confidence_intervals": false,
+    "ideal_separate_from_log_axis": true,
+    "primary_lambda": 0.003,
+    "primary_p_min": {
+      "original": 0.8354490737611094,
+      "cancelado": 0.9015530041630484,
+      "gray_cancelado": 0.9561455885672061
+    }
+  },
+  "ibm-anterior": {
+    "width_inches": 3.4,
+    "height_inches": 2.8,
+    "job": "dbn7m95t7fqc73aj2l80",
+    "shots": 2048,
+    "counts": {
+      "00": 236,
+      "10": 384,
+      "01": 331,
+      "11": 1097
+    },
+    "target": "01",
+    "confidence_intervals": "marginal Wilson 95%, not simultaneous",
+    "wilson95": {
+      "00": [
+        0.1021199980312978,
+        0.12978946884056583
+      ],
+      "01": [
+        0.14631459474473235,
+        0.17819461914131013
+      ],
+      "10": [
+        0.17118653141333245,
+        0.2049835939648309
+      ],
+      "11": [
+        0.5139982722239832,
+        0.55715732285007
+      ]
+    },
+    "ideal_not_plotted_as_observations": true
+  },
+  "source_sha256": {
+    "revisao/resumo.csv": "245b35ee2051ad89df6f735613f8de122cd5b2179867da31df53eaaa53a46d8e",
+    "revisao/probabilidades.csv": "0a8894225384e663f0d465ab3986689f812b491757e16958d191dd979a080d8e",
+    "revisao/protocolo.json": "87adcf3572721952ecaf40be8812658a5d0e9d4d47955403d903c9c1c78e1edd",
+    "revisao/validacao.json": "42d4d80cf04fd0aff7f1d37411e0e68152aad4b48b2f76159db2d32e7f3e7abc",
+    "dados/ibm-result.json": "957607db1f716e59137451c3731a3556229d62d0e7ec8f9d01a3ed68e996340b",
+    "dados/ibm.json": "21f9fe8558c6770ed2b76be9cbc830578f5465d2182fb0ba90f033107a4ffc5e",
+    "dados/entrada.json": "acaa81b9f74fc03bf0247f556d58d330bdd5958488b39c0ed10be13cd531d164"
+  }
+}

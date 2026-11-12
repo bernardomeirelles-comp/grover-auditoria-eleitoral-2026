@@ -1,0 +1,37 @@
+{
+  "backend": "ibm_marrakesh",
+  "created": "2026-11-07T01:13:08.54099Z",
+  "id": "dbn7m95t7fqc73aj2l80",
+  "status": "Completed",
+  "shots": 2048,
+  "counts": {
+    "00": 236,
+    "10": 384,
+    "01": 331,
+    "11": 1097
+  },
+  "physical_qubits": [
+    20,
+    21,
+    22,
+    23,
+    36
+  ],
+  "operations": {
+    "cz": 101,
+    "sx": 99,
+    "rz": 84,
+    "rx": 58,
+    "measure": 2
+  },
+  "depth": 210,
+  "usage_reported_ui": {
+    "qpu_seconds_rounded": 3,
+    "resource_units_rounded": 0.04,
+    "total_completion_seconds_rounded": 5
+  },
+  "shots_register": "registro",
+  "physical_circuit_ideal_verified": true,
+  "input_sha256": "acaa81b9f74fc03bf0247f556d58d330bdd5958488b39c0ed10be13cd531d164",
+  "circuit_sha256": "4b6bdd2103588d5eb78a41a355eb48c9097b740e64b3610edb4c8ae67d168c4c"
+}

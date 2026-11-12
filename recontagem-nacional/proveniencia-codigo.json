@@ -1,0 +1,37 @@
+{
+  "inventariar_zip_remoto.py": {
+    "sha256_executado": "b97e78175759b8fb90b99e8a74c6b0ab8c6150629dbfbdce0f2dfd43afadcbd0",
+    "sha256_portavel": "e6020d52e9ce19839a947867967e01ece1e76eab8a36b8e1a920e8cbe23c9d35",
+    "alteracao": "Somente caminhos relativos da estrutura de entrega; lógica de cálculo preservada. A reutilização do inventário exige também o manifesto de membros; sem ele, regenera por HTTP Range."
+  },
+  "planejar_ranges.py": {
+    "sha256_executado": "50de8f5f9cf9c70492d6b88a6a14e638ecc8d09746e7d9d6c89c96ca176b045a",
+    "sha256_portavel": "50de8f5f9cf9c70492d6b88a6a14e638ecc8d09746e7d9d6c89c96ca176b045a",
+    "alteracao": "Somente caminhos relativos da estrutura de entrega; lógica de cálculo preservada."
+  },
+  "benchmark_rdv.py": {
+    "sha256_executado": "851bf4f15956bea5f2369fbf9915276037a22dc2fad7137a5fd38881a837bd0d",
+    "sha256_portavel": "52f8892982e2d4600a7ca91f3c64a201f6620376ccbc24bc38d28fd0c4bf73cb",
+    "alteracao": "Caminho relativo dos schemas e guarda explícita de presença da eleição/cargo, inclusive em seções zero. A versão executada foi preservada. Nos resultados positivos a presença decorre da contagem; as duas seções zero foram decodificadas separadamente e ambas apresentam eleição6258/cargoPresidente explícitos. Guarda validada com controle de ausência em memória; sem nova recontagem nacional."
+  },
+  "recontar_nacional_seletivo.py": {
+    "sha256_executado": "38a0a2270cd138950c46c81089bcc619cc68f6249c02796e8f32fc310f3154b0",
+    "sha256_portavel": "e9b9bf5ad55a7d10463a01d5de64e0244412c5c994e5189312ac9e20673b5460",
+    "alteracao": "Somente caminhos relativos da estrutura de entrega; lógica de cálculo preservada."
+  },
+  "conferir_recontagem_nacional.py": {
+    "sha256_executado": "8ad42f6d2a83543ab3ce16c0411163f9e897261e2d97d18a9d193a11bff337c2",
+    "sha256_portavel": "0a71b3087fb70666bd7d51d97b3b0e3f28308a37e776ea559db68384c3a17372",
+    "alteracao": "Somente caminhos relativos da estrutura de entrega; lógica de cálculo preservada."
+  },
+  "assinaturas/verificar_assinaturas_amostra.py": {
+    "sha256_executado": "e70c9d52f923a63485ef47bd033e247a01d48aec0e78e7640f531dc4ab30d471",
+    "sha256_portavel": "97d11884242efe001400b7730394c6c4d22283bd6bf0cbcadd4ecbe820494897",
+    "alteracao": "Somente caminhos relativos; versão portável também executada com sucesso sobre os mesmos dados."
+  },
+  "assinaturas/verificar_jws_final.py": {
+    "sha256_executado": "972ea277f655bbc4b308eb6d34ba9b6711dbb3413b23765bfd591e95e9817809",
+    "sha256_portavel": "8e353b0857adea32644de7bc883127cf85a5e0d6ab21234bceb4b80e6df055af",
+    "alteracao": "Somente caminhos relativos; versão portável também executada com sucesso sobre os mesmos dados."
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "schema_version": "v2.0",
+  "data": [
+    {
+      "results": {
+        "r00": {
+          "data": "eJwBgAB//7r+uH8nv4T3v7E2drBp6GdYT40SG/8dz+FYZ84s//7+isfNVhf+X81d9XsN765f7f82b+UR2aQD5/XjT/YoyW2XXY18+27Hv8d7afcM6wfoE/YL66yf09+t70hsZH7w/+/8jFmXRvH3tv0/3jP7Vk4+sf79x7n++/83vy2O4HsdOUVN/Q==",
+          "shape": [
+            1,
+            512,
+            2
+          ],
+          "dtype": "bool"
+        },
+        "r01": {
+          "data": "eJwljMENwDAIA6fIs+MwAFKueTFGB63U7FOb8DjANgDPZotCDUjwApqnOxWLEBEH00rzVHZCko/KymS1E1m+/5zR8KZ73DL67WWMH3L+LI0=",
+          "shape": [
+            1,
+            512,
+            2
+          ],
+          "dtype": "bool"
+        },
+        "r02": {
+          "data": "eJwBgAB///t9/7fL/9bv/3f/X33n1j17/Q3dHV7dff/1c/vn/M+1f/P/fvfs/f3j73/fbf/h7Ue/573f71/Wa/n8//DL/38c/+f/1F59N/DPd95e53+/Zzf/+/18X5f3///xr////Tn9TZ/zvt3Gvrrd3W3/570nZ/133/9/UhX/c48V8+ff1Xtc5g==",
+          "shape": [
+            1,
+            512,
+            2
+          ],
+          "dtype": "bool"
+        },
+        "r03": {
+          "data": "eJwljNEJgEAMQ9eRupkjOIHcGPclT6jg533cQHUJY1sIpCF5NHbyOniUe7yiTRq/cYxQY0VGH6eas9UKcqaiBXHVdJFeJd1uVUaBE5XAIym6D+CXUvc=",
+          "shape": [
+            1,
+            512,
+            2
+          ],
+          "dtype": "bool"
+        },
+        "r04": {
+          "data": "eJwBgAB//y66i+n+IoKLmoqk6qIpqqBPkobtiqrqp6uuIq0ZYqy6irgqJpqi65qg6j+qdqW8aqLYaaqhuGvquqiqqKhgt8rqOq1qvqqLOqqriGqaqmrhIKqKomqmiriGlSrubqirrmjnqo6uISaaqKrirqsGoGqouqieqqnqqqqqo4qqqrqr0+pLlg==",
+          "shape": [
+            1,
+            512,
+            2
+          ],
+          "dtype": "bool"
+        },
+        "r05": {
+          "data": "eJwBgAB//3YXSNd1ZVVUdciVBIVX45cUU8Ha01RFikNdV1STdgZsKnNlELdcfUxg3VhWyTVM2nebwb95X1XFpVZBMu1YZV0u1Rl1QZR1ViLQUXnooGVFFLquFvb/pKtW11bxuWQRnlBa0eHZOs5FHmfR/4HRMUm3UUTYFbHhnxnvkT3iEXR1/t4+BA==",
+          "shape": [
+            1,
+            512,
+            2
+          ],
+          "dtype": "bool"
+        },
+        "r06": {
+          "data": "eJwBgAB//zJWtwhsgAEc3rJudrbxdV5O6/NKaZuIKsn9+xjoI9k/raQngom82ISx1VYspsHhrTqm7BIPrqSDqjgOJ6ospMAiCSqioe6milCa6KpvoBYYqIG0QIEx5KCoI6vaCI04aEC86ipm8qpSkmvdoOoRJ8MuivJaSoe0u14umIkbo+LqbfdBlw==",
+          "shape": [
+            1,
+            512,
+            2
+          ],
+          "dtype": "bool"
+        },
+        "r07": {
+          "data": "eJxNjcERACEIA0u1EsfSKIUO9OnDkVWUu5EPCckOBei8MyAzXRWPxBBM6k3GaehZuhsSUFeC4BdhGsxdS3H4CDD/uwBu23ij",
+          "shape": [
+            1,
+            512,
+            2
+          ],
+          "dtype": "bool"
+        },
+        "r08": {
+          "data": "eJwBgAB//3RVV0d1FSfVRUVUWRXFdUVVWzX1VQU7V5XVZ1RWZXWVX0B1wV1XXVFZhf1URXRBVVWd1VVRWV/03Rtk0k2ZxSxWWVUFV1GVwFURlt3VdeVdFU3HVR0tpVxFXXXFVFVRUVXhfWVYFVkVZVdVVVVB1BVIRzVV1UX1FFVVXVVd5VXVWDU1cw==",
+          "shape": [
+            1,
+            512,
+            2
+          ],
+          "dtype": "bool"
+        },
+        "r09": {
+          "data": "eJzraWRgEHKawKDA5Lj3BAPPVEbllsYGBiduEwYthsYJAgp+DRYX+jjeH2C4IK3I5cBiysAvoMCgwyKowcDQxMe4ooGRwUtb6MCGD80MzDysFyQYHRjOcHEwODAopQUIACkmBwYeJlMmBp4LBiwODYoCToqnrBg4JgpUMDCwMQnIeDgAAPWWHNU=",
+          "shape": [
+            1,
+            512,
+            2
+          ],
+          "dtype": "bool"
+        },
+        "r10": {
+          "data": "eJxjYIACJgY4aABiBSAUgHFwA4hsg4AChMsBxA5YFYLNYhSAMhAAAOBhAvw=",
+          "shape": [
+            1,
+            512,
+            2
+          ],
+          "dtype": "bool"
+        },
+        "r11": {
+          "data": "eJwBgAB//8kRvq1ICJN0v6AJEMcKSu7H11UDRKHdBwAiIgbv9Pm4gLqCxopyBezNmnWwMALPc8Q+KQVCM6TOfWoQLrwpiL0Y4ACAS+vbAKNRuADEJndyKiAI2kDDcA7jOwQFqxiAwGlNgzEeNUsddMcEKMswyvRRsoQJwKiB7z1QgU04HT1Tc2g3XA==",
+          "shape": [
+            1,
+            512,
+            2
+          ],
+          "dtype": "bool"
+        }
+      },
+      "metadata": {
+        "scheduler_timing": null,
+        "stretch_values": null
+      }
+    }
+  ],
+  "metadata": {
+    "chunk_timing": [
+      {
+        "start": "2026-11-12T00:29:21.636888",
+        "stop": "2026-11-12T00:29:22.930308",
+        "parts": [
+          {
+            "idx_item": 0,
+            "size": 1,
+            "permutation": [
+              0
+            ],
+            "element_range": [
+              0,
+              1,
+              1
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "passthrough_data": {
+    "post_processor": {
+      "context": "sampler_v2",
+      "pub_shapes": [
+        1
+      ],
+      "version": "v1"
+    }
+  },
+  "semantic_role": null
+}

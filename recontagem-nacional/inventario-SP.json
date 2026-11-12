@@ -1,0 +1,143 @@
+{
+  "dataset": "resultados-2026-arquivos-transmitidos-para-totalizacao",
+  "name": "SP - Arquivos transmitidos para totaliza\u00e7\u00e3o - Segundo turno",
+  "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/arqurnatot/bu_imgbu_logjez_rdv_vscmr_2026_2t_SP.zip",
+  "status": 206,
+  "size_bytes": 25758256844,
+  "last_modified": "Tue, 03 Nov 2026 19:48:26 GMT",
+  "uf": "SP",
+  "entries": 518296,
+  "central_size": 56684531,
+  "central_offset": 25701572215,
+  "central_sha256": "152162b2fe58c106dcd92790263fcd5903479ea61a96baae4197d3bbfa4ea3a5",
+  "types": {
+    "leiame.pdf": {
+      "count": 1,
+      "compressed": 299142,
+      "uncompressed": 310546
+    },
+    "vota.vsc": {
+      "count": 103656,
+      "compressed": 6348349725,
+      "uncompressed": 6489596798
+    },
+    "rdv.dat": {
+      "count": 103656,
+      "compressed": 28762115,
+      "uncompressed": 274660149
+    },
+    "log.jez": {
+      "count": 103656,
+      "compressed": 18743189687,
+      "uncompressed": 18742341929
+    },
+    "bu.dat": {
+      "count": 103656,
+      "compressed": 79225959,
+      "uncompressed": 99070945
+    },
+    "imgbu.dat": {
+      "count": 103656,
+      "compressed": 456445567,
+      "uncompressed": 607973593
+    },
+    "buPafifecJlXEfdTJLQYp+s+-RiLM=.id": {
+      "count": 1,
+      "compressed": 47,
+      "uncompressed": 47
+    },
+    "WZDxKrlXhKMmW+mZUI42-buAR3E5O5eBQhW9vzqcw=.id": {
+      "count": 1,
+      "compressed": 47,
+      "uncompressed": 47
+    },
+    "buKei0YqAKVyFftaqoLkxPi9pe6QO8yZIQ=.id": {
+      "count": 1,
+      "compressed": 47,
+      "uncompressed": 47
+    },
+    "bu5pp3q-eEIJHLx1PNH-nK0zizrszLSZR-XWrXp3IU=.id": {
+      "count": 1,
+      "compressed": 47,
+      "uncompressed": 47
+    },
+    "PWnSoL4FvIfuLg-+-bu6tJjHDs3A=.id": {
+      "count": 1,
+      "compressed": 47,
+      "uncompressed": 47
+    },
+    "bupl+8sA9oSftY3DHs=.id": {
+      "count": 1,
+      "compressed": 47,
+      "uncompressed": 47
+    },
+    "busP1Ei3ol9PvFQsQpdB+zg=.id": {
+      "count": 1,
+      "compressed": 47,
+      "uncompressed": 47
+    },
+    "buBCrza6hzgjNLJuyaWKDKQydyCwpaQE=.id": {
+      "count": 1,
+      "compressed": 47,
+      "uncompressed": 47
+    },
+    "bu78HkMtofleSYaLpjM=.id": {
+      "count": 1,
+      "compressed": 47,
+      "uncompressed": 47
+    },
+    "phBrGgn2KiVXlwv-buGwQ=.id": {
+      "count": 1,
+      "compressed": 47,
+      "uncompressed": 47
+    },
+    "buaJCjT9PU8itP+s1iwEmsRj9yd86tA-2g=.id": {
+      "count": 1,
+      "compressed": 47,
+      "uncompressed": 47
+    },
+    "buZVUwYB1-sQsomiclu+m3wg=.id": {
+      "count": 1,
+      "compressed": 47,
+      "uncompressed": 47
+    },
+    "buISHYPj+Z83V-SC2Y=.id": {
+      "count": 1,
+      "compressed": 47,
+      "uncompressed": 47
+    },
+    "KLLk99Tqb4W-bumkjL5pPRQpweXU=.id": {
+      "count": 1,
+      "compressed": 47,
+      "uncompressed": 47
+    },
+    "buZtdcBme9vzUJTB1ZWrs9Ectcccw+sxTy8TU=.id": {
+      "count": 1,
+      "compressed": 47,
+      "uncompressed": 47
+    }
+  },
+  "section_stems": 103672,
+  "duplicate_names": [],
+  "without_bu": 16,
+  "without_rdv": 16,
+  "patterns": {
+    "leiame.pdf": 1,
+    "bu.dat,imgbu.dat,log.jez,rdv.dat,vota.vsc": 103656,
+    "buPafifecJlXEfdTJLQYp+s+-RiLM=.id": 1,
+    "WZDxKrlXhKMmW+mZUI42-buAR3E5O5eBQhW9vzqcw=.id": 1,
+    "buKei0YqAKVyFftaqoLkxPi9pe6QO8yZIQ=.id": 1,
+    "bu5pp3q-eEIJHLx1PNH-nK0zizrszLSZR-XWrXp3IU=.id": 1,
+    "PWnSoL4FvIfuLg-+-bu6tJjHDs3A=.id": 1,
+    "bupl+8sA9oSftY3DHs=.id": 1,
+    "busP1Ei3ol9PvFQsQpdB+zg=.id": 1,
+    "buBCrza6hzgjNLJuyaWKDKQydyCwpaQE=.id": 1,
+    "bu78HkMtofleSYaLpjM=.id": 1,
+    "phBrGgn2KiVXlwv-buGwQ=.id": 1,
+    "buaJCjT9PU8itP+s1iwEmsRj9yd86tA-2g=.id": 1,
+    "buZVUwYB1-sQsomiclu+m3wg=.id": 1,
+    "buISHYPj+Z83V-SC2Y=.id": 1,
+    "KLLk99Tqb4W-bumkjL5pPRQpweXU=.id": 1,
+    "buZtdcBme9vzUJTB1ZWrs9Ectcccw+sxTy8TU=.id": 1
+  }
+}

@@ -1,0 +1,1344 @@
+{
+  "ano": 2026,
+  "turno": 2,
+  "eleicao": 6258,
+  "cargo": "Presidente",
+  "abrangencias": 28,
+  "inclui_df": true,
+  "inclui_exterior_zz": true,
+  "nacional_bu": {
+    "secoes": 499207,
+    "secoes_com_linhas_presidenciais": 499205,
+    "registros_presidenciais": 1931103,
+    "lula": 64256232,
+    "flavio": 59826041,
+    "brancos": 1430496,
+    "nulos": 2723305,
+    "total": 128236074
+  },
+  "resultado_oficial": {
+    "lula": 64256232,
+    "flavio": 59826041,
+    "brancos": 1430496,
+    "nulos": 2723305,
+    "total": 128236074
+  },
+  "diferencas": {
+    "lula": 0,
+    "flavio": 0,
+    "brancos": 0,
+    "nulos": 0,
+    "total": 0
+  },
+  "snapshot_bu": [
+    [
+      "26/10/2026",
+      "07:42:38"
+    ]
+  ],
+  "snapshot_resultado": {
+    "data": "25/10/2026",
+    "hora": "23:27:02",
+    "idg": "4241309",
+    "final": "s"
+  },
+  "secoes_resultado": {
+    "ts": "499248",
+    "st": "499248",
+    "pst": "100,00",
+    "pstn": "100",
+    "snt": "0",
+    "psnt": "0,00",
+    "psntn": "0",
+    "si": "499207",
+    "psi": "99,99",
+    "psin": "99,991787649",
+    "sni": "41",
+    "psni": "0,01",
+    "psnin": "0,008212351",
+    "sa": "499207",
+    "psa": "100,00",
+    "psan": "100",
+    "sna": "0",
+    "psna": "0,00",
+    "psnan": "0"
+  },
+  "bytes_zip": 144283710,
+  "hashes_sha512_conferidos": 28,
+  "duplicatas_secao_categoria": 0,
+  "inconsistencias_comparecimento": 0,
+  "por_uf": [
+    {
+      "uf": "AC",
+      "secoes": 2270,
+      "secoes_com_linhas_presidenciais": 2270,
+      "secoes_sem_comparecimento": [],
+      "registros_presidenciais": 8697,
+      "linhas_csv": 17622,
+      "encoding": "latin1",
+      "geracoes": [
+        [
+          "26/10/2026",
+          "07:42:38"
+        ]
+      ],
+      "tipos_urna": {
+        "Apurada": 8697
+      },
+      "nomes": [
+        [
+          "13",
+          "LULA"
+        ],
+        [
+          "22",
+          "FLAVIO BOLSONARO"
+        ],
+        [
+          "95",
+          "Branco"
+        ],
+        [
+          "96",
+          "Nulo"
+        ]
+      ],
+      "lula": 144513,
+      "flavio": 287715,
+      "brancos": 5016,
+      "nulos": 16410,
+      "total": 453654,
+      "inconsistencias_comparecimento": 0
+    },
+    {
+      "uf": "AL",
+      "secoes": 7101,
+      "secoes_com_linhas_presidenciais": 7101,
+      "secoes_sem_comparecimento": [],
+      "registros_presidenciais": 27419,
+      "linhas_csv": 27419,
+      "encoding": "latin1",
+      "geracoes": [
+        [
+          "26/10/2026",
+          "07:42:38"
+        ]
+      ],
+      "tipos_urna": {
+        "Apurada": 27419
+      },
+      "nomes": [
+        [
+          "13",
+          "LULA"
+        ],
+        [
+          "22",
+          "FLAVIO BOLSONARO"
+        ],
+        [
+          "95",
+          "Branco"
+        ],
+        [
+          "96",
+          "Nulo"
+        ]
+      ],
+      "lula": 1152621,
+      "flavio": 744140,
+      "brancos": 16983,
+      "nulos": 37888,
+      "total": 1951632,
+      "inconsistencias_comparecimento": 0
+    },
+    {
+      "uf": "AM",
+      "secoes": 8157,
+      "secoes_com_linhas_presidenciais": 8157,
+      "secoes_sem_comparecimento": [],
+      "registros_presidenciais": 30991,
+      "linhas_csv": 62590,
+      "encoding": "latin1",
+      "geracoes": [
+        [
+          "26/10/2026",
+          "07:42:38"
+        ]
+      ],
+      "tipos_urna": {
+        "Apurada": 30991
+      },
+      "nomes": [
+        [
+          "13",
+          "LULA"
+        ],
+        [
+          "22",
+          "FLAVIO BOLSONARO"
+        ],
+        [
+          "95",
+          "Branco"
+        ],
+        [
+          "96",
+          "Nulo"
+        ]
+      ],
+      "lula": 1145783,
+      "flavio": 975245,
+      "brancos": 18324,
+      "nulos": 52707,
+      "total": 2192059,
+      "inconsistencias_comparecimento": 0
+    },
+    {
+      "uf": "AP",
+      "secoes": 1914,
+      "secoes_com_linhas_presidenciais": 1914,
+      "secoes_sem_comparecimento": [],
+      "registros_presidenciais": 6973,
+      "linhas_csv": 6973,
+      "encoding": "latin1",
+      "geracoes": [
+        [
+          "26/10/2026",
+          "07:42:38"
+        ]
+      ],
+      "tipos_urna": {
+        "Apurada": 6973
+      },
+      "nomes": [
+        [
+          "13",
+          "LULA"
+        ],
+        [
+          "22",
+          "FLAVIO BOLSONARO"
+        ],
+        [
+          "95",
+          "Branco"
+        ],
+        [
+          "96",
+          "Nulo"
+        ]
+      ],
+      "lula": 222968,
+      "flavio": 198674,
+      "brancos": 3320,
+      "nulos": 5013,
+      "total": 429975,
+      "inconsistencias_comparecimento": 0
+    },
+    {
+      "uf": "BA",
+      "secoes": 35476,
+      "secoes_com_linhas_presidenciais": 35476,
+      "secoes_sem_comparecimento": [],
+      "registros_presidenciais": 137040,
+      "linhas_csv": 137040,
+      "encoding": "latin1",
+      "geracoes": [
+        [
+          "26/10/2026",
+          "07:42:38"
+        ]
+      ],
+      "tipos_urna": {
+        "Apurada": 137040
+      },
+      "nomes": [
+        [
+          "13",
+          "LULA"
+        ],
+        [
+          "22",
+          "FLAVIO BOLSONARO"
+        ],
+        [
+          "95",
+          "Branco"
+        ],
+        [
+          "96",
+          "Nulo"
+        ]
+      ],
+      "lula": 6485258,
+      "flavio": 2608761,
+      "brancos": 92721,
+      "nulos": 235307,
+      "total": 9422047,
+      "inconsistencias_comparecimento": 0
+    },
+    {
+      "uf": "CE",
+      "secoes": 23765,
+      "secoes_com_linhas_presidenciais": 23765,
+      "secoes_sem_comparecimento": [],
+      "registros_presidenciais": 91087,
+      "linhas_csv": 91087,
+      "encoding": "latin1",
+      "geracoes": [
+        [
+          "26/10/2026",
+          "07:42:38"
+        ]
+      ],
+      "tipos_urna": {
+        "Apurada": 91087
+      },
+      "nomes": [
+        [
+          "13",
+          "LULA"
+        ],
+        [
+          "22",
+          "FLAVIO BOLSONARO"
+        ],
+        [
+          "95",
+          "Branco"
+        ],
+        [
+          "96",
+          "Nulo"
+        ]
+      ],
+      "lula": 4036124,
+      "flavio": 1819478,
+      "brancos": 56386,
+      "nulos": 112855,
+      "total": 6024843,
+      "inconsistencias_comparecimento": 0
+    },
+    {
+      "uf": "DF",
+      "secoes": 6969,
+      "secoes_com_linhas_presidenciais": 6969,
+      "secoes_sem_comparecimento": [],
+      "registros_presidenciais": 27453,
+      "linhas_csv": 55307,
+      "encoding": "latin1",
+      "geracoes": [
+        [
+          "26/10/2026",
+          "07:42:38"
+        ]
+      ],
+      "tipos_urna": {
+        "Apurada": 27453
+      },
+      "nomes": [
+        [
+          "13",
+          "LULA"
+        ],
+        [
+          "22",
+          "FLAVIO BOLSONARO"
+        ],
+        [
+          "95",
+          "Branco"
+        ],
+        [
+          "96",
+          "Nulo"
+        ]
+      ],
+      "lula": 825224,
+      "flavio": 979542,
+      "brancos": 22386,
+      "nulos": 41128,
+      "total": 1868280,
+      "inconsistencias_comparecimento": 0
+    },
+    {
+      "uf": "ES",
+      "secoes": 9844,
+      "secoes_com_linhas_presidenciais": 9844,
+      "secoes_sem_comparecimento": [],
+      "registros_presidenciais": 38829,
+      "linhas_csv": 78082,
+      "encoding": "latin1",
+      "geracoes": [
+        [
+          "26/10/2026",
+          "07:42:38"
+        ]
+      ],
+      "tipos_urna": {
+        "Apurada": 38829
+      },
+      "nomes": [
+        [
+          "13",
+          "LULA"
+        ],
+        [
+          "22",
+          "FLAVIO BOLSONARO"
+        ],
+        [
+          "95",
+          "Branco"
+        ],
+        [
+          "96",
+          "Nulo"
+        ]
+      ],
+      "lula": 1001965,
+      "flavio": 1294504,
+      "brancos": 33080,
+      "nulos": 79665,
+      "total": 2409214,
+      "inconsistencias_comparecimento": 0
+    },
+    {
+      "uf": "GO",
+      "secoes": 15686,
+      "secoes_com_linhas_presidenciais": 15686,
+      "secoes_sem_comparecimento": [],
+      "registros_presidenciais": 61031,
+      "linhas_csv": 61031,
+      "encoding": "latin1",
+      "geracoes": [
+        [
+          "26/10/2026",
+          "07:42:38"
+        ]
+      ],
+      "tipos_urna": {
+        "Apurada": 61031
+      },
+      "nomes": [
+        [
+          "13",
+          "LULA"
+        ],
+        [
+          "22",
+          "FLAVIO BOLSONARO"
+        ],
+        [
+          "95",
+          "Branco"
+        ],
+        [
+          "96",
+          "Nulo"
+        ]
+      ],
+      "lula": 1585555,
+      "flavio": 2345334,
+      "brancos": 43214,
+      "nulos": 73177,
+      "total": 4047280,
+      "inconsistencias_comparecimento": 0
+    },
+    {
+      "uf": "MA",
+      "secoes": 18093,
+      "secoes_com_linhas_presidenciais": 18093,
+      "secoes_sem_comparecimento": [],
+      "registros_presidenciais": 66190,
+      "linhas_csv": 66190,
+      "encoding": "latin1",
+      "geracoes": [
+        [
+          "26/10/2026",
+          "07:42:38"
+        ]
+      ],
+      "tipos_urna": {
+        "Apurada": 66190
+      },
+      "nomes": [
+        [
+          "13",
+          "LULA"
+        ],
+        [
+          "22",
+          "FLAVIO BOLSONARO"
+        ],
+        [
+          "95",
+          "Branco"
+        ],
+        [
+          "96",
+          "Nulo"
+        ]
+      ],
+      "lula": 2808231,
+      "flavio": 1229971,
+      "brancos": 30855,
+      "nulos": 58714,
+      "total": 4127771,
+      "inconsistencias_comparecimento": 0
+    },
+    {
+      "uf": "MG",
+      "secoes": 52062,
+      "secoes_com_linhas_presidenciais": 52062,
+      "secoes_sem_comparecimento": [],
+      "registros_presidenciais": 203235,
+      "linhas_csv": 203235,
+      "encoding": "latin1",
+      "geracoes": [
+        [
+          "26/10/2026",
+          "07:42:38"
+        ]
+      ],
+      "tipos_urna": {
+        "Apurada": 203235
+      },
+      "nomes": [
+        [
+          "13",
+          "LULA"
+        ],
+        [
+          "22",
+          "FLAVIO BOLSONARO"
+        ],
+        [
+          "95",
+          "Branco"
+        ],
+        [
+          "96",
+          "Nulo"
+        ]
+      ],
+      "lula": 6351099,
+      "flavio": 6241786,
+      "brancos": 164141,
+      "nulos": 287177,
+      "total": 13044203,
+      "inconsistencias_comparecimento": 0
+    },
+    {
+      "uf": "MS",
+      "secoes": 7106,
+      "secoes_com_linhas_presidenciais": 7106,
+      "secoes_sem_comparecimento": [],
+      "registros_presidenciais": 26734,
+      "linhas_csv": 26734,
+      "encoding": "latin1",
+      "geracoes": [
+        [
+          "26/10/2026",
+          "07:42:38"
+        ]
+      ],
+      "tipos_urna": {
+        "Apurada": 26734
+      },
+      "nomes": [
+        [
+          "13",
+          "LULA"
+        ],
+        [
+          "22",
+          "FLAVIO BOLSONARO"
+        ],
+        [
+          "95",
+          "Branco"
+        ],
+        [
+          "96",
+          "Nulo"
+        ]
+      ],
+      "lula": 628973,
+      "flavio": 927892,
+      "brancos": 14958,
+      "nulos": 22637,
+      "total": 1594460,
+      "inconsistencias_comparecimento": 0
+    },
+    {
+      "uf": "MT",
+      "secoes": 8287,
+      "secoes_com_linhas_presidenciais": 8287,
+      "secoes_sem_comparecimento": [],
+      "registros_presidenciais": 30873,
+      "linhas_csv": 30873,
+      "encoding": "latin1",
+      "geracoes": [
+        [
+          "26/10/2026",
+          "07:42:38"
+        ]
+      ],
+      "tipos_urna": {
+        "Apurada": 30873
+      },
+      "nomes": [
+        [
+          "13",
+          "LULA"
+        ],
+        [
+          "22",
+          "FLAVIO BOLSONARO"
+        ],
+        [
+          "95",
+          "Branco"
+        ],
+        [
+          "96",
+          "Nulo"
+        ]
+      ],
+      "lula": 694167,
+      "flavio": 1351099,
+      "brancos": 15431,
+      "nulos": 24637,
+      "total": 2085334,
+      "inconsistencias_comparecimento": 0
+    },
+    {
+      "uf": "PA",
+      "secoes": 20827,
+      "secoes_com_linhas_presidenciais": 20827,
+      "secoes_sem_comparecimento": [],
+      "registros_presidenciais": 76003,
+      "linhas_csv": 76003,
+      "encoding": "latin1",
+      "geracoes": [
+        [
+          "26/10/2026",
+          "07:42:38"
+        ]
+      ],
+      "tipos_urna": {
+        "Apurada": 76003
+      },
+      "nomes": [
+        [
+          "13",
+          "LULA"
+        ],
+        [
+          "22",
+          "FLAVIO BOLSONARO"
+        ],
+        [
+          "95",
+          "Branco"
+        ],
+        [
+          "96",
+          "Nulo"
+        ]
+      ],
+      "lula": 2690449,
+      "flavio": 2199940,
+      "brancos": 36501,
+      "nulos": 62683,
+      "total": 4989573,
+      "inconsistencias_comparecimento": 0
+    },
+    {
+      "uf": "PB",
+      "secoes": 10712,
+      "secoes_com_linhas_presidenciais": 10712,
+      "secoes_sem_comparecimento": [],
+      "registros_presidenciais": 41416,
+      "linhas_csv": 41416,
+      "encoding": "latin1",
+      "geracoes": [
+        [
+          "26/10/2026",
+          "07:42:38"
+        ]
+      ],
+      "tipos_urna": {
+        "Apurada": 41416
+      },
+      "nomes": [
+        [
+          "13",
+          "LULA"
+        ],
+        [
+          "22",
+          "FLAVIO BOLSONARO"
+        ],
+        [
+          "95",
+          "Branco"
+        ],
+        [
+          "96",
+          "Nulo"
+        ]
+      ],
+      "lula": 1794059,
+      "flavio": 865210,
+      "brancos": 25943,
+      "nulos": 58348,
+      "total": 2743560,
+      "inconsistencias_comparecimento": 0
+    },
+    {
+      "uf": "PE",
+      "secoes": 21418,
+      "secoes_com_linhas_presidenciais": 21418,
+      "secoes_sem_comparecimento": [],
+      "registros_presidenciais": 83243,
+      "linhas_csv": 83243,
+      "encoding": "latin1",
+      "geracoes": [
+        [
+          "26/10/2026",
+          "07:42:38"
+        ]
+      ],
+      "tipos_urna": {
+        "Apurada": 83243
+      },
+      "nomes": [
+        [
+          "13",
+          "LULA"
+        ],
+        [
+          "22",
+          "FLAVIO BOLSONARO"
+        ],
+        [
+          "95",
+          "Branco"
+        ],
+        [
+          "96",
+          "Nulo"
+        ]
+      ],
+      "lula": 4117513,
+      "flavio": 1832554,
+      "brancos": 56758,
+      "nulos": 119642,
+      "total": 6126467,
+      "inconsistencias_comparecimento": 0
+    },
+    {
+      "uf": "PI",
+      "secoes": 10225,
+      "secoes_com_linhas_presidenciais": 10225,
+      "secoes_sem_comparecimento": [],
+      "registros_presidenciais": 37819,
+      "linhas_csv": 37819,
+      "encoding": "latin1",
+      "geracoes": [
+        [
+          "26/10/2026",
+          "07:42:38"
+        ]
+      ],
+      "tipos_urna": {
+        "Apurada": 37819
+      },
+      "nomes": [
+        [
+          "13",
+          "LULA"
+        ],
+        [
+          "22",
+          "FLAVIO BOLSONARO"
+        ],
+        [
+          "95",
+          "Branco"
+        ],
+        [
+          "96",
+          "Nulo"
+        ]
+      ],
+      "lula": 1653989,
+      "flavio": 525859,
+      "brancos": 16137,
+      "nulos": 43845,
+      "total": 2239830,
+      "inconsistencias_comparecimento": 0
+    },
+    {
+      "uf": "PR",
+      "secoes": 27142,
+      "secoes_com_linhas_presidenciais": 27142,
+      "secoes_sem_comparecimento": [],
+      "registros_presidenciais": 105761,
+      "linhas_csv": 105761,
+      "encoding": "latin1",
+      "geracoes": [
+        [
+          "26/10/2026",
+          "07:42:38"
+        ]
+      ],
+      "tipos_urna": {
+        "Apurada": 105761
+      },
+      "nomes": [
+        [
+          "13",
+          "LULA"
+        ],
+        [
+          "22",
+          "FLAVIO BOLSONARO"
+        ],
+        [
+          "95",
+          "Branco"
+        ],
+        [
+          "96",
+          "Nulo"
+        ]
+      ],
+      "lula": 2566504,
+      "flavio": 4291444,
+      "brancos": 82572,
+      "nulos": 118819,
+      "total": 7059339,
+      "inconsistencias_comparecimento": 0
+    },
+    {
+      "uf": "RJ",
+      "secoes": 37675,
+      "secoes_com_linhas_presidenciais": 37675,
+      "secoes_sem_comparecimento": [],
+      "registros_presidenciais": 147600,
+      "linhas_csv": 147600,
+      "encoding": "latin1",
+      "geracoes": [
+        [
+          "26/10/2026",
+          "07:42:38"
+        ]
+      ],
+      "tipos_urna": {
+        "Apurada": 147600
+      },
+      "nomes": [
+        [
+          "13",
+          "LULA"
+        ],
+        [
+          "22",
+          "FLAVIO BOLSONARO"
+        ],
+        [
+          "95",
+          "Branco"
+        ],
+        [
+          "96",
+          "Nulo"
+        ]
+      ],
+      "lula": 4565393,
+      "flavio": 5169033,
+      "brancos": 111682,
+      "nulos": 231341,
+      "total": 10077449,
+      "inconsistencias_comparecimento": 0
+    },
+    {
+      "uf": "RN",
+      "secoes": 8115,
+      "secoes_com_linhas_presidenciais": 8115,
+      "secoes_sem_comparecimento": [],
+      "registros_presidenciais": 31496,
+      "linhas_csv": 63676,
+      "encoding": "latin1",
+      "geracoes": [
+        [
+          "26/10/2026",
+          "07:42:38"
+        ]
+      ],
+      "tipos_urna": {
+        "Apurada": 31496
+      },
+      "nomes": [
+        [
+          "13",
+          "LULA"
+        ],
+        [
+          "22",
+          "FLAVIO BOLSONARO"
+        ],
+        [
+          "95",
+          "Branco"
+        ],
+        [
+          "96",
+          "Nulo"
+        ]
+      ],
+      "lula": 1413596,
+      "flavio": 737409,
+      "brancos": 19939,
+      "nulos": 61879,
+      "total": 2232823,
+      "inconsistencias_comparecimento": 0
+    },
+    {
+      "uf": "RO",
+      "secoes": 4698,
+      "secoes_com_linhas_presidenciais": 4698,
+      "secoes_sem_comparecimento": [],
+      "registros_presidenciais": 17265,
+      "linhas_csv": 17265,
+      "encoding": "latin1",
+      "geracoes": [
+        [
+          "26/10/2026",
+          "07:42:38"
+        ]
+      ],
+      "tipos_urna": {
+        "Apurada": 17265
+      },
+      "nomes": [
+        [
+          "13",
+          "LULA"
+        ],
+        [
+          "22",
+          "FLAVIO BOLSONARO"
+        ],
+        [
+          "95",
+          "Branco"
+        ],
+        [
+          "96",
+          "Nulo"
+        ]
+      ],
+      "lula": 294446,
+      "flavio": 674382,
+      "brancos": 8361,
+      "nulos": 11300,
+      "total": 988489,
+      "inconsistencias_comparecimento": 0
+    },
+    {
+      "uf": "RR",
+      "secoes": 1519,
+      "secoes_com_linhas_presidenciais": 1519,
+      "secoes_sem_comparecimento": [],
+      "registros_presidenciais": 5332,
+      "linhas_csv": 5332,
+      "encoding": "latin1",
+      "geracoes": [
+        [
+          "26/10/2026",
+          "07:42:38"
+        ]
+      ],
+      "tipos_urna": {
+        "Apurada": 5332
+      },
+      "nomes": [
+        [
+          "13",
+          "LULA"
+        ],
+        [
+          "22",
+          "FLAVIO BOLSONARO"
+        ],
+        [
+          "95",
+          "Branco"
+        ],
+        [
+          "96",
+          "Nulo"
+        ]
+      ],
+      "lula": 83505,
+      "flavio": 219675,
+      "brancos": 2176,
+      "nulos": 3241,
+      "total": 308597,
+      "inconsistencias_comparecimento": 0
+    },
+    {
+      "uf": "RS",
+      "secoes": 27547,
+      "secoes_com_linhas_presidenciais": 27547,
+      "secoes_sem_comparecimento": [],
+      "registros_presidenciais": 106789,
+      "linhas_csv": 106789,
+      "encoding": "latin1",
+      "geracoes": [
+        [
+          "26/10/2026",
+          "07:42:38"
+        ]
+      ],
+      "tipos_urna": {
+        "Apurada": 106789
+      },
+      "nomes": [
+        [
+          "13",
+          "LULA"
+        ],
+        [
+          "22",
+          "FLAVIO BOLSONARO"
+        ],
+        [
+          "95",
+          "Branco"
+        ],
+        [
+          "96",
+          "Nulo"
+        ]
+      ],
+      "lula": 2824552,
+      "flavio": 3874378,
+      "brancos": 89463,
+      "nulos": 101245,
+      "total": 6889638,
+      "inconsistencias_comparecimento": 0
+    },
+    {
+      "uf": "SC",
+      "secoes": 17326,
+      "secoes_com_linhas_presidenciais": 17326,
+      "secoes_sem_comparecimento": [],
+      "registros_presidenciais": 67266,
+      "linhas_csv": 67266,
+      "encoding": "latin1",
+      "geracoes": [
+        [
+          "26/10/2026",
+          "07:42:38"
+        ]
+      ],
+      "tipos_urna": {
+        "Apurada": 67266
+      },
+      "nomes": [
+        [
+          "13",
+          "LULA"
+        ],
+        [
+          "22",
+          "FLAVIO BOLSONARO"
+        ],
+        [
+          "95",
+          "Branco"
+        ],
+        [
+          "96",
+          "Nulo"
+        ]
+      ],
+      "lula": 1418314,
+      "flavio": 3220071,
+      "brancos": 48674,
+      "nulos": 75244,
+      "total": 4762303,
+      "inconsistencias_comparecimento": 0
+    },
+    {
+      "uf": "SE",
+      "secoes": 5923,
+      "secoes_com_linhas_presidenciais": 5923,
+      "secoes_sem_comparecimento": [],
+      "registros_presidenciais": 22732,
+      "linhas_csv": 22732,
+      "encoding": "latin1",
+      "geracoes": [
+        [
+          "26/10/2026",
+          "07:42:38"
+        ]
+      ],
+      "tipos_urna": {
+        "Apurada": 22732
+      },
+      "nomes": [
+        [
+          "13",
+          "LULA"
+        ],
+        [
+          "22",
+          "FLAVIO BOLSONARO"
+        ],
+        [
+          "95",
+          "Branco"
+        ],
+        [
+          "96",
+          "Nulo"
+        ]
+      ],
+      "lula": 989041,
+      "flavio": 433354,
+      "brancos": 13135,
+      "nulos": 31129,
+      "total": 1466659,
+      "inconsistencias_comparecimento": 0
+    },
+    {
+      "uf": "SP",
+      "secoes": 103656,
+      "secoes_com_linhas_presidenciais": 103656,
+      "secoes_sem_comparecimento": [],
+      "registros_presidenciais": 410145,
+      "linhas_csv": 410145,
+      "encoding": "latin1",
+      "geracoes": [
+        [
+          "26/10/2026",
+          "07:42:38"
+        ]
+      ],
+      "tipos_urna": {
+        "Apurada": 410145
+      },
+      "nomes": [
+        [
+          "13",
+          "LULA"
+        ],
+        [
+          "22",
+          "FLAVIO BOLSONARO"
+        ],
+        [
+          "95",
+          "Branco"
+        ],
+        [
+          "96",
+          "Nulo"
+        ]
+      ],
+      "lula": 12119274,
+      "flavio": 14139178,
+      "brancos": 389606,
+      "nulos": 716331,
+      "total": 27364389,
+      "inconsistencias_comparecimento": 0
+    },
+    {
+      "uf": "TO",
+      "secoes": 4384,
+      "secoes_com_linhas_presidenciais": 4384,
+      "secoes_sem_comparecimento": [],
+      "registros_presidenciais": 16709,
+      "linhas_csv": 33900,
+      "encoding": "latin1",
+      "geracoes": [
+        [
+          "26/10/2026",
+          "07:42:38"
+        ]
+      ],
+      "tipos_urna": {
+        "Apurada": 16709
+      },
+      "nomes": [
+        [
+          "13",
+          "LULA"
+        ],
+        [
+          "22",
+          "FLAVIO BOLSONARO"
+        ],
+        [
+          "95",
+          "Branco"
+        ],
+        [
+          "96",
+          "Nulo"
+        ]
+      ],
+      "lula": 442962,
+      "flavio": 467916,
+      "brancos": 8059,
+      "nulos": 35826,
+      "total": 954763,
+      "inconsistencias_comparecimento": 0
+    },
+    {
+      "uf": "ZZ",
+      "secoes": 1310,
+      "secoes_com_linhas_presidenciais": 1308,
+      "secoes_sem_comparecimento": [
+        {
+          "DT_GERACAO": "26/10/2026",
+          "HH_GERACAO": "07:42:38",
+          "ANO_ELEICAO": "2026",
+          "CD_TIPO_ELEICAO": "0",
+          "NM_TIPO_ELEICAO": "Eleição Ordinária",
+          "CD_PLEITO": "3221",
+          "DT_PLEITO": "2026-10-25 00:00:00",
+          "NR_TURNO": "2",
+          "CD_ELEICAO": "6258",
+          "DS_ELEICAO": "Eleição Geral Federal 2026",
+          "SG_UF": "ZZ",
+          "CD_MUNICIPIO": "30686",
+          "NM_MUNICIPIO": "TRÍPOLI",
+          "NR_ZONA": "1",
+          "NR_SECAO": "443",
+          "NR_LOCAL_VOTACAO": "1015",
+          "CD_CARGO_PERGUNTA": "-1",
+          "DS_CARGO_PERGUNTA": "#NULO#",
+          "NR_PARTIDO": "-1",
+          "SG_PARTIDO": "#NULO#",
+          "NM_PARTIDO": "#NULO#",
+          "DT_BU_RECEBIDO": "2026-10-25 21:25:16",
+          "QT_APTOS": "30",
+          "QT_COMPARECIMENTO": "0",
+          "QT_ABSTENCOES": "30",
+          "CD_TIPO_URNA": "1",
+          "DS_TIPO_URNA": "Apurada",
+          "CD_TIPO_VOTAVEL": "-1",
+          "DS_TIPO_VOTAVEL": "#NULO#",
+          "NR_VOTAVEL": "-1",
+          "NM_VOTAVEL": "#NULO#",
+          "QT_VOTOS": "0",
+          "NR_URNA_EFETIVADA": "1808076",
+          "CD_CARGA_1_URNA_EFETIVADA": "723.283.724.025.687.430.",
+          "CD_CARGA_2_URNA_EFETIVADA": "931.213",
+          "CD_FLASHCARD_URNA_EFETIVADA": "470E04FB",
+          "DT_CARGA_URNA_EFETIVADA": "2026-09-18 15:17:00",
+          "DS_CARGO_PERGUNTA_SECAO": "#NULO#",
+          "DS_SECOES_AGREGADAS": "#NULO#",
+          "DT_ABERTURA": "",
+          "DT_ENCERRAMENTO": "",
+          "QT_ELEI_BIOM_SEM_HABILITACAO": "0",
+          "DT_EMISSAO_BU": "2026-10-25 18:39:17",
+          "NR_JUNTA_APURADORA": "1",
+          "NR_TURMA_APURADORA": "1"
+        },
+        {
+          "DT_GERACAO": "26/10/2026",
+          "HH_GERACAO": "07:42:38",
+          "ANO_ELEICAO": "2026",
+          "CD_TIPO_ELEICAO": "0",
+          "NM_TIPO_ELEICAO": "Eleição Ordinária",
+          "CD_PLEITO": "3221",
+          "DT_PLEITO": "2026-10-25 00:00:00",
+          "NR_TURNO": "2",
+          "CD_ELEICAO": "6258",
+          "DS_ELEICAO": "Eleição Geral Federal 2026",
+          "SG_UF": "ZZ",
+          "CD_MUNICIPIO": "29564",
+          "NM_MUNICIPIO": "CIUDAD GUAYANA",
+          "NR_ZONA": "1",
+          "NR_SECAO": "91",
+          "NR_LOCAL_VOTACAO": "1015",
+          "CD_CARGO_PERGUNTA": "-1",
+          "DS_CARGO_PERGUNTA": "#NULO#",
+          "NR_PARTIDO": "-1",
+          "SG_PARTIDO": "#NULO#",
+          "NM_PARTIDO": "#NULO#",
+          "DT_BU_RECEBIDO": "2026-10-25 21:21:27",
+          "QT_APTOS": "72",
+          "QT_COMPARECIMENTO": "0",
+          "QT_ABSTENCOES": "72",
+          "CD_TIPO_URNA": "1",
+          "DS_TIPO_URNA": "Apurada",
+          "CD_TIPO_VOTAVEL": "-1",
+          "DS_TIPO_VOTAVEL": "#NULO#",
+          "NR_VOTAVEL": "-1",
+          "NM_VOTAVEL": "#NULO#",
+          "QT_VOTOS": "0",
+          "NR_URNA_EFETIVADA": "1808076",
+          "CD_CARGA_1_URNA_EFETIVADA": "723.283.724.025.687.430.",
+          "CD_CARGA_2_URNA_EFETIVADA": "931.213",
+          "CD_FLASHCARD_URNA_EFETIVADA": "470E04FB",
+          "DT_CARGA_URNA_EFETIVADA": "2026-09-18 15:17:00",
+          "DS_CARGO_PERGUNTA_SECAO": "#NULO#",
+          "DS_SECOES_AGREGADAS": "#NULO#",
+          "DT_ABERTURA": "",
+          "DT_ENCERRAMENTO": "",
+          "QT_ELEI_BIOM_SEM_HABILITACAO": "0",
+          "DT_EMISSAO_BU": "2026-10-25 19:16:45",
+          "NR_JUNTA_APURADORA": "1",
+          "NR_TURMA_APURADORA": "1"
+        }
+      ],
+      "registros_presidenciais": 4975,
+      "linhas_csv": 4977,
+      "encoding": "latin1",
+      "geracoes": [
+        [
+          "26/10/2026",
+          "07:42:38"
+        ]
+      ],
+      "tipos_urna": {
+        "Apurada": 4975
+      },
+      "nomes": [
+        [
+          "13",
+          "LULA"
+        ],
+        [
+          "22",
+          "FLAVIO BOLSONARO"
+        ],
+        [
+          "95",
+          "Branco"
+        ],
+        [
+          "96",
+          "Nulo"
+        ]
+      ],
+      "lula": 200154,
+      "flavio": 171497,
+      "brancos": 4675,
+      "nulos": 5117,
+      "total": 381443,
+      "inconsistencias_comparecimento": 0
+    }
+  ],
+  "limite": "Comparação aritmética de BUs CSV publicados com totalização publicada. RDVs nacionais e assinaturas criptográficas não foram verificados. Snapshots de extração diferentes são documentados; igualdade dos totais não certifica todo o processo eleitoral."
+}

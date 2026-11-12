@@ -1,0 +1,22 @@
+{
+  "url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/br/br-c0001-e006258-u.json",
+  "headers": {
+    "Last-Modified": "Mon, 26 Oct 2026 02:27:45 GMT",
+    "ETag": "\"815654d1ff9c95fa3af56f4bf4af7124\"",
+    "x-amz-request-id": "tx0000042b2cafdc58fb0c9-006adebaa9-9a5fa7-default",
+    "X-RateLimit-Limit": "5000, 5000;w=1",
+    "X-RateLimit-Remaining": "4949",
+    "X-RateLimit-Reset": "1",
+    "Vary": "Accept-Encoding",
+    "Cache-Control": "max-age=51",
+    "Expires": "Sat, 07 Nov 2026 01:12:40 GMT",
+    "Date": "Sat, 07 Nov 2026 01:11:49 GMT",
+    "Content-Length": "3233",
+    "Connection": "close",
+    "Alt-Svc": "h3=\":443\"; ma=93600",
+    "Content-Type": "application/json",
+    "Strict-Transport-Security": "max-age=63072000 ; includeSubDomains ; preload",
+    "Akamai-GRN": "0.296c1002.1794013909.8406a87b",
+    "cdn-cache-status": "Hit from child"
+  }
+}
