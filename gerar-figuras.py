@@ -138,8 +138,8 @@ def noise_plot():
     ax.xaxis.set_minor_formatter(NullFormatter())
     ax.tick_params(axis="x", which="minor", length=2, width=.4, color=GRID)
     ax.set(xlim=(.00085, .118), ylim=(0, 105), yticks=[0, 25, 50, 75, 100],
-           xlabel=r"Despolarização por porta CX, $\lambda$ (escala logarítmica)",
-           ylabel="Menor probabilidade de acerto\nentre os quatro alvos (%)")
+           xlabel=r"Intensidade de ruído simulada, $\lambda$ (escala logarítmica)",
+           ylabel="Menor probabilidade de acerto\nentre as quatro posições (%)")
     ax.legend(loc="lower left", bbox_to_anchor=(-.005, 1.035), ncol=3,
               frameon=False, fontsize=9.5, handlelength=2.3, columnspacing=1.8, borderaxespad=0)
     dimensions = save(fig, "revisao-ruido")

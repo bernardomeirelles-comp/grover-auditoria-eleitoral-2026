@@ -6,6 +6,8 @@ Material do artigo sobre a conferência dos registros presidenciais de 2026, seg
 
 Repositório: https://github.com/bernardomeirelles-comp/grover-auditoria-eleitoral-2026
 
+Versão final da Sprint 3: explicações e organização do artigo revisadas, com os mesmos dados e experimentos da Sprint 2. Referência desta entrega: `sprint3-final`.
+
 ## Resultados e limites
 
 As tabelas entregues abrangem 499.207 seções apuradas e 128.236.074 votos. As contagens de RDV, BU e publicações comparadas coincidiram. Essa concordância verifica os registros publicados; não observa a intenção de cada eleitor nem prova ausência de toda forma de fraude.
